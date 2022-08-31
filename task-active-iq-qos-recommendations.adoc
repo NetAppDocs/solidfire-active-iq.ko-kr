@@ -1,0 +1,25 @@
+---
+permalink: task-active-iq-qos-recommendations.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, qos, recommendations, quality, of, service 
+summary: SolidFire Active IQ의 QoS 권장 사항 페이지에 대해 자세히 알아보십시오. 
+---
+= QoS 권장 사항
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+선택한 클러스터의 측면 패널에서 사용할 수 있는 * QoS 권장 사항 * 페이지는 최근 성능 데이터를 기반으로 클러스터에 대한 일일 QoS(서비스 품질) 권장 사항을 제공합니다. QoS 권장 사항은 Element 소프트웨어 11.x 이상의 클러스터에만 지원됩니다.
+
+Active IQ은 최근 활동에 대한 볼륨 통계 데이터를 기반으로 성능을 권장합니다. 권장 사항은 볼륨에 대한 QoS 최대 및 최소 보장 IOPS에 중점을 두며 클러스터 향상이 필요할 경우 UI에서만 표시됩니다.
+
+
+
+== 자세한 내용을 확인하십시오
+
+* https://docs.netapp.com/us-en/element-software/concepts/concept_data_manage_volumes_solidfire_quality_of_service.html["SolidFire 스토리지 클러스터의 성능 및 QoS"^]
+* https://docs.netapp.com/us-en/element-software/hccstorage/task-hcc-qos-policies.html["볼륨 QoS 정책 생성 및 관리"^]
+* https://www.netapp.com/support-and-training/documentation/["NetApp 제품 설명서"^]
+

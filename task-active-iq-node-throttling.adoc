@@ -1,0 +1,63 @@
+---
+permalink: task-active-iq-node-throttling.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, nodes, throttling 
+summary: SolidFire Active IQ의 노드 제한 페이지에 대해 자세히 알아보십시오. 
+---
+= 노드 임계치 조절
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+선택한 클러스터의 측면 패널에서 사용할 수 있는 * Nodes * > * Node Throtling * 페이지에서 클러스터의 노드에 대한 비율 조절을 볼 수 있습니다. 노드는 디스플레이 왼쪽에 축소판 그림 레이아웃으로 표시되며 선택한 시간 범위의 임계치 조절 정도에 따라 정렬됩니다.
+
+노드 제한 정보 보기에 대한 자세한 내용:
+
+* <<View graphs and select date ranges>>
+* <<Export node throttling data>>
+
+
+
+
+== 그래프를 보고 날짜 범위를 선택합니다
+
+Active IQ의 그래프와 날짜 범위는 서로 완벽하게 통합됩니다. 날짜 범위를 선택하면 해당 페이지의 모든 그래프가 선택한 범위로 조정됩니다. 각 그래프에 표시되는 기본 날짜 범위는 7일입니다.
+
+달력 드롭다운 상자 또는 미리 정의된 범위 집합에서 날짜 범위를 선택할 수 있습니다. 날짜 범위는 현재 브라우저 시간(선택 시)과 구성된 시간을 사용하여 계산됩니다. 또한 하단의 막대 그래프 위로 직접 빗질하여 원하는 간격을 선택할 수 있습니다. 왼쪽에서 축소판 그림 레이아웃을 선택하여 그래프 간을 전환할 수 있습니다.
+
+그래프에는 선택한 노드에서 호스팅되는 볼륨의 최소 및 최대 IOPS 설정에 따라 노드의 임계치 조절율이 표시됩니다.
+
+* 녹색 = 최대 39%
+* 노란색 = 40 ~ 59%
+* 빨간색 = 59% 이상
+
+
+link:task-active-iq-qos-recommendations.html["클러스터를 위한 QoS 권장 사항에 대해 알아보십시오"].
+
+
+NOTE: Node Throtling 페이지에서 스토리지 클러스터에 QoS 푸쉬백이 있는지 확인할 수 있습니다. 을 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_check_for_QoS_pushback_in_Element_Software["KB 문서를 참조하십시오"^] 를 참조하십시오.
+
+특정 시점의 세부 정보를 보려면 그래프의 어느 지점에나 마우스 포인터를 놓습니다.
+
+.그래프 예제를 확장합니다
+====
+image:node_throttling_range.PNG["노드 제한 그래프"]
+
+====
+
+
+== 노드 제한 데이터를 내보냅니다
+
+그래프 데이터를 CSV(쉼표로 구분된 값) 형식으로 내보낼 수 있습니다. 그래프에 표시된 정보만 내보내집니다.
+
+.단계
+. 목록 보기 또는 그래프에서 를 선택합니다 image:export_button.PNG["내보내기 버튼"] 아이콘을 클릭합니다.
+
+
+
+
+== 자세한 내용을 확인하십시오
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 제품 설명서"^]

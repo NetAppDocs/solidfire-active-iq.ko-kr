@@ -1,0 +1,113 @@
+---
+permalink: task-active-iq-enable-reporting.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, enable, reporting 
+summary: 관리 노드에서 SolidFire Active IQ 보고 기능을 사용하도록 설정하는 방법에 대해 알아봅니다. 
+---
+= SolidFire Active IQ 보고를 활성화합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+설치 또는 업그레이드 중에 SolidFire Active IQ 보고 기능을 활성화하지 않은 경우 관리 노드에서 Active IQ 서버가 관리 노드로부터 클러스터의 데이터 페이로드를 수신할 수 있습니다. 연결이 성공적으로 설정되면 클러스터는 Active IQ 서버로 정보를 보냅니다. 그런 다음 Active IQ UI에서 클러스터를 볼 수 있으며, 클러스터 정보가 표시됩니다.
+
+
+NOTE: Active IQ에서 Google Chrome 및 Firefox 브라우저를 실행할 수 있습니다.
+
+.시작하기 전에
+* Active IQ의 일부 기능(예: QoS)에서는 Element 11.3 이상이 올바르게 작동해야 합니다. 모든 Active IQ 기능을 사용할 수 있는지 확인하려면 다음 단계를 수행하는 것이 좋습니다.
++
+** 스토리지 클러스터에서 NetApp Element 소프트웨어 11.3 이상이 실행 중입니다.
+** 버전 11.3 이상을 실행하는 관리 노드를 배포했습니다.
+
+
+* 인터넷에 접속할 수 있습니다. 외부 연결이 없는 어두운 사이트에서는 Active IQ Collector 서비스를 사용할 수 없습니다.
+
+
+.단계
+. 설치의 기본 자산 ID를 가져옵니다.
++
+.. 관리 노드에서 인벤토리 서비스 REST API UI를 엽니다.
++
+[listing]
+----
+https://<ManagementNodeIP>/inventory/1/
+----
+.. authorize * 를 선택하고 다음을 완료합니다.
++
+... 클러스터 사용자 이름 및 암호를 입력합니다.
+... Client ID를 mnode-client로 입력한다.
+... 세션을 시작하려면 * authorize * 를 선택합니다.
+... 창을 닫습니다.
+
+
+.. REST API UI에서 * Get Windows/Installations * 를 선택합니다.
+.. 체험하기 * 를 선택합니다.
+.. Execute * 를 선택합니다.
+.. 코드 200 응답 본문에서 설치 시 id를 복사한다.
++
+[listing, subs="+quotes"]
+----
+{
+  "installations": [
+    {
+      "_links": {
+        "collection": "https://10.111.211.111/inventory/1/installations",
+        "self": "https://10.111.217.111/inventory/1/installations/abcd01e2-ab00-1xxx-91ee-12f111xxc7x0x"
+      },
+      *"id": "abcd01e2-ab00-1xxx-91ee-12f111xxc7x0x",*
+----
++
+
+NOTE: 설치 또는 업그레이드 중에 생성된 기본 자산 구성을 설치하였습니다.
+
+
+
+. 원격 측정 활성화:
++
+.. 관리 노드의 IP 주소 뒤에 '/mnode'를 입력하여 관리 노드의 mnode service API UI에 접근한다.
++
+[listing]
+----
+https://<ManagementNodeIP>/mnode
+----
+.. authorize * 또는 임의의 잠금 아이콘을 선택하고 다음을 완료합니다.
++
+... 클러스터 사용자 이름 및 암호를 입력합니다.
+... Client ID를 mnode-client로 입력한다.
+... 세션을 시작하려면 * authorize * 를 선택합니다.
+... 창을 닫습니다.
+
+
+.. 기본 자산 구성:
++
+... PUT/ASSET/{ASSET_ID} * 를 선택합니다.
+... 체험하기 * 를 선택합니다.
+... JSON 페이로드에 다음을 입력합니다.
++
+[listing]
+----
+{
+"telemetry_active": true
+"config": {}
+}
+----
+... 이전 단계의 기본 ID를 * asset_ID * 에 입력합니다.
+... Execute * 를 선택합니다.
++
+Active IQ 서비스는 자산이 변경될 때마다 자동으로 다시 시작됩니다. 자산을 수정하면 설정이 적용되기 전에 짧은 지연이 발생합니다.
+
+
+
+
+
+. 에 로그인합니다 link:https://activeiq.solidfire.com/["SolidFire Active IQ"^] 클러스터를 볼 수 있는지 확인합니다.
+
+
+
+
+== 자세한 내용을 확인하십시오
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 제품 설명서"^]

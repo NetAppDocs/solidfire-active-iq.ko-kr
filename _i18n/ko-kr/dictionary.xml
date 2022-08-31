@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="204042bcddaa7ab2b31862bf16f2c67b" category="summary">SolidFire Active IQ에서 스냅샷 세부 정보 및 스냅샷 스케줄 세부 정보를 보는 방법에 대해 알아보십시오.</block>
+  <block id="93bb810a3cacb25ddd5222f7ad5ae531" category="doc">스냅샷 및 스냅샷 스케줄</block>
+  <block id="69a78035942727554b9b0c40d0820c1c" category="paragraph">스냅샷 및 스냅샷 스케줄에 대한 정보 보기에 대한 자세한 정보:</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-xref"></block>
+  <block id="bf17366f9ec1f35ef74cee8e10aaccb9" category="list-text"><block ref="fd722e2b1b734c791adb6af07451d4f2" category="inline-xref-macro-rx"></block></block>
+  <block id="81cce8f2f8a0b0ed4b4db31bd50569aa" category="list-text"><block ref="e2dc546eddf3630f1681ca4408d05022" category="inline-xref-macro-rx"></block></block>
+  <block id="9147e5e61a7b9260dec09f3a6eb3e5be" category="section-title">스냅샷 수</block>
+  <block id="f83c40ca847cafd42ef7aeb0fc297615" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * Volumes * 페이지에서 볼륨 스냅숏에 대한 정보를 볼 수 있습니다.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
+  <block id="33a061a30025cee07ce09ffbdd494525" category="list-text">볼륨 * &gt; * 스냅샷 * 을 선택합니다.</block>
+  <block id="5dc731e46ae38b87ff3e3e2eaf459db2" category="inline-image-macro">추가 정보</block>
+  <block id="9349a4d131af5f3ec718969c53656a53" category="list-text">또는 * Volumes * &gt; * Active Volumes * 를 선택하고 Actions 열에서 을 선택합니다 <block ref="8854623112a7e68b3d51b1506334573e" category="inline-image-macro-rx" type="image"></block> 원하는 볼륨의 아이콘을 선택하고 * 스냅샷 보기 * 를 선택합니다.</block>
+  <block id="5ff9a8a8f5a8e1185c269de1ae1f16fa" category="inline-image-macro">내보내기 버튼</block>
+  <block id="06d2b66e0772fbe0c9171654415f8b7c" category="list-text">(선택 사항) 을 선택하여 스냅샷 목록을 CSV 파일로 내보낼 수 있습니다 <block ref="2915399c84d3d8e8b7be56e94c232606" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭합니다.</block>
+  <block id="8d4295395ee365e6a510b0b9b40779ba" category="paragraph">다음 목록에서는 사용 가능한 세부 정보를 설명합니다.</block>
+  <block id="0101316665d4f82adaa26d86fbbb2d6e" category="cell">제목</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">설명</block>
+  <block id="b718adec73e04ce3ec720dd11a06a308" category="cell">ID입니다</block>
+  <block id="e8a5cda5af516a679b90335fd0075ec2" category="cell">스냅샷에 할당된 스냅샷 ID를 표시합니다.</block>
+  <block id="cccc95b62282240886ee975a3f122adb" category="cell">볼륨 ID입니다</block>
+  <block id="9945e2fd77bbd5895f0c5964af73b56d" category="cell">볼륨을 생성할 때 지정된 ID입니다.</block>
+  <block id="351a2eb8764e19b9e565e8a355469e70" category="cell">계정 ID입니다</block>
+  <block id="2cb42f90cdbddd8c71799ac087c29f2f" category="cell">볼륨에 할당된 계정의 ID입니다.</block>
+  <block id="5a54d9ad87f7c4c1c70c8f05b9515d5a" category="cell">UUID입니다</block>
+  <block id="a693044c4126a3808a141722f72b6846" category="cell">범용 고유 식별자입니다.</block>
+  <block id="6f6cb72d544962fa333e2e34ce64f719" category="cell">크기</block>
+  <block id="d14f48c4f9c4220279708b1a81a0da74" category="cell">스냅샷의 사용자 정의 크기입니다.</block>
+  <block id="191fac23c2b2ea4e948178972521292f" category="cell">볼륨 크기</block>
+  <block id="de7a7811629b22bd725c2f30e7762999" category="cell">스냅샷이 생성된 볼륨의 크기입니다.</block>
+  <block id="5e0a8fe96e2accd99b923c62952fa005" category="cell">생성 시간</block>
+  <block id="b7cb1509443d4dc336e7a87710b155b6" category="cell">스냅샷이 생성된 시간입니다.</block>
+  <block id="3302fe62cf18a31fc1bf2e207efd5a31" category="cell">보관 기간</block>
+  <block id="6bc276ea323b0825bcb0596dcd880037" category="cell">스냅샷이 삭제되는 요일 및 시간입니다.</block>
+  <block id="74251996680362042d34e0fd65d1a64a" category="cell">그룹 스냅샷 ID입니다</block>
+  <block id="41e84ae198952dbc689a2e17f3ff20b6" category="cell">스냅샷이 다른 볼륨 스냅샷과 함께 그룹화된 경우 해당 그룹 ID입니다.</block>
+  <block id="cde9e6576d2cd1bb93387925d982000d" category="cell">복제됨</block>
+  <block id="9f3889aff3174ecbe2e71a73a6531fea" category="paragraph">원격 클러스터의 스냅샷 상태를 표시합니다.</block>
+  <block id="5ae29ab9c92cee5374650fb1b21addb4" category="list-text">Present(현재): 원격 클러스터에 스냅샷이 있습니다.</block>
+  <block id="c9ff879be0e4bd806af0ced632ace574" category="list-text">없음: 원격 클러스터에 스냅샷이 없습니다.</block>
+  <block id="76f096c43b09e4905ae00a9cc88ab756" category="list-text">동기화 중: 타겟 클러스터가 현재 스냅샷을 복제 중입니다.</block>
+  <block id="fd4e6a45b192b907cde370c10de38cd2" category="list-text">삭제됨: 타겟이 스냅샷을 복제한 다음 삭제했습니다.</block>
+  <block id="d8255a9dfec1cb7e4f18cd98f176b3a3" category="section-title">스냅숏 일정</block>
+  <block id="0215a8be6bd12534d05f3dfb1b3d941b" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * Volumes * &gt; * Snapshot Schedules * 페이지에서 스냅샷 스케줄 세부 정보를 볼 수 있습니다.</block>
+  <block id="67dd8a9c7300c7a68539b856568b643c" category="inline-image-macro">내보내기 버튼</block>
+  <block id="5193b4f0872addfec7dfa6218c781e70" category="paragraph">을 선택하여 스냅샷 스케줄 목록을 CSV 파일로 내보낼 수 있습니다 <block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭합니다.</block>
+  <block id="cb5999fbac4fc8ae662c003393b32504" category="cell">일정에 할당된 일정 ID입니다.</block>
+  <block id="49ee3087348e8d44e1feda1917443987" category="cell">이름</block>
+  <block id="66da3089a67e69b9ad13c6d1b92a8f8a" category="cell">스케줄의 사용자 할당 이름입니다.</block>
+  <block id="7cf395303ce3665a9834721d4b748e4b" category="cell">주파수</block>
+  <block id="bad4c99f075d2330a83e8be438f50a84" category="cell">스케줄이 실행되는 빈도입니다. 빈도는 시간 및 분, 주 또는 월 단위로 설정할 수 있습니다.</block>
+  <block id="582ff616b727759a2208c65b27b0d309" category="cell">반복</block>
+  <block id="30138559db68a3be09a74ae44a0019aa" category="cell">일정이 반복되는지 여부를 나타냅니다.</block>
+  <block id="557e717eb0851c8b37f05adb39a1cd39" category="cell">볼륨 ID입니다</block>
+  <block id="5d6da1915b05fdfa3f810f1cb45d8629" category="cell">예약된 스냅샷에 포함된 볼륨 ID입니다.</block>
+  <block id="05a3a24340b7b9cc8d4e08f0ef4f4dd9" category="cell">마지막 실행</block>
+  <block id="5e60cc0fde146278e4f3589308b5006e" category="cell">스케줄이 마지막으로 실행된 시간입니다.</block>
+  <block id="7232cc207d04580f7bc752f9269ee419" category="cell">마지막 실행 상태</block>
+  <block id="081b56495eec3a64fd9628f7a125317a" category="cell">마지막 일정 실행의 결과. 가능한 값은 '성공' 또는 '오류'입니다</block>
+  <block id="e309aa8c5dea3400911a17c61bb74200" category="cell">수동 일시 중지됨</block>
+  <block id="c2a806f0596d90a4081b26a3b19b13d8" category="cell">스케줄이 수동으로 일시 중지되었는지 여부를 나타냅니다.</block>
+  <block id="9c83e144e5481ac6766f4055e566594d" category="section-title">자세한 내용을 확인하십시오</block>
+  <block id="bc4fe2352063642d68529f2aa0ca7ca3" category="inline-link">NetApp 제품 설명서</block>
+  <block id="854eabf79b65c478387570fb11e721ca" category="paragraph"><block ref="854eabf79b65c478387570fb11e721ca" category="inline-link-rx"></block></block>
+  <block id="fd8f7be6c3e8a4de651ab3cd1c7f7c06" category="summary">SolidFire Active IQ의 모든 클러스터 보기 페이지에 대해 알아보십시오.</block>
+  <block id="d33e0bf5cc18fdf44d1e95c80b1da8e2" category="doc">모든 클러스터 보기</block>
+  <block id="3dd95b8e03aee0d3c1c195b2193bbac4" category="paragraph">모든 클러스터 보기 * 는 SolidFire Active IQ의 시작 페이지입니다.</block>
+  <block id="1712068517f4ae325dc7c49bca8a727d" category="paragraph">모든 클러스터 보기 * 에서 액세스할 수 있는 기능에 대해 알아보십시오.</block>
+  <block id="98aecf6b1b7c9ebbb25261990e7f5542" category="inline-link-macro">모든 클러스터 보기 대시보드</block>
+  <block id="b22459c42fa05b62fcf6efae76d217e0" category="list-text"><block ref="b22459c42fa05b62fcf6efae76d217e0" category="inline-link-macro-rx"></block></block>
+  <block id="df583ae7ba964fd4806b55904da81813" category="inline-link-macro">경고</block>
+  <block id="24065c72b6183812a2182740e9714ac5" category="list-text"><block ref="24065c72b6183812a2182740e9714ac5" category="inline-link-macro-rx"></block></block>
+  <block id="799a3fe6cff876fa3027852cc5707a2e" category="inline-link-macro">용량 라이센스</block>
+  <block id="d670b82fe0337950f878b889f6933104" category="list-text"><block ref="d670b82fe0337950f878b889f6933104" category="inline-link-macro-rx"></block></block>
+  <block id="d7d8c18bcc1cc8a4b125abd8f5edd2b9" category="inline-link-macro">용량</block>
+  <block id="4eca902cc4ae3f106780131e01e88f4b" category="list-text"><block ref="4eca902cc4ae3f106780131e01e88f4b" category="inline-link-macro-rx"></block></block>
+  <block id="0cefee73bdb85b3d4d3c8c689e1f1c0a" category="summary">SolidFire Active IQ의 노드 제한 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="25a0046a8717b473571a227501cd74e2" category="doc">노드 임계치 조절</block>
+  <block id="59fcde6598b4ab87af49810271746190" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * Nodes * &gt; * Node Throtling * 페이지에서 클러스터의 노드에 대한 비율 조절을 볼 수 있습니다. 노드는 디스플레이 왼쪽에 축소판 그림 레이아웃으로 표시되며 선택한 시간 범위의 임계치 조절 정도에 따라 정렬됩니다.</block>
+  <block id="0df9a444c778c6506f58f43cc0edd434" category="paragraph">노드 제한 정보 보기에 대한 자세한 내용:</block>
+  <block id="4f54b4cc4d3960f8f2d85ac01981e683" category="list-text"><block ref="597facc265a5c58f66b22d76ff98b78e" category="inline-xref-macro-rx"></block></block>
+  <block id="48a5c77d4bcca65797ec6cae22e9596d" category="list-text"><block ref="3aad2e6e5736129db0c2a3093b04110c" category="inline-xref-macro-rx"></block></block>
+  <block id="f3bf056f68b8355023f77881422e7f1f" category="section-title">그래프를 보고 날짜 범위를 선택합니다</block>
+  <block id="b7b7b61b3c4499c5f2b5308b977a1f92" category="paragraph">Active IQ의 그래프와 날짜 범위는 서로 완벽하게 통합됩니다. 날짜 범위를 선택하면 해당 페이지의 모든 그래프가 선택한 범위로 조정됩니다. 각 그래프에 표시되는 기본 날짜 범위는 7일입니다.</block>
+  <block id="3cb48fc4c57bd3575e0c430007bfe074" category="paragraph">달력 드롭다운 상자 또는 미리 정의된 범위 집합에서 날짜 범위를 선택할 수 있습니다. 날짜 범위는 현재 브라우저 시간(선택 시)과 구성된 시간을 사용하여 계산됩니다. 또한 하단의 막대 그래프 위로 직접 빗질하여 원하는 간격을 선택할 수 있습니다. 왼쪽에서 축소판 그림 레이아웃을 선택하여 그래프 간을 전환할 수 있습니다.</block>
+  <block id="0461c4fc34e0832d93b7333b2c5410c3" category="paragraph">그래프에는 선택한 노드에서 호스팅되는 볼륨의 최소 및 최대 IOPS 설정에 따라 노드의 임계치 조절율이 표시됩니다.</block>
+  <block id="71f0bed4fc7583649837eed2b8ee49c4" category="list-text">녹색 = 최대 39%</block>
+  <block id="a4965bbdc77616cfb8e9619447a55ffc" category="list-text">노란색 = 40 ~ 59%</block>
+  <block id="77b4dabdac23af0111f4e3fffcb2f6e5" category="list-text">빨간색 = 59% 이상</block>
+  <block id="f8feac3680b404eb25b3b1fea6aa6e70" category="inline-link-macro">클러스터를 위한 QoS 권장 사항에 대해 알아보십시오</block>
+  <block id="ea716f1a51591b923cd83aaa8faa830c" category="paragraph"><block ref="4334742ebeca91bbb52799a64e982fde" category="inline-link-macro-rx"></block>.</block>
+  <block id="dd76252ea7a50def2a98f218cb1505b4" category="inline-link">KB 문서를 참조하십시오</block>
+  <block id="847e4940ea24aaa4424f3c4a37535b12" category="admonition">Node Throtling 페이지에서 스토리지 클러스터에 QoS 푸쉬백이 있는지 확인할 수 있습니다. 을 참조하십시오<block ref="6de779e3b42a864ec2ff941281a0ceca" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="f5a7af379fa1ac15911d3b781873b129" category="paragraph">특정 시점의 세부 정보를 보려면 그래프의 어느 지점에나 마우스 포인터를 놓습니다.</block>
+  <block id="19eb44463cdadfc868f1a40170c2492a" category="example-title">그래프 예제를 확장합니다</block>
+  <block id="f49cb77ff5ce537f4ee301d1be0be1c1" category="inline-image-macro">노드 제한 그래프</block>
+  <block id="201fcedd51648e6d2c3fb5c04a6413ce" category="paragraph"><block ref="201fcedd51648e6d2c3fb5c04a6413ce" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c82fc13660c1f7b9e81fb05a1b3dc1a0" category="section-title">노드 제한 데이터를 내보냅니다</block>
+  <block id="b94aaf1b6153416c8fbec130b4b4572c" category="paragraph">그래프 데이터를 CSV(쉼표로 구분된 값) 형식으로 내보낼 수 있습니다. 그래프에 표시된 정보만 내보내집니다.</block>
+  <block id="e6e76398fa578c847ffbf12cf9020f0d" category="list-text">목록 보기 또는 그래프에서 를 선택합니다 <block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭합니다.</block>
+  <block id="dc5cf938fcbe14ca9f14ce9da37d6b2b" category="summary">SolidFire Active IQ에서 VMware 경보 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="f469efb122e55cd81d10c070659ca6ac" category="doc">VMware 알람</block>
+  <block id="3a2e93282d452c78a49d4de90ae7ef51" category="paragraph">선택한 NetApp HCI 클러스터의 측면 패널에서 사용할 수 있는 * VMware 알람 * 페이지에서 클러스터에 대한 VMware 알람 관련 정보를 볼 수 있습니다.</block>
+  <block id="70d5204d2eee71cb2f88868b65803de9" category="admonition">VMware 알람 * 페이지는 NetApp HCI 클러스터에서만 사용할 수 있습니다.</block>
+  <block id="43534abbbd12201bfa97d847e928d0e1" category="paragraph">UI에 표시되는 VMware 알람 데이터에 대해 알아봅니다.</block>
+  <block id="8011b540330c21d66ddf1ca785f8c844" category="cell">vCenter IP입니다</block>
+  <block id="7903af51168f6e3a84e0a05f16f21680" category="cell">vCenter Server의 IP 주소입니다.</block>
+  <block id="e1ba2665bdacc1fee125d13ae7a2310f" category="cell">엔티티 ID</block>
+  <block id="ff92a0cff97f615fd6a2f39ade917f00" category="cell">vSphere에서 알람이 발생한 객체의 ID입니다.</block>
+  <block id="ec53a8c4f07baed5d8825072c89799be" category="cell">상태</block>
+  <block id="825b54f1c522b01e546865fba66fb23a" category="cell">VMware 알람의 심각도입니다.</block>
+  <block id="ef748968b1c9d053a66a1824587146b4" category="cell">알람 이름</block>
+  <block id="99678f7a117bc8aabf09db380162078b" category="cell">VMware 알람의 이름입니다.</block>
+  <block id="a27b6647124cd63c0c6175743b633c3e" category="cell">VMware 알람에 대한 설명입니다.</block>
+  <block id="598b092e27986b9b865df094fe4948b9" category="cell">트리거 시간</block>
+  <block id="677b17da2c12cb51b4885efd8fc8d12e" category="cell">클러스터 자체가 아닌 Active IQ에서 경고가 트리거된 시간입니다.</block>
+  <block id="3e029ce2c3d8433b34f693041956192d" category="summary">SolidFire Active IQ에서 클러스터 정보를 보는 방법에 대해 알아보십시오.</block>
+  <block id="277d58ac537e0d48d56c275fffae51d7" category="doc">클러스터를 선택합니다</block>
+  <block id="eb72be22d7fc9772a8840871ba71b0a8" category="paragraph">클러스터 선택 * 드롭다운 목록에서 클러스터를 선택하면 특정 클러스터에 대한 클러스터 정보를 볼 수 있습니다. 각 클러스터 정보 범주는 표 형식 또는 그래픽 형식으로 표시됩니다.</block>
+  <block id="bf4336b6c177b0eea8653853a0f152fc" category="paragraph">측면 패널의 * 대시보드 * 클러스터 개요 또는 * 보고 * 드롭다운 메뉴에서 사용할 수 있는 다양한 목록 및 필터에 대해 알아보십시오.</block>
+  <block id="8dbfa38b833867442634cdf2a6756bca" category="inline-link-macro">단일 클러스터 보기 대시보드</block>
+  <block id="394c111301227a2139f9444cb09edb3f" category="list-text"><block ref="394c111301227a2139f9444cb09edb3f" category="inline-link-macro-rx"></block></block>
+  <block id="bbb006833f01ec561077704bef27cb73" category="inline-link-macro">클러스터에 대한 보고 옵션</block>
+  <block id="e8451b80e6ac689caa1caf052ce73f12" category="list-text"><block ref="e8451b80e6ac689caa1caf052ce73f12" category="inline-link-macro-rx"></block></block>
+  <block id="f6fb41cae39c67dddfa257340be0abea" category="summary">SolidFire Active IQ 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="e852c121c8b4d7d81549beabc923b380" category="doc">SolidFire Active IQ 관리</block>
+  <block id="e0c3d75ee02be06d06a4a60347b6470a" category="inline-link-macro">SolidFire Active IQ(로그인 필요)</block>
+  <block id="ad00578da57eea95dea349fb430f6e5f" category="paragraph">사용에 대해 자세히 알아보십시오 <block ref="69d38b4c8b518e174614111f3e530167" category="inline-link-macro-rx"></block> 클러스터 용량 및 성능을 모니터링하려면 다음을 따르십시오.</block>
+  <block id="d8ca343535696fc3bc6e295975432a7c" category="list-text"><block ref="d8ca343535696fc3bc6e295975432a7c" category="inline-link-macro-rx"></block></block>
+  <block id="15ac47d735d2abb9f151cb6f3bd87f56" category="list-text"><block ref="15ac47d735d2abb9f151cb6f3bd87f56" category="inline-link-macro-rx"></block></block>
+  <block id="187c6ad3a74cc93ac6c2229d398e383e" category="inline-link-macro">노드</block>
+  <block id="81da7f2200669b74dbe1d84983bfe4dc" category="list-text"><block ref="81da7f2200669b74dbe1d84983bfe4dc" category="inline-link-macro-rx"></block></block>
+  <block id="63a6b9b3b5de50d32228700cfe042610" category="inline-link-macro">드라이브</block>
+  <block id="1c968709a3462ab0df1449c2d11bde23" category="list-text"><block ref="1c968709a3462ab0df1449c2d11bde23" category="inline-link-macro-rx"></block></block>
+  <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="inline-link-macro">볼륨</block>
+  <block id="ecc1ca87dba4ff5285bc315dba67c326" category="list-text"><block ref="ecc1ca87dba4ff5285bc315dba67c326" category="inline-link-macro-rx"></block></block>
+  <block id="8c340dc334134096f68b880b42a8692c" category="inline-link-macro">복제</block>
+  <block id="c0ce04e9e4abab6be41f5db5258d5c42" category="list-text"><block ref="c0ce04e9e4abab6be41f5db5258d5c42" category="inline-link-macro-rx"></block></block>
+  <block id="86a60eaa1d2754d3ef920fff5bdf0e91" category="inline-link-macro">가상 볼륨</block>
+  <block id="44273fb1c66e463d49a94f9db5f32122" category="list-text"><block ref="44273fb1c66e463d49a94f9db5f32122" category="inline-link-macro-rx"></block></block>
+  <block id="cfadbebab98b6929c6f6db3fddfc6860" category="inline-link-macro">QoS 권장 사항</block>
+  <block id="3220a3924ad848bdfae6c4beb49a4df0" category="list-text"><block ref="3220a3924ad848bdfae6c4beb49a4df0" category="inline-link-macro-rx"></block></block>
+  <block id="1b031407a74cfe3989b3fe7b4a7d1a12" category="inline-link-macro">가상 머신(NetApp HCI 클러스터만 해당)</block>
+  <block id="f00a95482a80a821b5463f824bd414ef" category="list-text"><block ref="f00a95482a80a821b5463f824bd414ef" category="inline-link-macro-rx"></block></block>
+  <block id="a9ddb5f12cc652ccb3d0e88c6a1c5a53" category="inline-link-macro">VMware 알람(NetApp HCI 클러스터만 해당)</block>
+  <block id="2d6e026e9e7262187ded62f8ab25de95" category="list-text"><block ref="2d6e026e9e7262187ded62f8ab25de95" category="inline-link-macro-rx"></block></block>
+  <block id="c45bb0482081628f5278db1ac69fd7c4" category="summary">SolidFire Active IQ에서 NetApp HCI 노드 세부 정보를 보는 방법에 대해 알아보십시오.</block>
+  <block id="2797a319903e5732b12f8b1ca2eefc30" category="doc">NetApp HCI 스토리지 및 컴퓨팅 노드 세부 정보를 봅니다</block>
+  <block id="62b424183f41e9b71a242eb8fbb83422" category="paragraph">NetApp HCI 시스템을 구성하는 NetApp H 시리즈 노드의 경우 컴퓨팅 노드와 스토리지 노드의 두 가지 유형이 있습니다.</block>
+  <block id="216709c8a74899ac9552418b218fedc3" category="paragraph">정보 표시줄은 * 노드 * 페이지에서 다음 데이터에 대한 빠른 개요를 제공합니다.</block>
+  <block id="449cb1399f131e775cbd452af1b71a94" category="list-text">vCenter IP: vCenter Server의 IP 주소입니다</block>
+  <block id="416d6ad49d8853217a6bb321dc6df5aa" category="list-text">MVIP: 관리 가상 IP 주소입니다</block>
+  <block id="c51558c5b0e3376ab979005c0eadcc9e" category="list-text">SVIP: 스토리지 가상 IP 주소입니다</block>
+  <block id="da7544491b44fbb47826dba38839ec09" category="section-title">스토리지 노드에 대한 정보를 봅니다</block>
+  <block id="cebd7bb7558a8eaa1c2318dbc486f702" category="paragraph">클러스터의 스토리지 노드에 대한 다음 정보를 보려면 * 스토리지 * 를 선택합니다.</block>
+  <block id="9662ae1ef14a335ab1e536bd29504c48" category="cell">노드에 대한 시스템 생성 ID입니다.</block>
+  <block id="fc4438f0f67d3ef19c2ea6bf8466ef5e" category="paragraph">노드의 상태:</block>
+  <block id="92ea8e6e7e5dc1001579cbdf5edc1d66" category="list-text">양호: 노드에 관련된 심각한 오류가 없습니다.</block>
+  <block id="2d58fcc09c5df59938313061ae2b4328" category="list-text">오프라인: 노드에 액세스할 수 없습니다. 오류 로그를 보려면 링크를 선택하십시오.</block>
+  <block id="fb3b7b652062793ec89e4631aa75837e" category="list-text">오류: 이 노드와 관련된 오류가 있습니다. 오류 로그를 보려면 링크를 선택하십시오.</block>
+  <block id="a1fa27779242b4902f7ae3bdd5c6d508" category="cell">유형</block>
+  <block id="14745691658fdcfae1452045cb6f3ca6" category="cell">노드의 모델 유형을 표시합니다.</block>
+  <block id="9cbb50b1bb15ffe24043c5f68161a2d4" category="cell">섀시/슬롯</block>
+  <block id="8e273b1b6e5fe15a335118ec393e64c5" category="cell">섀시에 할당된 고유 일련 번호 및 노드의 슬롯 위치입니다.</block>
+  <block id="78cf8ce506d5cd24bcd85ed03795e147" category="cell">일련 번호</block>
+  <block id="99e27a3b4d4ede370056195c4b29c8df" category="cell">노드에 할당된 고유한 일련 번호입니다.</block>
+  <block id="34b6cd75171affba6957e308dcbd92be" category="cell">버전</block>
+  <block id="1b547602fa501a408206b388b4d87ea4" category="cell">각 노드에서 실행되는 Element 소프트웨어의 버전입니다.</block>
+  <block id="32aa0bd7b7946c62f9c5214e91fa1db6" category="cell">관리 IP</block>
+  <block id="a63c939565f37ea240b8015513244109" category="cell">1GbE 또는 10GbE 네트워크 관리 작업을 위해 노드에 할당된 관리 IP 주소입니다.</block>
+  <block id="dbc7f5bd401ce78c24749d6c2a29fb42" category="cell">스토리지 IP</block>
+  <block id="4e6df10ce822632abd24bc1d83035051" category="cell">iSCSI 네트워크 검색 및 모든 데이터 네트워크 트래픽에 사용되는 노드에 할당된 스토리지 IP 주소입니다.</block>
+  <block id="bbbabdbe1b262f75d99d62880b953be1" category="cell">역할</block>
+  <block id="f3be7be88a768481f7dc512d35d95b5d" category="paragraph">클러스터에서 노드가 가지는 역할을 식별합니다.</block>
+  <block id="5b677361708b3a9e7ae889385ded1639" category="list-text">Cluster Master: 클러스터 전체 관리 작업을 수행하고 MVIP 및 SVIP를 포함하는 노드입니다.</block>
+  <block id="e6897c8bbde08136163ed91dd0933239" category="list-text">앙상블 노드: 클러스터에 참여하는 노드. 클러스터 크기에 따라 3개 또는 5개의 앙상블 노드가 있습니다.</block>
+  <block id="f806640cb8d3e91e43e2fdcfa5cab1c8" category="cell">지난 30분 동안의 평균 IOPS</block>
+  <block id="18d37c100a92b8d3934f933d9476a1da" category="cell">이 노드가 1차 노드인 모든 볼륨에 대해 최근 30분 동안 실행된 평균 IOPS 수의 합계입니다.</block>
+  <block id="6125b5ff1062e9f4dc503a9bcd890061" category="cell">지난 30분 동안의 평균 처리량</block>
+  <block id="f526d8fc07e0bc9a9f0f9c9af1ffd853" category="cell">이 노드가 1차 노드인 모든 볼륨에 대해 최근 30분 동안 실행된 평균 처리량 합계입니다.</block>
+  <block id="d005c20c61645b19021767d50f4ca419" category="cell">지난 30분 동안의 평균 지연 시간(µs)</block>
+  <block id="f2d3fd54a5200d7293fec3c093f66a72" category="cell">이 노드가 1차 노드인 모든 볼륨에 대해 읽기 및 쓰기 작업을 완료하는 데 마지막 30분 동안 측정된 마이크로초 단위의 평균 시간입니다. 활성 볼륨을 기준으로 이 메트릭을 보고하려면 0이 아닌 지연 값만 사용됩니다.</block>
+  <block id="b79811f01736e3044c4df106fb6cb1ee" category="section-title">컴퓨팅 노드에 대한 정보를 봅니다</block>
+  <block id="5c353ef8d2ffffd6428ec66b599af4a6" category="paragraph">클러스터의 컴퓨팅 노드에 대한 다음 정보를 보려면 * Compute * 를 선택하십시오.</block>
+  <block id="a12a3079e14ced46e69ba52b8a90b21a" category="cell">IP</block>
+  <block id="7136370ef3e3f5918cde3ac36d11a41b" category="cell">컴퓨팅 노드의 IP 주소입니다.</block>
+  <block id="ba64f25e75449d6fd3b83d0e757cc71c" category="cell">vCenter 상태</block>
+  <block id="0e76eb70b527cd518635bcd29f0071d8" category="cell">VMware에서 제공하는 가치 VMware 설명을 보려면 여기에 마우스를 올려 놓으십시오.</block>
+  <block id="5aae2f588f5869f693f4a40cf10b4a79" category="cell">섀시/슬롯</block>
+  <block id="e0846390871bfc3e4e7552d1564b6802" category="cell">VMotion IP</block>
+  <block id="47f226b70c879177eb9a5a9af9a55657" category="cell">컴퓨팅 노드의 VMware vMotion 네트워크 IP 주소입니다.</block>
+  <block id="a1a357511551bfbe37039f02333f6776" category="summary">SolidFire Active IQ의 용량 라이센스 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="37f8ea9d07b7d63c80cd626540aa9604" category="doc">용량 라이센스</block>
+  <block id="31b2b28c9fceb6b631b5795fabe2321d" category="paragraph">모든 클러스터 보기 * 의 * 용량 라이센스 * 페이지에서 NetApp 용량 라이센스 모델에 대한 정보를 볼 수 있습니다. 표준 SolidFire 어플라이언스를 사용하는 고객은 이 페이지를 무시해야 합니다.</block>
+  <block id="8216cc48f5722149e5d1e53c518b2f6b" category="paragraph">용량 라이센스는 NetApp에서 제공하는 대체 라이센스 옵션입니다. 용량 라이센스 관련 작업에 대한 자세한 정보 또는 수행:</block>
+  <block id="7e240928383acb93e5066a6149430337" category="cell">풀 이름입니다</block>
+  <block id="a7c2894459867d6b7662505b602c3515" category="cell">라이센스와 연관된 고객의 이름입니다.</block>
+  <block id="a0d64a53ee9b8a87f69e700d17e5a258" category="cell">정규 용량</block>
+  <block id="f73b7ab2e4344b39ae6a227088972a7b" category="cell">구입한 소프트웨어 용량 라이센스의 합계입니다.</block>
+  <block id="ca417e12e3bdfd0126be45ef198553cb" category="cell">프로비저닝된 용량</block>
+  <block id="3fde5aaad264c61b4984d1e6f082d56f" category="cell">고객 환경에서 라이센스가 부여된 모든 용량 노드에 할당된 프로비저닝된 용량의 양입니다.</block>
+  <block id="4dae8bad0c5d13c63f586456ee0ad67a" category="cell">사용된 용량</block>
+  <block id="d98ec4d09dba4f68d9f548219556ca09" category="cell">클러스터 풀의 모든 클러스터에서 현재 사용된 용량입니다.</block>
+  <block id="9b99bf7d2bfd4b09363304c166832734" category="cell">클러스터</block>
+  <block id="331491aa4118975b5d832b3bf73155ca" category="cell">클러스터 풀 및 해당 ID의 개수로, 라이센스의 클러스터 풀을 구성합니다.</block>
+  <block id="3c222046ebbbdf4ee7fc9e22673e99f4" category="summary">SolidFire Active IQ의 QoS 권장 사항 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="4bcb78be7a1595a1156ae7e0b3ed4052" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * QoS 권장 사항 * 페이지는 최근 성능 데이터를 기반으로 클러스터에 대한 일일 QoS(서비스 품질) 권장 사항을 제공합니다. QoS 권장 사항은 Element 소프트웨어 11.x 이상의 클러스터에만 지원됩니다.</block>
+  <block id="b5634ec4fac0ffe7638c4b1bfc6bf2a0" category="paragraph">Active IQ은 최근 활동에 대한 볼륨 통계 데이터를 기반으로 성능을 권장합니다. 권장 사항은 볼륨에 대한 QoS 최대 및 최소 보장 IOPS에 중점을 두며 클러스터 향상이 필요할 경우 UI에서만 표시됩니다.</block>
+  <block id="e7f0956807b7442475634b0ca02cf15a" category="inline-link">SolidFire 스토리지 클러스터의 성능 및 QoS</block>
+  <block id="6163567ff604813c415da0727538ba46" category="list-text"><block ref="6163567ff604813c415da0727538ba46" category="inline-link-rx"></block></block>
+  <block id="50ee1f895e7e284e9dd0f8f045bc11a2" category="inline-link">볼륨 QoS 정책 생성 및 관리</block>
+  <block id="47c1cc14a918686ff80203d8d1e3607c" category="list-text"><block ref="47c1cc14a918686ff80203d8d1e3607c" category="inline-link-rx"></block></block>
+  <block id="c1611363cb08bee418a62fbfb67269a0" category="summary">SolidFire Active IQ의 UI 기능에 대해 알아봅니다.</block>
+  <block id="be16873972b6107404555247ffe64f79" category="doc">Active IQ UI를 사용합니다</block>
+  <block id="f1a747b1e6d6c145fc34a1bf342de1e5" category="paragraph">의 UI 기능에 대해 알아봅니다 <block ref="69d38b4c8b518e174614111f3e530167" category="inline-link-macro-rx"></block>:</block>
+  <block id="75b5f200ff2e07a1cd3c280094c30efa" category="list-text"><block ref="f0659da1107154bd84c9b38aff0b247a" category="inline-xref-macro-rx"></block></block>
+  <block id="0c1d112f9709394d300cbeaa66450a9a" category="list-text"><block ref="7fe5ed762c45abe7d0470e2a89b1a892" category="inline-xref-macro-rx"></block></block>
+  <block id="a203af3f0d66d28fe2d73970f2e0d116" category="list-text"><block ref="e400a695433230a8595ae0b4b563579f" category="inline-xref-macro-rx"></block></block>
+  <block id="a7087cf075fc6214538853e9fc4bba90" category="list-text"><block ref="04d29e85cc3282c3e9f14ce261f88f45" category="inline-xref-macro-rx"></block></block>
+  <block id="16df60c28b1f6e1a615a049c6108358e" category="list-text"><block ref="bfbbec3472fd971f56fdb3fbab3e87d8" category="inline-xref-macro-rx"></block></block>
+  <block id="1a6488574db4303b10848152736e8e55" category="list-text"><block ref="1f6092bfe2d74192af9ae009324aa099" category="inline-xref-macro-rx"></block></block>
+  <block id="aa01e24e60b9724b9b233b2a1e85f950" category="section-title">필터를 사용합니다</block>
+  <block id="5d26e76a9cf020fc45752e6bd4299da5" category="paragraph">Active IQ의 페이지에서 목록 정보를 정렬하고 필터링할 수 있습니다. 노드, 드라이브, 볼륨 등과 같은 목록을 볼 때 필터 기능을 사용하여 정보에 초점을 맞추고 화면에 보다 쉽게 맞출 수 있습니다.</block>
+  <block id="07090d1b9cebf025d6cde2aae5e03df7" category="list-text">목록 정보를 볼 때 * Filter * 를 선택합니다.</block>
+  <block id="cdbd324b57aa494a017f6e074e75201f" category="list-text">드롭다운 메뉴에서 필터링 기준으로 사용할 열 이름을 선택합니다.</block>
+  <block id="f63739fda10056be3da6baf6e8dd41e2" category="list-text">열의 제약 조건을 선택합니다.</block>
+  <block id="a5eff96d846ad607703b11ea960d32b8" category="list-text">필터링할 텍스트를 입력합니다.</block>
+  <block id="7ba64273bac8dc11b7b790d85cf04b57" category="list-text">필터 추가 * 를 선택합니다.</block>
+  <block id="90d7ed86fe86985c51b54820847e2593" category="paragraph">시스템은 목록의 정보에 대해 새 필터를 실행하고 새 필터를 임시로 저장합니다. 선택한 필터가 필터 대화 상자의 하단에 표시됩니다.</block>
+  <block id="7ea481ef8b107ec0e3d3a1d12e68b0a8" category="list-text">(선택 사항) 다음 단계를 수행하여 다른 필터를 추가할 수 있습니다.</block>
+  <block id="bb99e9eacaa13bbc90afc00d6ffec84d" category="list-text">다른 열 머리글 및 제약 조건을 선택합니다.</block>
+  <block id="fa5e680730153cba5aa2eea9fe92df91" category="list-text">(선택 사항) (* x*)를 선택하여 필터를 제거하고 필터링되지 않은 목록 정보를 표시합니다.</block>
+  <block id="d8f25e98301a184a517a02a45e877668" category="admonition">일부 테이블에는 보기에서 열을 제외하는 옵션이 있습니다. 최상의 결과를 얻으려면 * 열 * 을 선택하여 필터를 설정할 때 필요한 모든 열이 표시되는지 확인합니다.</block>
+  <block id="0afcb3a7292642b6ea0c8552bcdda4b4" category="section-title">목록 정렬</block>
+  <block id="6feb28d1635888c4fa07a4bae13d10e0" category="paragraph">Active IQ UI 내의 특정 페이지에서 하나 이상의 열을 기준으로 목록 정보를 정렬할 수 있습니다. 이렇게 하면 화면에 필요한 정보를 쉽게 정렬할 수 있습니다.</block>
+  <block id="b2fe74238164b5710d7de83add293f15" category="list-text">단일 열을 기준으로 정렬하려면 정보가 원하는 순서로 정렬될 때까지 열 머리글을 선택합니다.</block>
+  <block id="8966a96d9cb66f42b54a27af655b2dde" category="list-text">여러 열을 정렬하려면 다음 단계를 수행하십시오.</block>
+  <block id="5086a34fd2d544eff43f823c0abb1a5e" category="list-text">정보가 원하는 순서로 정렬될 때까지 정렬할 첫 번째 열의 열 머리글을 선택합니다.</block>
+  <block id="f0b581d41df8170d039b7ab94d23bedb" category="list-text">열을 추가하려면 명령 키를 누른 상태에서 정보가 원하는 순서로 정렬될 때까지 열 머리글을 선택합니다. 열을 두 개 이상 추가할 수 있습니다.</block>
+  <block id="fe48c20e5efa8ea3384dafbca06149f9" category="paragraph">일부 페이지에서는 이 기능을 사용할 수 없습니다.</block>
+  <block id="c318d09ab59f1e0ea20767694d2e4c5f" category="paragraph">달력 드롭다운 상자 또는 미리 정의된 범위 집합에서 날짜 범위를 선택할 수 있습니다. 날짜 범위는 현재 브라우저 시간(선택 시)과 구성된 시간을 사용하여 계산됩니다. 또한 하단의 막대 그래프 위로 직접 빗질하여 원하는 간격을 선택할 수 있습니다. 가능한 경우 왼쪽에서 축소판 그림 레이아웃을 선택하여 그래프 간을 전환합니다. 이러한 레이아웃은 숨길 수도 있습니다.</block>
+  <block id="3b698da50955c7deb51e1067384ddcbf" category="paragraph">시점 세부 정보를 보려면 그래프 선 위에 마우스 포인터를 놓습니다.</block>
+  <block id="3fec4185af6286dde10db11550f16c33" category="inline-image-macro">그래프 및 날짜 범위</block>
+  <block id="f88e66b6769f04ff8da0fae43eef9f6a" category="paragraph"><block ref="f88e66b6769f04ff8da0fae43eef9f6a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a26f157c7c5fdf3bc8f927a1a1ba2fdb" category="section-title">목록 보기 및 보고서 데이터를 내보냅니다</block>
+  <block id="9dc1a16b99af819147fc3f744fc8a213" category="paragraph">전체 목록 보기 또는 그래프 데이터를 CSV(쉼표로 구분된 값) 형식으로 내보낼 수 있습니다. 클러스터 또는 노드 등의 일부 목록에서는 내보낼 열을 선택할 수 있으며 기본적으로 표시된 열이 선택됩니다. 특정 정렬 순서가 있거나 표시된 항목을 제한하는 데 필터를 사용하는 경우 해당 정렬 순서와 필터는 내보낸 파일에 보존됩니다.</block>
+  <block id="b09eaa1277bfee2694f0a182ed0f097b" category="list-text">목록 보기 또는 그래프에서 를 선택합니다 <block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭합니다.</block>
+  <block id="979c617c7763705237acbbc078c557d0" category="section-title">클러스터를 선택합니다</block>
+  <block id="e5fad98e0daae45b4573102e78e1e75c" category="paragraph">Active IQ에서는 사용자 환경의 개별 클러스터에 대한 정보를 볼 수 있습니다.</block>
+  <block id="106cd3aec5e4e5fa0e87d54a10970b5a" category="list-text">Active IQ 대시보드에서 * 클러스터 선택 * 을 선택합니다.</block>
+  <block id="3227b9c5b489035bbfe108ec539744f8" category="list-text">드롭다운 메뉴에는 사용 가능한 클러스터가 나열됩니다.</block>
+  <block id="5849fbc4cd9d8ff6190306213ca2cd61" category="list-text">검색 필드를 사용하여 원하는 클러스터 또는 최근에 본 클러스터를 찾습니다.</block>
+  <block id="86a2da85271fc1113b1bf591705f342e" category="list-text">이름을 선택하여 클러스터를 선택합니다.</block>
+  <block id="6c2fc87d25afe10c773420717eeb2df8" category="section-title">아이콘 참조</block>
+  <block id="2af69473b0142d749e9f31cb03d74915" category="paragraph">Active IQ용 UI를 볼 때 다음 아이콘이 표시될 수 있습니다.</block>
+  <block id="817434295a673aed431435658b65d9a7" category="cell">아이콘을 클릭합니다</block>
+  <block id="9e36976cde9f2ece8b67172092ddc794" category="inline-image-macro">새로 고침 아이콘</block>
+  <block id="6044018059a6046033f39c1dce734735" category="paragraph"><block ref="6044018059a6046033f39c1dce734735" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="63a6a88c066880c5ac42394a22803ca6" category="cell">새로 고침</block>
+  <block id="ba4484b740822363967ef7dbb090de6a" category="inline-image-macro">필터 아이콘</block>
+  <block id="83e4832c67cc91eeb1aec1927e0a4086" category="paragraph"><block ref="83e4832c67cc91eeb1aec1927e0a4086" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d7778d0c64b6ba21494c97f77a66885a" category="cell">필터</block>
+  <block id="045b9f10f68ab62e06536e6b96ca72ee" category="paragraph"><block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0095a9fa74d1713e43e370a7d7846224" category="cell">내보내기</block>
+  <block id="9fae436e9d498fc72fc369aa4188dbd1" category="inline-image-macro">메뉴 아이콘</block>
+  <block id="0394d5cd9adafeb64d44c535a81d6cea" category="paragraph"><block ref="0394d5cd9adafeb64d44c535a81d6cea" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e80a7c4942d11d72389723faeaf2d638" category="cell">계정 설정, 설명서, 피드백, 지원 및 로그아웃 메뉴를 제공합니다.</block>
+  <block id="296c321ad020f51c428aeb084e771cea" category="inline-image-macro">클립보드로 복사 아이콘</block>
+  <block id="d7d067e20c8e370becffedb2f6f720fa" category="paragraph"><block ref="d7d067e20c8e370becffedb2f6f720fa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="45f182deaf0d0f615663ac9696c280b2" category="cell">클립보드로 복사할 시간을 한 번 선택합니다.</block>
+  <block id="69625f808ea246e81b0669941cc84c4b" category="inline-image-macro">텍스트 줄 바꿈 토글</block>
+  <block id="333e30ad34a51521650a19e6c5ed190b" category="paragraph"><block ref="4b721dbea3c36dc1ecc82dab69057c23" category="inline-image-macro-rx" type="image"></block>
+<block ref="3be4bd4a2a7fbe8479778d034bed66af" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8edc7514d4b5058ae3a8f287dd9f848e" category="cell">텍스트 줄 바꿈 및 줄 바꿈 해제 버튼을 전환합니다.</block>
+  <block id="f710764c6ac562956bcf0a1805cf87a5" category="inline-image-macro">추가 정보 아이콘</block>
+  <block id="4f5566da2ccf00c2ae1725ffa75f28f4" category="paragraph"><block ref="4f5566da2ccf00c2ae1725ffa75f28f4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5f9d43bb88c35632903d5eb16decc380" category="cell">추가 정보. 다른 옵션을 선택합니다.</block>
+  <block id="e44b6e341cd265f3c2894bc90107e6cb" category="inline-image-macro">자세한 정보 아이콘</block>
+  <block id="45ebbd5bdb9477285076cbc10c602f1d" category="paragraph"><block ref="45ebbd5bdb9477285076cbc10c602f1d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ea2e81a1b728b000d0a80f1b7adb8d39" category="cell">자세한 내용을 보려면 선택하십시오.</block>
+  <block id="1ae8a55f317d3b2570e79a0b4a668040" category="section-title">피드백을 제공합니다</block>
+  <block id="7ad9169e449c48f53920205d4212004e" category="paragraph">UI 전체에서 액세스할 수 있는 전자 메일 피드백 옵션을 사용하여 Active IQ UI를 개선하고 UI 문제를 해결할 수 있습니다.</block>
+  <block id="0c6ab2fbcdd7cedaa7510d6167c60089" category="list-text">UI의 모든 페이지에서 을 선택합니다 <block ref="0394d5cd9adafeb64d44c535a81d6cea" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하고 * 피드백 * 을 선택합니다.</block>
+  <block id="e392fa2dbe4893eaf358507add7c6068" category="list-text">E-mail의 메시지 본문에 관련 정보를 입력합니다.</block>
+  <block id="ed6e35e068e0c344e24d1f96c26dbafd" category="list-text">유용한 스크린샷을 첨부하십시오.</block>
+  <block id="94f66866107911bd36ca9497f33cdf55" category="list-text">보내기 * 를 선택합니다.</block>
+  <block id="4b3d8483a8b2506b40d023edaac154a9" category="summary">SolidFire Active IQ의 드라이브 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="b0c0af6c8cf6c4616d1ee9701645ade1" category="paragraph">각 노드에는 클러스터의 데이터 일부를 저장하는 데 사용되는 하나 이상의 물리적 드라이브가 포함됩니다. 클러스터가 드라이브를 클러스터에 성공적으로 추가한 후 드라이브의 용량과 성능을 사용합니다.</block>
+  <block id="6fbfc6b16cda64b958efc9314c88e14d" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * Drives * 페이지의 * Active *, * Available * 및 * Failed * 탭에서 선택하여 페이지를 필터링할 수 있습니다.</block>
+  <block id="487410f64ae924deada9efbd3aa70b43" category="paragraph">드라이브 기능의 상태에 따라 클러스터의 각 드라이브에 대해 다음 정보를 사용할 수 있습니다.</block>
+  <block id="85b9e3354e9c2e275f8a6a8974020064" category="cell">드라이브 ID입니다</block>
+  <block id="53257575d2f2e64c1255ca3c534779df" category="cell">드라이브에 할당된 일련 번호입니다.</block>
+  <block id="5c7209cbcf1475a6e48114564f387e20" category="cell">노드 ID입니다</block>
+  <block id="dca7f179cd025747b9ba99ef6cbad5fa" category="cell">클러스터에 노드를 추가할 때 할당된 노드 번호입니다.</block>
+  <block id="0612c008c0ceac34b53b5ca6a5ac4814" category="cell">서비스 ID입니다</block>
+  <block id="5d0e53f070d9c63c79efafc5c97eae74" category="cell">드라이브와 연결된 블록 또는 슬라이스 서비스의 현재 서비스 ID입니다.</block>
+  <block id="9234cc57c43f272b55a94b0069fe62d1" category="cell">슬롯</block>
+  <block id="2b5edf7ab4654d285ee8dd9dc02a155a" category="cell">드라이브가 물리적으로 위치한 슬롯 번호입니다.</block>
+  <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="cell">용량</block>
+  <block id="0fa5d749b774e71fe6f5ee56465dfa99" category="cell">드라이브의 GB 크기입니다.</block>
+  <block id="b4afdc58343195e73c31f1fb68c162fb" category="cell">펌웨어 버전입니다</block>
+  <block id="226f7f8f252d334d028d0214487c8d62" category="cell">드라이브의 펌웨어 버전입니다.</block>
+  <block id="5255d3daaa0a6276b844d61401e6f493" category="cell">일련 번호</block>
+  <block id="3b2bed04b0899e0cf9c0ed137280b14b" category="cell">SSD의 일련 번호입니다.</block>
+  <block id="67992418ca03737d9a630ecf8410b57b" category="cell">마모</block>
+  <block id="0764c9c306c714faa43e5b6ed05cfa28" category="cell">남은 마모 수준 표시기.</block>
+  <block id="4ed6644ba60f9bb007a94eb19a134c73" category="cell">드라이브 유형은 블록 또는 메타데이터일 수 있습니다.</block>
+  <block id="3b81ca83c5be5ecf16994a0ab9b669f0" category="summary">SolidFire Active IQ에서 SolidFire 스토리지 노드 세부 정보를 확인하는 방법에 대해 알아보십시오.</block>
+  <block id="46183e1c4a1f5df81c1a3e9de5392a85" category="doc">SolidFire 스토리지 노드 세부 정보를 봅니다</block>
+  <block id="a49bb66adf425675465c10fb37185865" category="paragraph">각 노드는 SSD의 모음입니다. 각 스토리지 노드에는 CPU, 네트워킹, 캐시 및 스토리지 리소스가 함께 제공됩니다. 스토리지 노드 리소스가 노드 클러스터로 풀링됩니다.</block>
+  <block id="6d9b066e7f8486fdcb1c0faa95d44b48" category="list-text">MVIP VLAN ID: MVIP용 가상 LAN ID입니다</block>
+  <block id="485083122718a2ccfa8addc2daf98222" category="list-text">SVIP VLAN ID: SVIP용 가상 LAN ID입니다</block>
+  <block id="d5f05a6242e183f0c2ce865fa4625f89" category="paragraph">클러스터의 각 스토리지 노드에 대해 다음 정보를 사용할 수 있습니다.</block>
+  <block id="f1978dfed516347015a6db8f870c386c" category="cell">시스템에서 생성된 노드 이름입니다.</block>
+  <block id="6ecb056d430ebf109cb53b71b4e3bbf6" category="cell">노드의 모델 유형을 표시합니다.</block>
+  <block id="21dffd11e52f3b29376f4508b2ad0b1a" category="cell">서비스 태그</block>
+  <block id="c85128056ac648977b9e0da5daf91c2d" category="cell">노드에 할당된 고유한 서비스 태그 번호입니다.</block>
+  <block id="0b78ef57d4dacade728a829821159de3" category="cell">1GbE 또는 10GbE 네트워크 관리 작업을 위해 노드에 할당된 관리 IP MIP 주소입니다.</block>
+  <block id="70087224b93e8179deda7438fae8e843" category="cell">클러스터 IP</block>
+  <block id="4d08639c19d21e8b1b2dd93fd1ecb110" category="cell">동일한 클러스터의 노드 간 통신에 사용되는 노드에 할당된 클러스터 IP 주소입니다.</block>
+  <block id="9f4766e9e0e83d660691c78a09d23354" category="cell">복제 포트</block>
+  <block id="768753cc21c3d4323b9b2eccf398c766" category="cell">노드에서 원격 복제에 사용되는 포트입니다.</block>
+  <block id="018b442dee50396927f5cd9f63eb5c73" category="list-text">앙상블 노드: 클러스터에 참여하는 노드. 클러스터 크기에 따라 3개 또는 5개의 앙상블 노드가 있습니다.</block>
+  <block id="83b76c853ccd3badf8f29d1866234bdd" category="list-text">Fibre Channel: 클러스터의 FC 노드입니다.</block>
+  <block id="273520ae2b0e4a202c36942359c00981" category="summary">SolidFire Active IQ의 가상 볼륨 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="aca90d0397c9490780bfa614d3eda075" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * VVol 페이지 * 에서 가상 볼륨 및 관련 저장소 컨테이너, 프로토콜 엔드포인트, 바인딩 및 호스트에 대한 정보를 볼 수 있습니다.</block>
+  <block id="6fa75a2879ede33bb8dcbe609ed93225" category="paragraph">VVOL 관련 작업에 대해 알아보십시오.</block>
+  <block id="8ee38da65565b437e30df8b4fc2120c6" category="list-text"><block ref="cc3a190077155e9f11e55893a04126b0" category="inline-xref-macro-rx"></block></block>
+  <block id="20a800131c78b90a5f3cfe114f23578f" category="list-text"><block ref="5ded2a046dc5ca86637f3ae24cd70a11" category="inline-xref-macro-rx"></block></block>
+  <block id="427c47678b1253b05de4cc969a1e69a1" category="list-text"><block ref="0438ed7546a9ccca6ea31cb94f48bb41" category="inline-xref-macro-rx"></block></block>
+  <block id="3a711397217e10d79c4f76137db4c3fa" category="list-text"><block ref="9d7a5a13ad72f63838a097b34692bfd2" category="inline-xref-macro-rx"></block></block>
+  <block id="330ab730707379ab7dd6073af2af7a37" category="list-text"><block ref="842b4663dd531fbec8e79946bdde515b" category="inline-xref-macro-rx"></block></block>
+  <block id="1cd4dd4eff6bc90708a6a05c5d116a57" category="section-title">가상 볼륨 세부 정보</block>
+  <block id="0b286bd72571d699ece37ec34b85f379" category="paragraph">선택한 클러스터의 * VVol * &gt; * Virtual Volumes * 페이지는 클러스터의 각 활성 가상 볼륨에 대한 정보를 제공합니다.</block>
+  <block id="fd6bac109d479ec3660fd4daeeded3a1" category="cell">기본 볼륨의 ID입니다.</block>
+  <block id="72d6eb7733941a274a474f7cc4d97973" category="cell">스냅샷 ID입니다</block>
+  <block id="18b99b1c60c785bf6c157da699e2baf7" category="cell">기본 볼륨 스냅샷의 ID입니다. 가상 볼륨이 스냅샷을 나타내지 않는 경우 값은 0입니다.</block>
+  <block id="d3dfbc11e6d0d6eb61fad9ddc9419720" category="cell">상위 가상 볼륨 ID입니다</block>
+  <block id="710e0498ba48f8e78ac9fad184302721" category="cell">상위 가상 볼륨의 가상 볼륨 ID입니다. ID가 모두 0인 경우 가상 볼륨은 상위 볼륨에 대한 링크 없이 독립적입니다.</block>
+  <block id="39284bc15cc3ead1fcde533b6223e5bd" category="cell">가상 볼륨 ID입니다</block>
+  <block id="65e7eceda5f7a3a4b8ad5c9dc805102e" category="cell">가상 볼륨의 범용 고유 식별자입니다.</block>
+  <block id="e2b1bd7ca517a4f5e67bfcc81c2491e3" category="cell">가상 볼륨에 할당된 이름입니다.</block>
+  <block id="e299599f8efc86aa0d8d61168d051a1d" category="cell">게스트 OS 유형입니다</block>
+  <block id="833df3c835dccbd2d2bea79ad3565e77" category="cell">가상 볼륨과 연결된 운영 체제입니다.</block>
+  <block id="215d4e81a170071d6cabef7b3ed6eeaa" category="cell">가상 볼륨 유형: Config(구성), Data(데이터), Memory(메모리), Swap(스왑) 또는 Other(기타).</block>
+  <block id="bf733d8a933c1601697f364223fc7ecb" category="cell">액세스</block>
+  <block id="e1e6fa782f7366bf136403e362b890ce" category="cell">가상 볼륨에 할당된 읽기/쓰기 권한입니다.</block>
+  <block id="06558d52f35642f1b9b65567cd3d5b73" category="cell">가상 볼륨 크기(GB) 또는 기비바이트(GiB)입니다.</block>
+  <block id="a9f20df91ac5dc80fe7936cc907992d7" category="paragraph">볼륨의 현재 사용 용량:</block>
+  <block id="0d41440d4801018486cf327b83d69659" category="list-text">녹색 = 최대 80%</block>
+  <block id="300a5093e1cb326b562210f53988afee" category="list-text">노란색 = 80% 이상</block>
+  <block id="5b5079e248a91a6d6c28fb86a4cad548" category="list-text">빨간색 = 95% 이상</block>
+  <block id="d4e2713d1b1725a1592f9268589f990d" category="cell">스냅샷</block>
+  <block id="fadf39ce65f04a2f85e97d15194bf3ed" category="cell">연결된 스냅샷의 수입니다. 스냅샷 복사본 세부 정보에 연결할 번호를 선택합니다.</block>
+  <block id="b05f9ccd772b396ac1f5a05345a9d4f8" category="cell">최소 IOPS</block>
+  <block id="f7b0caeae1eff7aa69f15dab3b3e49f6" category="cell">가상 볼륨의 최소 IOPS QoS 설정입니다.</block>
+  <block id="4f5a6f8b41826526724ba294b8e056bd" category="cell">최대 IOPS</block>
+  <block id="d73dc4359cc244e2e7c244a8c6985664" category="cell">가상 볼륨의 최대 IOPS QoS 설정입니다.</block>
+  <block id="affd4aba1c5f696e972368c9eb698c65" category="cell">버스트 IOPS</block>
+  <block id="217e34ceabdf947bd5cb0d6489f80b13" category="cell">가상 볼륨의 최대 버스트 QoS 설정입니다.</block>
+  <block id="861067601d0ef72892cbbea2d51adf87" category="cell">VMW_VmID</block>
+  <block id="d870a57204d71bfa6c8d1ce8e1dadf18" category="cell">"VMW_"가 앞에 있는 필드의 정보는 VMware에서 정의합니다. 자세한 내용은 VMware 설명서를 참조하십시오.</block>
+  <block id="f4483adffae4eeedf190fd70af674b9f" category="cell">가상 볼륨 생성 작업이 완료된 시간입니다.</block>
+  <block id="06df33001c1d7187fdd81ea1f5b277aa" category="cell">작업</block>
+  <block id="7b77c5f549bde888e38f291bc3353184" category="cell">개별 가상 볼륨에 대한 자세한 내용을 보려면 수직 드롭다운 메뉴를 선택합니다.</block>
+  <block id="4d78dfc9687e2eb88ff42391d71297a1" category="section-title">저장소 컨테이너</block>
+  <block id="cbc475cebc9be986cb56b503a92289ca" category="paragraph">선택한 클러스터의 * VVol * &gt; * Storage Containers * 페이지에서 클러스터의 모든 활성 저장소 컨테이너에 대한 다음 정보를 볼 수 있습니다.</block>
+  <block id="d33bd5408c2cfbf48ad4e7687b202de3" category="cell">저장소 컨테이너와 연결된 계정의 ID입니다.</block>
+  <block id="36358175bed92483c0fb79a0c75cc106" category="cell">저장소 컨테이너의 이름입니다.</block>
+  <block id="e2858261023e06f54084b6c009e9032f" category="paragraph">저장소 컨테이너의 상태:</block>
+  <block id="a507855536939dbee1cb704ccef400de" category="list-text">Active(활성): 저장소 컨테이너가 사용 중입니다.</block>
+  <block id="d8cdcbe62a5d6f72101972671eee5810" category="list-text">잠김: 저장소 컨테이너가 잠겨 있습니다.</block>
+  <block id="842161645428550f052e20ba15f883a7" category="cell">PE 유형</block>
+  <block id="73fff1d086f175a0bb6e0e1930727128" category="cell">프로토콜 엔드포인트 유형을 나타냅니다(SCSI는 Element 소프트웨어에 대해 사용 가능한 유일한 프로토콜입니다).</block>
+  <block id="97b27abcf2cb88ed1f35235ea8ed2c87" category="cell">저장소 컨테이너 ID입니다</block>
+  <block id="0e871f9546dab517c2a2f2adab43f755" category="cell">가상 볼륨 스토리지 컨테이너의 UUID(Universal Unique Identifier)입니다.</block>
+  <block id="089e3e1cef632fbf154b2dc3eda6efe6" category="cell">활성 가상 볼륨</block>
+  <block id="5c59501afe6edcea3ee36f0e10e88691" category="cell">스토리지 컨테이너와 연결된 활성 가상 볼륨의 수입니다.</block>
+  <block id="46e10ef0a7b741f8f10598a068b2ffef" category="section-title">프로토콜 엔드포인트</block>
+  <block id="1ca931ef9e3ea754db6638098a0a5a6e" category="paragraph">선택한 클러스터의 * VVol * &gt; * Protocol Endpoints * 페이지는 기본 공급자 ID, 보조 공급자 ID 및 프로토콜 엔드포인트 ID와 같은 프로토콜 엔드포인트 정보를 제공합니다.</block>
+  <block id="4ea227763d30236ffd0ee9bb74bc63b2" category="cell">기본 공급자 ID입니다</block>
+  <block id="0a0b13afe93632b8332d02f879fd041e" category="cell">기본 프로토콜 끝점 공급자의 ID입니다.</block>
+  <block id="aee0989fce21f5dc81f542f7d01b804c" category="cell">보조 공급자 ID입니다</block>
+  <block id="a73bedb975fdc5c796f2383cc8c0ef08" category="cell">보조 프로토콜 엔드포인트 공급자의 ID입니다.</block>
+  <block id="57463481ab1fc12849a240ee8eddcef0" category="cell">프로토콜 엔드포인트 ID입니다</block>
+  <block id="d59c0f104b797200877314defac2ef53" category="cell">프로토콜 종점의 UUID입니다.</block>
+  <block id="e2362260f18002b3632d7b49f6e71a0c" category="cell">프로토콜 엔드포인트 상태</block>
+  <block id="c6eaeb4d2ad625691e41defab07c6b05" category="paragraph">프로토콜 종점의 상태:</block>
+  <block id="311f5a231d659759a307ba82df5ae0b1" category="list-text">Active(활성): 프로토콜 끝점이 사용 중입니다.</block>
+  <block id="c28f2fbff737247d179e53310813c25c" category="list-text">Start(시작): 프로토콜 끝점이 시작됩니다.</block>
+  <block id="3bc140f31e1723e9de29afb03dc8f623" category="list-text">페일오버: 프로토콜 엔드포인트가 페일오버되었습니다.</block>
+  <block id="9e722aa926bf6b3741abf6ccfb8ce461" category="list-text">예약됨: 프로토콜 엔드포인트가 예약되었습니다.</block>
+  <block id="6e7eb0d16608bf5ecdab414380ca6996" category="cell">공급자 유형</block>
+  <block id="b7b663d9fae8c52e8ea6f0581de3f9af" category="cell">프로토콜 끝점의 공급자 유형: 기본 또는 보조.</block>
+  <block id="8e972bb59c678e1603402283900b7907" category="cell">SCSI NAA 장치 ID입니다</block>
+  <block id="110dc101ed5bc1feeae78cbef2baf64a" category="cell">NAA IEEE Registered Extended Format의 프로토콜 종점에 대한 전역적으로 고유한 SCSI 장치 식별자입니다.</block>
+  <block id="8124579383e90243e4b06323d2b37f8d" category="section-title">호스트</block>
+  <block id="f6a9d1a3dd1073389804639061a07438" category="paragraph">선택한 클러스터의 * VVol * &gt; * Hosts * 페이지에서는 가상 볼륨을 호스팅하는 VMware ESXi 호스트에 대한 정보를 제공합니다.</block>
+  <block id="c60f17085dd008238072cb1a936f5937" category="cell">호스트 ID입니다</block>
+  <block id="9db53b5b8761db7ba513bd1ae58e158b" category="cell">가상 볼륨을 호스팅하고 클러스터에 알려진 ESXi 호스트의 UUID입니다.</block>
+  <block id="7f6d3619d9855ce68f747dbc829eb7c1" category="cell">바인딩</block>
+  <block id="02a73b513780bc249b4cab0c22720dd5" category="cell">ESXi 호스트에 바인딩된 모든 가상 볼륨의 바인딩 ID입니다.</block>
+  <block id="f10afd689c1cac981b6ded816060bd12" category="cell">ESX 클러스터 ID입니다</block>
+  <block id="4ab568f98f17ebc43108d86d4160b2dc" category="cell">vSphere 호스트 클러스터 ID 또는 vCenter GUID.</block>
+  <block id="00d8a6bdff95482621e24aa3d3c2bfea" category="cell">이니시에이터 IQN입니다</block>
+  <block id="5bf82e30143007adb7f5da32c41a39b2" category="cell">가상 볼륨 호스트에 대한 이니시에이터 IQN입니다.</block>
+  <block id="dcd4cd585476687d83cd7e548a29857f" category="cell">SolidFire 프로토콜 엔드포인트 ID입니다</block>
+  <block id="343e7c07345dadd21afd5d8e348ca649" category="cell">현재 ESXi 호스트에 표시되는 프로토콜 엔드포인입니다.</block>
+  <block id="f3fdbc0cbe5fab386d8288b5d2304669" category="paragraph">선택한 클러스터의 * VVol * &gt; * Bindings * 페이지에서는 각 가상 볼륨에 대한 바인딩 정보를 제공합니다.</block>
+  <block id="f9a613788268b734e17dd8ef48a124ef" category="cell">대역 ID의 프로토콜 종점입니다</block>
+  <block id="c24f23b60e45bce5cb5e9226c6eb1722" category="cell">프로토콜 끝점의 SCSI NAA 장치 ID입니다.</block>
+  <block id="dd4f1a39d1d2c24a8b982b14f4100778" category="cell">프로토콜 엔드포인트 유형</block>
+  <block id="0bb31dd412a96cdce88a879dcde1d664" category="cell">VVol 바인딩 ID</block>
+  <block id="854071550d537458e8ac6ffcda041410" category="cell">가상 볼륨의 바인딩 UUID입니다.</block>
+  <block id="71bbddbfd7c142f58ed7732bed676f16" category="cell">VVol ID(VVOL ID</block>
+  <block id="535494700eebba415bc7021933d27d4d" category="cell">가상 볼륨의 UUID입니다.</block>
+  <block id="e409e374ee273a64a48c40a79ad77af0" category="cell">VVol 보조 ID</block>
+  <block id="eac82ed7f866e4f21162ce00c4a89f75" category="cell">SCSI 2차 레벨 LUN ID인 가상 볼륨의 2차 ID입니다.</block>
+  <block id="c4421ada0b4588952b2a028ee5b33cb5" category="summary">SolidFire Active IQ의 가상 머신 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="76b0fa668c1cd016096eb9bc1bfde44a" category="doc">가상 머신</block>
+  <block id="6eaa97e1c91dbeb3fb83287355ec0c3e" category="paragraph">선택한 NetApp HCI 클러스터의 측면 패널에서 사용할 수 있는 * 가상 머신 * 페이지에서 가상 머신(VM)에 대한 CPU 및 스토리지 관련 상태 정보를 볼 수 있습니다.</block>
+  <block id="5921ca9469eb8cf1e1a69e2d3b081869" category="admonition">가상 머신 * 페이지는 NetApp HCI 클러스터에서만 사용할 수 있습니다.</block>
+  <block id="21069985229913cfdaf583d12e439f5c" category="paragraph">UI에 표시되는 VM 데이터의 필터링 및 이해에 대해 알아봅니다.</block>
+  <block id="12e08d602c4e243c7e7f50806c91254f" category="section-title">가상 머신 세부 정보를 봅니다</block>
+  <block id="8ea1b2897da42a4661881c12f4c2e0d5" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * Virtual Machines * 페이지는 클러스터와 연결된 각 활성 VM에 대한 정보를 제공합니다.</block>
+  <block id="d1a4d22bcbd84f65a5e8493bd0648a37" category="paragraph">모든 Active IQ 페이지에서 사용할 수 있는 일반 필터링 옵션 외에도 * 가상 머신 * 페이지에는 일반적인 VM 가용성 상태를 확인하기 위해 선택할 수 있는 빠른 필터 버튼이 있습니다.</block>
+  <block id="3977b1efa79b62267b5296bdda767f96" category="paragraph">정보 표시줄은 다음 데이터에 대한 간략한 개요를 제공합니다.</block>
+  <block id="8fc013cf555a5949086eb32f3d1c8477" category="list-text">가상 머신: 스토리지 클러스터와 연결된 VM의 수 및 다양한 가용성 상태입니다.</block>
+  <block id="5c5bc2732adae8204719332c2130b4ea" category="list-text">상태: VM에 대한 경고 또는 오류 수입니다.</block>
+  <block id="5e9c88f700485ac1b07552c3e63ccbe2" category="list-text">프로비저닝된 리소스: 스토리지 클러스터와 연결된 모든 VM에 대한 총 스토리지 및 메모리 리소스입니다.</block>
+  <block id="d3508876f37d1b31f875dbf098f0afbc" category="cell">VM의 이름입니다.</block>
+  <block id="72a0d4ba9e9696e40524a737b0a40a96" category="paragraph">VM의 가용성 상태:</block>
+  <block id="97a29a8702d4347a4638109bc966c7e4" category="list-text">정상: VM이 예상대로 응답 중입니다.</block>
+  <block id="aa564585aff6303d5256f8ca12416040" category="list-text">경고: 경고가 보고되었습니다. 자세한 내용은 vSphere를 참조하십시오.</block>
+  <block id="89fe17c46fb0c264765af552cb486694" category="list-text">위험: 심각한 오류가 보고되었습니다. 자세한 내용은 vSphere를 참조하십시오.</block>
+  <block id="a31073f549db38f57306182118759b62" category="list-text">알 수 없음: VM에 액세스할 수 없습니다.</block>
+  <block id="b82a8e736139293b9409cd1434dc167d" category="cell">전원 상태</block>
+  <block id="d3f4078b45535eb61b7c99383b0a98d8" category="cell">VM의 전원이 켜져 있는지, 전원이 꺼져 있는지 또는 일시 중지되었는지 여부를 나타냅니다.</block>
+  <block id="c94709de99eb3af98a34f2d5cd907353" category="cell">CPU 수</block>
+  <block id="c3df8b475013a604166226ef7b09dca4" category="cell">각 VM의 CPU 수</block>
+  <block id="c3fe2d3b4ec0dacb76463cb9ed25fc92" category="cell">호스트 메모리 사용량</block>
+  <block id="565f93e89fa876393db6ca773acdef23" category="cell">가상 머신에서 사용 중인 ESXi 호스트 메모리의 양입니다.</block>
+  <block id="4e256476ac51957e351fed07dc0272ad" category="cell">CPU 사용량</block>
+  <block id="1959b32c5ca38b3b7a535323d7a5d571" category="cell">VM에서 사용 가능한 총 CPU의 백분율로 사용된 활성 가상 CPU의 비율입니다.</block>
+  <block id="df4b03197e9bafdfacba34fc3ed90a47" category="cell">사용 중인 VM 스토리지 리소스의 비율입니다.</block>
+  <block id="88ff6e86b59db304eb74de1543bf4c7b" category="cell">최대 디스크 지연 시간</block>
+  <block id="5a529043625752bcfb1e77ad15feedc4" category="cell">감지된 최대 디스크 지연 시간(밀리초).</block>
+  <block id="301d574ef42563b03638c8eae19225cb" category="cell">알람</block>
+  <block id="01ca3775ecb2e56e4506e34194e23fe5" category="cell">VM에서 트리거된 vSphere 알람의 수입니다.</block>
+  <block id="f3286cd901faaa36af9e24f9ad54bfce" category="summary">SolidFire Active IQ의 경고 관련 작업에 대해 자세히 알아보십시오.</block>
+  <block id="1e53594c0e7e6a197c8de47c40c9b020" category="paragraph">모든 클러스터 보기 * 의 * 경고 * 드롭다운 메뉴에서 경고 기록을 보고, 경고 정책을 생성 및 관리하고, 클러스터 알림을 보고 억제할 수 있습니다.</block>
+  <block id="1ca444a9fe0fc04865605858b2955061" category="paragraph">알림 관련 작업에 대한 자세한 정보 또는 수행:</block>
+  <block id="749e19e33787f222c5558f95992d6146" category="list-text"><block ref="026463b919e2b7f255cbc10e15521260" category="inline-xref-macro-rx"></block></block>
+  <block id="197f140560b87c4f38c7707190eb0b49" category="list-text"><block ref="9a07defc83e2849042f3ae66d4da1180" category="inline-xref-macro-rx"></block></block>
+  <block id="e792fb9ea032926fe5df94e1c20e2462" category="list-text"><block ref="784aa92f569c8b62b984312e4b5deeeb" category="inline-xref-macro-rx"></block></block>
+  <block id="77be4d234ace206aeb24593c65abb314" category="inline-xref">알림 정책을 생성합니다</block>
+  <block id="de5291d6268e408d277f44c69d28f260" category="list-text"><block ref="2f3f297c95d1ffb05a79d3f0f52122a0" category="inline-xref-macro-rx"></block></block>
+  <block id="c1848a903aa18756d64bb387ffd388bf" category="inline-xref">경고 정책 유형</block>
+  <block id="ff8c2dbcab077f2f670d310bb03203da" category="list-text"><block ref="6d8e22bf2b0db32d52a030f270d32ede" category="inline-xref-macro-rx"></block></block>
+  <block id="d487701d02a2f909987cb5f31875a123" category="list-text"><block ref="9f9ee4ccabbfc6d8162fbe5da3975f1b" category="inline-xref-macro-rx"></block></block>
+  <block id="b52dfeff1522c57d0cbb04e9b4db3a71" category="list-text"><block ref="1f49020b12327ca881fb5ef5d417aedf" category="inline-xref-macro-rx"></block></block>
+  <block id="60225ecfe230da4e63b368a28ff87b31" category="list-text"><block ref="7d7849dc5c7c43be014f0ac3748f9e33" category="inline-xref-macro-rx"></block></block>
+  <block id="b99b15bb41b2c303d6983c859b7c49cc" category="list-text"><block ref="1eb13dbef9fb5d8b9081762329341589" category="inline-xref-macro-rx"></block></block>
+  <block id="e167c37c8ab7ac2a7d24dc73a29dce4d" category="list-text"><block ref="c326176da9704a7f9ba3ca9e1967e88f" category="inline-xref-macro-rx"></block></block>
+  <block id="0408339d29e4cd1035417f054ba4ae08" category="list-text"><block ref="67b8c77b86e9004171339b5f37f888f3" category="inline-xref-macro-rx"></block></block>
+  <block id="cb4e8f19506e9b313821a3e84d688b53" category="section-title">알림 기록을 봅니다</block>
+  <block id="60d8aecad6900d12d7327141d147a77d" category="paragraph">해결되지 않았거나 해결된 경고의 기록을 볼 수 있습니다.</block>
+  <block id="7cd812a528b07a8918d2b975a6a6d0fe" category="list-text">알림 * &gt; * 기록 * 을 선택합니다.</block>
+  <block id="faa9f13745b59f33ebd7ea8e2693e988" category="list-text">클러스터에 대한 경고 기록을 보려면 * unresolved * 또는 * Resolved * 탭을 선택합니다.</block>
+  <block id="3839bb929381511714006ecdb55cf171" category="list-text">(선택 사항) 를 선택합니다 <block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하여 데이터를 CSV 파일로 내보냅니다.</block>
+  <block id="26472a7947ab4ee6d5f15555aafcc099" category="section-title">알림 기록 세부 정보</block>
+  <block id="d2e6c726b1e7dedcfe113369b7e61c79" category="paragraph">모든 클러스터 보기의 경고 드롭다운 메뉴에 있는 * 기록 * 페이지에는 지난 30일 동안 해결된 모든 미해결 경고 및 경고를 포함하여 최대 10000개의 경고 기록 항목이 표시됩니다.</block>
+  <block id="f1dfaae4ccc8af0ee8d655854ad48059" category="paragraph">다음 목록에서는 사용 가능한 세부 사항을 설명합니다.</block>
+  <block id="d52ec35b5e512df6a2ae980b72783d2a" category="cell">경고 ID</block>
+  <block id="2c88570a62053ea1ada6f335c6ec0be3" category="cell">각 알림의 고유 ID입니다.</block>
+  <block id="073b1bbd5b71098e61f7c3b8240a29bf" category="cell">트리거됨</block>
+  <block id="1f651dfd3ac360a180bc507f91626bf4" category="cell">마지막 알림</block>
+  <block id="a6a8ac15fb17b26b85c153114a46008e" category="cell">가장 최근의 경고 이메일이 전송된 시간입니다.</block>
+  <block id="f691f042a559b1c1a4f89826c6f75760" category="cell">간략 해제</block>
+  <block id="63dcd33ad63a089418e95278513a75db" category="cell">경고의 원인이 해결되었는지 여부를 표시합니다.</block>
+  <block id="4010dd55973e12f80e403905ecf91009" category="cell">해결 시간</block>
+  <block id="f3ee8ca17a0ec6678a30860ca8dd70ab" category="cell">문제가 해결된 시간입니다.</block>
+  <block id="51359e8b51c63b87d50cb1bab73380e2" category="cell">정책</block>
+  <block id="577b678890091d6f366d78b6250ce59e" category="cell">사용자 정의 알림 정책 이름입니다.</block>
+  <block id="007cc9547ae8884ad597cd92ba505422" category="cell">심각도입니다</block>
+  <block id="a26838e4a15587fe3dce631969ac877d" category="cell">경고 정책이 생성된 시점에 할당된 심각도입니다.</block>
+  <block id="12007e1d59f4d09c87dbe2c438256244" category="cell">목적지</block>
+  <block id="20c773f6d5591f313c733f43d205c3dc" category="cell">경고 이메일을 수신하기 위해 선택한 이메일 주소.</block>
+  <block id="1c76cbfe21c6f44c1d1e59d54f3e4420" category="cell">회사</block>
+  <block id="12d637dd473b00b6a6e6b955fb51288a" category="cell">경고와 관련된 고객의 이름입니다.</block>
+  <block id="249694a485fc5d3289c38986b4f8e887" category="cell">클러스터</block>
+  <block id="395a2827aacec94ff2183ea6ed2523ab" category="cell">경고 정책이 추가된 클러스터 이름을 표시합니다.</block>
+  <block id="f698f67f5666aff10729d8a1cb1c14d2" category="cell">트리거</block>
+  <block id="601196b963688a67f39766583574efdb" category="cell">알림을 트리거한 사용자 정의 설정입니다.</block>
+  <block id="4d1c0d628f7187afcd0dbf03553e9365" category="section-title">경고 정책을 봅니다</block>
+  <block id="36056ade5aa16b4101c0f4cf7927c138" category="paragraph">모든 클러스터 보기 * 의 * 경고 * 드롭다운 메뉴에 있는 * 정책 * 페이지는 모든 클러스터에 대해 다음과 같은 정책 정보를 표시합니다.</block>
+  <block id="002f7378a5fcfc2f66cfea851a7fd5f4" category="cell">정책 이름</block>
+  <block id="ae1d52073742c822d33f127442660e95" category="cell">사용자 정의 알림 정책 이름입니다.</block>
+  <block id="370ed24b10bc15a8ba6506396950587d" category="cell">경고 정책에 정의된 이메일 주소입니다.</block>
+  <block id="1ca28eab141d80f8e597fbb7fafd836a" category="cell">경고 정책에 할당된 심각도입니다.</block>
+  <block id="1631c4e389478fa051f979b99593a100" category="cell">경고 정책에 정의된 각 클러스터의 수와 이름입니다. 관련 클러스터를 표시하려면 정보 아이콘을 선택합니다.</block>
+  <block id="9e2941b3c81256fac10392aaca4ccfde" category="cell">조건</block>
+  <block id="0d29c8ddb5ed5a65d5d44730b42b1ba7" category="cell">알림이 트리거되어야 하는 시기에 대한 사용자 정의 설정입니다.</block>
+  <block id="9c075b32b766a4c54b2f84b06d185cf5" category="cell">기능 억제 유형</block>
+  <block id="dd0969e75953f83803820b452a15e493" category="paragraph">억제되는 경고와 이벤트를 결정합니다. 가능한 유형은 다음과 같습니다.</block>
+  <block id="bd9a031408fbeb9484be00dbf0d80b7c" category="list-text">* 전체 *: 지정된 기간 동안 클러스터에 대한 모든 알림이 표시되지 않습니다. 지원 케이스 또는 이메일 알림이 생성되지 않습니다.</block>
+  <block id="c1d64baa0dca6d002e0cad0fa6778caa" category="list-text">* 업그레이드 *: 지정된 기간 동안 중요하지 않은 클러스터 경고가 표시되지 않습니다. 중요 알림은 여전히 지원 케이스 및 이메일을 생성합니다.</block>
+  <block id="d4ba4976bc5891b1d0de887398687191" category="list-text">* Compute *: 컴퓨팅 노드에서 VMware에 의해 트리거된 알림이 표시되지 않습니다.</block>
+  <block id="af1280c2d5fe28d0f1a25815436d39dc" category="list-text">* NodeHardware *: 노드 유지보수와 관련된 알림이 표시되지 않습니다. 예를 들어, 드라이브를 스왑하거나 노드를 오프라인 상태로 전환하는 경우를 들 수 있습니다.</block>
+  <block id="f8a0872b790e83f24d55f56b38533e0b" category="list-text">* 드라이브 *: 드라이브 상태와 관련된 경고가 표시되지 않습니다.</block>
+  <block id="12466c75ab546c4ddbc461e4de8e07db" category="list-text">* 네트워크 *: 네트워크 구성 및 상태와 관련된 경고가 표시되지 않습니다.</block>
+  <block id="0db1cce788620df7a4c7d689ff100e01" category="list-text">* 전원 *: 전원 중복성 경고가 표시되지 않습니다. 전체 전원 손실 시 발생하는 _nodeOffline_alert 를 표시하지 않습니다.</block>
+  <block id="8afa45cebae7b4d6b5e5612895162c7f" category="cell">선택한 정책의 편집 및 삭제 옵션을 보려면 세로 드롭다운 메뉴를 선택합니다.</block>
+  <block id="49d358016a7837e9dc8880930fffab76" category="paragraph">Active IQ의 * 모든 클러스터 보기 * 에서 정보를 모니터링하기 위한 경고 정책을 만들 수 있습니다. 경고 정책을 사용하면 설치 과정에서 하나 이상의 클러스터와 상태 또는 성능 이벤트에 대한 알림을 받을 수 있으므로 보다 심각한 이벤트 이전에 또는 이에 대한 응답으로 작업을 수행할 수 있습니다.</block>
+  <block id="36ed984fd18203c62c9a269a95420a4e" category="list-text">경고 * &gt; * 정책 * 을 선택합니다.</block>
+  <block id="41025e9c551610edae39a167ecbe1b73" category="list-text">Create Policy * 를 선택합니다.</block>
+  <block id="7ed81deb3a22d8d97542963bd55c0baf" category="list-text">Policy Type * 목록에서 알림 유형을 선택합니다. 을 참조하십시오 <block ref="6d8e22bf2b0db32d52a030f270d32ede" category="inline-xref-macro-rx"></block>.</block>
+  <block id="47a93da6ad750dd8d2fbdd1434dd8cfe" category="admonition">선택한 정책 유형에 따라 * 정책 생성 * 대화 상자 내에 추가적인 정책 관련 필드가 있습니다.</block>
+  <block id="c9bf1131529ed582c8581988656d57ca" category="list-text">새 알림 정책의 이름을 입력합니다.</block>
+  <block id="dc7e09d16b45c58a84f6b531c3e592f2" category="admonition">경고 정책 이름은 알림이 생성되는 조건을 설명해야 합니다. 설명 제목은 경고를 쉽게 식별하는 데 도움이 됩니다. 경고 정책 이름은 시스템의 다른 위치에 참조로 표시됩니다.</block>
+  <block id="e3963604a6c3ccdcf69fd4fae2ff9998" category="list-text">심각도 수준을 선택합니다.</block>
+  <block id="7f54b014549bb2dc1fa87c6e1041dab3" category="admonition">경고 정책 심각도 수준은 색상으로 구분되어 있으며 * 알림 * &gt; * 기록 페이지 * 에서 쉽게 필터링할 수 있습니다.</block>
+  <block id="5f322a0988592b8fe7215e4524abfdd4" category="list-text">사용 가능한 유형 * 에서 유형을 선택하여 경고 정책의 억제 유형을 결정합니다. 두 개 이상의 유형을 선택할 수 있습니다.</block>
+  <block id="8cc8343a4ab71756d32efb387c1f4cbc" category="paragraph">연결이 올바른지 확인합니다. 예를 들어, 네트워크 경고 정책에 대해 * 네트워크 억제 * 를 선택했습니다.</block>
+  <block id="6635a5bdefcfe9dd1a1de767937c8e2e" category="list-text">정책에 포함할 클러스터를 하나 이상 선택합니다.</block>
+  <block id="0575fe3e5651eb2b0bcb60f573f3d8a4" category="admonition">정책을 생성한 후 새 클러스터를 설치에 추가하면 클러스터가 기존 경고 정책에 자동으로 추가되지 않습니다. 기존 경고 정책을 편집하고 정책에 연결할 새 클러스터를 선택해야 합니다.</block>
+  <block id="5c0369121c1a170a2041d2524b014808" category="list-text">알림 알림을 보낼 e-메일 주소를 하나 이상 입력합니다. 여러 주소를 입력하는 경우 각 주소를 구분하려면 쉼표를 사용해야 합니다.</block>
+  <block id="d81a5e7fc584a49f379e1a5d68305fdb" category="list-text">경고 정책 저장 * 을 선택합니다.</block>
+  <block id="9ad0c6ac3768fba8e3b8fe5e2722e8b9" category="paragraph">경보 * &gt; * 정책 * 에서 * 정책 생성 * 대화 상자에 나열된 사용 가능한 정책 유형에 따라 경고 정책을 만들 수 있습니다.</block>
+  <block id="41cc50d505c2066168512ac38ce87ff4" category="paragraph">사용 가능한 정책 알림에는 다음과 같은 유형이 포함됩니다.</block>
+  <block id="cc34a7c064d7dad286c9d460e22937f2" category="cell">정책 유형</block>
+  <block id="73f836eab53514d2eb06603ade47f4b4" category="cell">클러스터 장애</block>
+  <block id="cf02d39b7c84b8a321af8ee61ca82913" category="cell">특정 유형 또는 모든 유형의 클러스터 장애가 발생할 경우 알림을 보냅니다.</block>
+  <block id="a4ecfc70574394990cf17bd83df499f7" category="cell">이벤트</block>
+  <block id="bdb0919076c685cebdd1a5e15a870e2b" category="cell">특정 이벤트 유형이 발생할 때 알림을 보냅니다.</block>
+  <block id="005967533beb354ae8eaf2e57784276f" category="cell">오류 드라이브</block>
+  <block id="f7326701aa75a228ec2efa3454075bd4" category="cell">드라이브 장애가 발생하면 알림을 보냅니다.</block>
+  <block id="f5f2ca5e9834f3b119e9d8a791c3737d" category="cell">사용 가능한 드라이브</block>
+  <block id="6c5fb30a6a09a237b6f3f828b60d2176" category="cell">드라이브가 온라인 상태가 될 때 알림을 보냅니다.</block>
+  <block id="23ef2ef8b8aef7070cbca6e34f8794c3" category="cell">클러스터 활용률</block>
+  <block id="e6b6788ca0a8d60abfecc994c52c0472" category="cell">사용 중인 클러스터 용량 및 성능이 지정된 백분율보다 큰 경우 알림을 보냅니다.</block>
+  <block id="6fd3918e511dc78559a4bd85edd8425e" category="cell">사용 가능한 공간</block>
+  <block id="2b6d944db432daa8655ed6507414cb0d" category="cell">사용 가능한 클러스터 공간이 지정된 비율 미만일 때 알림을 보냅니다.</block>
+  <block id="164ad6bd1a9ceba54f457dfe0ce85008" category="cell">프로비저닝 가능한 공간</block>
+  <block id="596ec0bf4bea008d7bd36761f1e0cae3" category="cell">프로비저닝 가능한 클러스터 공간이 지정된 비율 미만일 때 알림을 보냅니다.</block>
+  <block id="4dab6622470bb0314e94cb50bbe0cc21" category="cell">수집기가 보고를 하지 않습니다</block>
+  <block id="d4172f749d3caf851de49361bf395028" category="cell">관리 노드에서 실행되는 Active IQ의 Collector가 지정된 기간 동안 Active IQ로 데이터를 전송하지 못할 때 알림을 보냅니다.</block>
+  <block id="12d4e8c195d420a94eb66a6817679969" category="cell">드라이브 마모</block>
+  <block id="93cd8a60fc9b91519dd8d2d115514856" category="cell">클러스터의 드라이브가 지정된 마모 또는 예약 공간 잔여 비율보다 작을 경우 알림을 보냅니다.</block>
+  <block id="c5b0aacb61d57bd9ceefa1b1c235fbfb" category="cell">iSCSI 세션</block>
+  <block id="a7c4949238afd11229eae65ffc9f85f1" category="cell">활성 iSCSI 세션 수가 지정된 값보다 클 경우 알림을 보냅니다.</block>
+  <block id="a810f7ffd8b3ba7fc2959a7fd14c6ec1" category="cell">섀시 복원성</block>
+  <block id="77842a19e3e2ead223bcccb4cd8836c1" category="cell">클러스터의 사용된 공간이 사용자가 지정한 백분율보다 클 때 알림을 보냅니다. 클러스터 복구 임계값에 도달하기 전에 미리 알림을 제공할 수 있는 백분율을 선택해야 합니다. 이 임계값에 도달하면 클러스터가 더 이상 섀시 레벨 장애로부터 자동으로 복구되지 않습니다.</block>
+  <block id="779eeaf551ed09558987b7ac98255734" category="cell">VMware 경보</block>
+  <block id="c9184508136db9cf47dc30aa2804ded2" category="cell">VMware 알람이 트리거되어 Active IQ에 보고되면 알림을 보냅니다.</block>
+  <block id="702a419d8a0eab07e38ee09f58a29bbe" category="cell">맞춤형 보호 도메인 복구</block>
+  <block id="9fae5454809c4b11e59aed2ffb0787ed" category="cell">사용된 공간이 지정된 사용자 지정 보호 도메인 복구 임계값 비율을 초과하면 시스템에서 알림을 보냅니다. 이 비율이 100에 도달하면 사용자 지정 보호 도메인 장애가 발생한 후 스토리지 클러스터에 자가 복구할 수 있는 충분한 가용 용량이 없는 것입니다.</block>
+  <block id="cc775eb9d20d6f35d83ef2b8af721a64" category="cell">노드 코어/크래시 덤프 파일</block>
+  <block id="d683262635ad25ef7bdb8b7c2f9498c5" category="cell">서비스가 응답하지 않고 다시 시작해야 하는 경우 시스템에서 코어 파일 또는 크래시 덤프 파일을 생성하고 알림을 보냅니다. 이것은 정상적인 작업 중에 예상된 동작이 아닙니다.</block>
+  <block id="98728fc25cfd75f44fa15f11f44858da" category="section-title">경고 정책을 편집합니다</block>
+  <block id="3d582a5f6d9b414dcf61211c9fc2cc84" category="paragraph">경고 정책을 편집하여 정책에서 클러스터를 추가 또는 제거하거나 추가 정책 설정을 변경할 수 있습니다.</block>
+  <block id="ee919763c36013900a2c9787485981be" category="list-text">작업 * 에서 추가 옵션을 보려면 메뉴를 선택합니다.</block>
+  <block id="93d95d0b33cb762ab39f0eef1def1176" category="list-text">Edit Policy * 를 선택합니다.</block>
+  <block id="ae6ac4f0348221d6e2dc3b5f1b7dd400" category="admonition">정책 유형 및 유형별 모니터링 기준은 편집할 수 없습니다.</block>
+  <block id="777162ac2a0421c409dfeed5792eb54e" category="list-text">(선택 사항) 새 알림 정책에 대해 수정된 이름을 입력합니다.</block>
+  <block id="fd63d1ed56029626e0f9d657db693509" category="list-text">(선택 사항) 다른 심각도 수준을 선택합니다.</block>
+  <block id="2058c58527480be7dbf445ba4ff7b9d1" category="admonition">경고 정책 심각도 수준은 색상으로 구분되며 경고 &gt; 기록 페이지에서 쉽게 필터링할 수 있습니다.</block>
+  <block id="ad3295ccf1dd6e15695cd14006eded89" category="list-text">사용 가능한 * 유형 * 에서 유형을 선택하여 경고 정책이 활성화된 경우 알림 정책의 억제 유형을 결정합니다. 두 개 이상의 유형을 선택할 수 있습니다.</block>
+  <block id="8c7c703b4fb498f75a0c96aaafe3e43a" category="list-text">(선택 사항) 정책과의 클러스터 연결을 선택하거나 제거합니다.</block>
+  <block id="f629b7260b3f2820d5407e17c2d681c2" category="admonition">정책을 생성한 후 설치에 새 클러스터를 추가하면 클러스터가 기존 경고 정책에 자동으로 추가되지 않습니다. 정책에 연결할 새 클러스터를 선택해야 합니다.</block>
+  <block id="836293d3e4afc5b7fcd956169c3f6092" category="list-text">(선택 사항) 알림 메시지를 보낼 하나 이상의 이메일 주소를 수정합니다. 여러 주소를 입력하는 경우 각 주소를 구분하려면 쉼표를 사용해야 합니다.</block>
+  <block id="ed8b08154b9b884ff6263372e56da866" category="section-title">알림 정책을 삭제합니다</block>
+  <block id="47a34f68c1b78fe9d57718cb00b783e0" category="paragraph">경고 정책을 삭제하면 시스템에서 영구적으로 제거됩니다. 해당 정책에 대한 e-메일 알림이 더 이상 전송되지 않으며 정책과의 클러스터 연결이 제거됩니다.</block>
+  <block id="df0aff143ffb445b070ed2ad24cf9a54" category="list-text">작업 * 에서 메뉴를 선택하여 추가 옵션을 표시합니다.</block>
+  <block id="e5b870dbe59cf34663a4cb178ce28225" category="list-text">Delete Policy * 를 선택합니다.</block>
+  <block id="ad5a54b96d86e967dc2a014c681f9377" category="list-text">작업을 확인합니다.</block>
+  <block id="e5574d4f50cf65adfb39e54e1a5f5ab1" category="paragraph">정책이 시스템에서 영구적으로 제거됩니다.</block>
+  <block id="685a82571a4b315892d300d3410d13b9" category="section-title">기능 억제된 클러스터 보기</block>
+  <block id="a5358ca3015b1305c6ef8a4f2ae99f44" category="paragraph">모든 클러스터 보기 * 의 * 경고 * 드롭다운 메뉴에 있는 * 기능 억제된 클러스터 * 페이지에서 경고 알림이 억제된 클러스터 목록을 볼 수 있습니다.</block>
+  <block id="d8d9aa68c453cb9b41b4de4fced325c7" category="paragraph">유지 관리를 수행할 때 NetApp 지원이나 고객이 클러스터에 대한 경고 알림을 표시하지 않을 수 있습니다. 업그레이드 억제를 사용하여 클러스터에 대한 알림을 표시하지 않으면 업그레이드 중에 발생하는 공통 경고가 전송되지 않습니다. 또한 지정된 기간 동안 클러스터의 알림 알림을 중지하는 전체 알림 억제 옵션도 있습니다. 알림 * 메뉴의 * 기록 * 페이지에서 알림이 표시되지 않을 때 전송되지 않은 모든 이메일 알림을 볼 수 있습니다. 정의된 기간이 경과하면 억제된 알림이 자동으로 다시 시작됩니다.</block>
+  <block id="4a6a16c3e094da903bd21906ee24fcd6" category="paragraph">다음 정보는 * Suppressed Clusters * 페이지에서 사용할 수 있습니다.</block>
+  <block id="10133a314a85c1c1a92fa3e662cdda44" category="cell">클러스터에 할당된 회사 이름입니다.</block>
+  <block id="c13733ab0cde1d7164208b013c7e85db" category="cell">클러스터 ID입니다</block>
+  <block id="ede2b30206235e476ba08b09618f897f" category="cell">클러스터가 생성될 때 할당된 클러스터 번호입니다.</block>
+  <block id="d6ed36bb2b00046e0edf3d24b526b7ad" category="cell">클러스터 이름</block>
+  <block id="e3d5f2a7512ede9e52a01c31493bfb81" category="cell">클러스터에 할당된 이름입니다.</block>
+  <block id="2bbc845892f400626baab5af687527c5" category="cell">시작 시간</block>
+  <block id="4820b9ef9bd7442acc6ccdf08f9614d3" category="cell">알림 억제가 시작된 정확한 시간입니다.</block>
+  <block id="c91a577b72313356fad611c55f43c10f" category="cell">종료 시간입니다</block>
+  <block id="64be5fe1b490e9a5f15e68f4baa65485" category="cell">알림 억제가 종료되도록 예약된 정확한 시간입니다</block>
+  <block id="2928a5c9dcc57c93a61ff231dce7d08e" category="cell">클러스터에 대한 알림을 표시하지 않거나 다시 시작하는 옵션을 선택합니다.</block>
+  <block id="91b4bb4cfabe9824c1024d2207177139" category="section-title">클러스터 알림을 표시하지 않습니다</block>
+  <block id="9858acb2dd14a30e26cf805c6de0730a" category="paragraph">단일 클러스터 또는 여러 클러스터에 대한 클러스터 레벨에서 알림 알림을 표시하지 않을 수 있습니다.</block>
+  <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행합니다.</block>
+  <block id="16b8d0f1d7e1b42eb46dcd70d096ecf4" category="list-text">Dashboard * 개요에서 표시하지 않을 클러스터에 대한 Actions 메뉴를 선택합니다.</block>
+  <block id="36dbb4ac73c2a1146dafa537aa33167b" category="list-text">Alerts * &gt; * Cluster Suppression * 에서 * Suppress Clusters * 를 선택합니다.</block>
+  <block id="86f3f33990d194ee217c1ba5e0cd6501" category="list-text">클러스터 * 에 대한 경고 표시 안 함 대화 상자에서 다음을 수행합니다.</block>
+  <block id="3faf81240a474d1bab3caae427a0b972" category="list-text">[클러스터 기능 억제 *] 페이지에서 [클러스터 기능 억제 *] 버튼을 선택한 경우 클러스터를 선택합니다.</block>
+  <block id="d9eec58efcbfdf3d4c1babd111ed996c" category="inline-xref">기능 억제 유형에 대해 알아봅니다</block>
+  <block id="cb886f47c22a31667b6be5251d178c52" category="list-text">경고 억제 유형을 * 전체 *, * 업그레이드 *, * 컴퓨팅 *, * 노드 하드웨어 *, * 드라이브 * 중 하나로 선택합니다. * 네트워크 * 또는 * 전원 *. <block ref="a879a530d2e9cfbfff346e782418a668" category="inline-xref-macro-rx"></block>.</block>
+  <block id="dbb77a21634d63a653c797feb9464c44" category="admonition">클러스터는 여러 개의 억제 유형을 가질 수 있지만 억제 유형을 공유할 수 없습니다. 예를 들어, 클러스터는 * Full *, * Compute * 및 * Drive * 억제를 가질 수 있지만 두 개의 * Full * 억제는 가질 수 없습니다. 클러스터에 이미 있는 억제가 회색으로 표시됩니다. 기존 기능 억제를 바꾸려면 * 기존 항목 덮어쓰기 * 를 선택하고 새 기능 억제 유형을 선택합니다.</block>
+  <block id="d2f9ee75eef16569d25256f62c3285af" category="list-text">공통 기간을 선택하거나 알림을 표시하지 않을 사용자 지정 종료 날짜 및 시간을 입력합니다.</block>
+  <block id="399e38cad3fefa8ffc7773b5e82ba0a4" category="list-text">기능 억제 * 를 선택합니다.</block>
+  <block id="55c71a545e88a736b0fd984ef1cf9011" category="admonition">이 작업을 수행하면 NetApp Support에 대한 특정 알림 또는 모든 알림도 표시되지 않습니다. 클러스터 억제가 적용된 후에는 NetApp Support 또는 클러스터를 볼 수 있는 모든 사용자가 억제 상태를 업데이트할 수 있습니다.</block>
+  <block id="a443139ca208c123b09b1ef2ea201c2a" category="section-title">클러스터에서 클러스터 억제를 종료합니다</block>
+  <block id="af4d6c3c349c26acb6899c265fcdd80b" category="paragraph">클러스터 기능 억제 기능을 사용하여 적용된 클러스터에서 클러스터 경고 억제를 종료할 수 있습니다. 이렇게 하면 클러스터가 정상적인 경고 보고 상태를 재개할 수 있습니다.</block>
+  <block id="ec6bcf74434b801a7cfe579b722e1b4c" category="list-text">대시보드 * 개요 또는 * 경고 * &gt; * 클러스터 억제 * 에서 일반 경고 보고를 재개하려는 단일 또는 다중 클러스터에 대한 기능 억제를 종료합니다.</block>
+  <block id="54337ee0f200dfcaa388f569168f76f4" category="list-text">단일 클러스터의 경우 클러스터의 Actions 메뉴를 선택하고 * End Suppression * 을 선택합니다.</block>
+  <block id="9ef78003c570ffd4cf0f0340af7c6c32" category="list-text">여러 클러스터의 경우 클러스터를 선택한 다음 * 선택된 차단 종료 * 를 선택합니다.</block>
+  <block id="ccc56a6622f5dccc8b39bf717c5273e9" category="section-title">경고 알림 이메일</block>
+  <block id="c06a2fcebc732d180073389e143e156a" category="paragraph">Active IQ 알림 가입자는 시스템에서 트리거되는 각 알림에 대해 서로 다른 상태 이메일을 받습니다. 경고와 관련된 상태 이메일에는 세 가지 유형이 있습니다.</block>
+  <block id="bcbb59ba38b8d8a53386ea9e5e619fa2" category="cell">새 경고 이메일</block>
+  <block id="df4912f6cebf8a31418b4aeb4d73f330" category="cell">이 유형의 이메일은 알림이 트리거될 때 전송됩니다.</block>
+  <block id="ce547e1ced608d92b9c86ba4168ed5b6" category="cell">미리 알림 경고 전자 메일</block>
+  <block id="1b47a3d81aae84e37a71064a2903cd7c" category="cell">이 유형의 이메일은 알림이 활성 상태인 동안 24시간마다 한 번씩 전송됩니다.</block>
+  <block id="044afe12f06c3c458fc6291a79d418a8" category="cell">경고 해결 이메일</block>
+  <block id="3829177bd670988e19a56851d1a4ea71" category="cell">이 유형의 이메일은 문제가 해결될 때 전송됩니다.</block>
+  <block id="677e016c7eaf3331ccd1c804e864af59" category="inline-xref">경고 정책을 생성합니다</block>
+  <block id="c22e90ac52174362bd45e5b5612be3f2" category="paragraph">경고 정책이 생성된 후 이 정책에 대해 새 경고가 생성되면 이메일이 지정된 이메일 주소로 전송됩니다( 참조) <block ref="d3622ec23eed744fc7f8438a4503d22d" category="inline-xref-macro-rx"></block>)를 클릭합니다.</block>
+  <block id="5a369f3dd03e3e56754791b4f8ac41b7" category="paragraph">경고 이메일 제목 줄에는 보고된 오류 유형에 따라 다음 형식 중 하나가 사용됩니다.</block>
+  <block id="7aba862ba08d2a1ba46ee1358d3b6b84" category="list-text">해결되지 않은 클러스터 오류: '[cluster fault code] fault on [cluster name] ([severity])'</block>
+  <block id="611ea2c666b1b177eaf06c99c48c6bff" category="list-text">해결된 클러스터 장애: '[cluster fault code] fault on [cluster name] ([severity])'</block>
+  <block id="02f29ba56a590349572ebac9b1a83e08" category="list-text">해결되지 않은 경고: '[policy name] alert on [cluster name] ([severity])'</block>
+  <block id="a5bfb2935db6ff4645be98f354d7b7d8" category="list-text">해결된 경고 장애: 'Resolved: [policy name] alert on [cluster name] ([severity])'</block>
+  <block id="988e4fecbbb516a07ee027b7174a31c3" category="inline-image-macro">이메일 예시</block>
+  <block id="39144423b896be1779d0593a1a694501" category="paragraph">알림 이메일의 내용은 다음 예와 비슷합니다.<block ref="eaf8f47e3bf444c8f0ead8244ee8b427" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a6cd03fe10bc06624e6ac2604e9c8a96" category="summary">SolidFire Active IQ에서 선택한 클러스터의 보고 옵션에 대해 알아보십시오.</block>
+  <block id="f62641b62c4f03be210cc98c4582f9b5" category="doc">선택한 클러스터에 대한 보고 옵션</block>
+  <block id="e94f3787d75c331b2b5bfc84e1b618ea" category="paragraph">측면 패널의 * Reporting * 드롭다운 메뉴에 대해 자세히 알아보십시오.</block>
+  <block id="e4cc71b4823b76c224a383262dc80aca" category="list-text"><block ref="7a9ac211092ddba1abc61bd090372f98" category="inline-xref-macro-rx"></block></block>
+  <block id="734eabe2addee5372e15b9c34555e5e0" category="list-text"><block ref="e703d8bc1423ab84438011151be894fa" category="inline-xref-macro-rx"></block></block>
+  <block id="5006859779c56a21edef19812da1ff66" category="list-text"><block ref="4066a512f7263c8cb8f08426d6cd1e53" category="inline-xref-macro-rx"></block></block>
+  <block id="6aad306ead558153abf0bbcd2c1c5786" category="list-text"><block ref="6dba2954762b3236d5a97f1dc92e8ec2" category="inline-xref-macro-rx"></block></block>
+  <block id="4afc0e02fe14d9f5780c02d80050747b" category="list-text"><block ref="779f08b1a90156e2c067eb073fcd3c37" category="inline-xref-macro-rx"></block></block>
+  <block id="4e55dab9a83f8ddfa70cb1e83169ce6e" category="list-text"><block ref="f1136520b649acd8432083736a1e7fff" category="inline-xref-macro-rx"></block></block>
+  <block id="a86610dccf7042b91145bd4dae9baacf" category="list-text"><block ref="646007c2405bb3de9e50295a0edb4bee" category="inline-xref-macro-rx"></block></block>
+  <block id="7f9f37cce764b64a678842637cfe4c8d" category="list-text"><block ref="d56104a92d4f7885d0b97dbdb402615e" category="inline-xref-macro-rx"></block></block>
+  <block id="204a0da377ece3169da52085421c35f5" category="list-text"><block ref="43819317763ad97984c6e96d81bcda86" category="inline-xref-macro-rx"></block></block>
+  <block id="1be941d7d5eb78d5646de8f4a72806b1" category="paragraph">선택한 클러스터에 대한 * Reporting * 드롭다운 메뉴의 * Capacity * 페이지에서 볼륨에 프로비저닝된 전체 클러스터 공간에 대한 세부 정보를 볼 수 있습니다. 용량 정보 막대는 클러스터의 블록 및 메타데이터 스토리지 용량에 대한 현재 상태와 예측을 제공합니다. 해당 그래프는 클러스터 데이터를 분석하는 추가 방법을 제공합니다.</block>
+  <block id="ba8a383b077603243b768d827b59e74a" category="inline-link">Element 소프트웨어 설명서</block>
+  <block id="831f55c4ebf86fabbfe65b1aeab3c0f3" category="admonition">심각도 레벨 및 클러스터 충만성에 대한 자세한 내용은 을 참조하십시오<block ref="b84733eb90b32c79b9a7de9908517697" category="inline-link-rx"></block>.</block>
+  <block id="c459b463dfed796552b661a2acf1e01f" category="paragraph">다음 설명은 선택한 클러스터의 블록 용량, 메타데이터 용량 및 프로비저닝된 공간에 대한 세부 정보를 제공합니다.</block>
+  <block id="076d5628bbb2b624feaac7958963d6a4" category="cell">블록 용량</block>
+  <block id="89c1265be62d3ba835a3d963db5956b0" category="cell">예측</block>
+  <block id="17e6ea7a0e6971e0d6e596fc425fbec2" category="cell">클러스터 블록의 현재 사용 용량입니다.</block>
+  <block id="e681a3b45989b468533c4b90ee960bf9" category="cell">해당 없음</block>
+  <block id="4b2d2237bc8199363bef41f4b1592517" category="cell">경고 임계값</block>
+  <block id="7601cc71a96b4faa88eb43de3539533b" category="cell">현재 경고 임계값입니다.</block>
+  <block id="a5bd959ea49e844aa528a035bdb23f14" category="cell">경고 임계값에 도달할 때를 예측합니다.</block>
+  <block id="628d111a70d50f55a9f54b54bd8cdd72" category="cell">오류 임계값</block>
+  <block id="73a61e44e00389e04f5610578bcff031" category="cell">현재 오류 임계값입니다.</block>
+  <block id="ded88eb65d9531a6143ef523ca37fb07" category="cell">오류 임계값에 도달할 때를 예측합니다.</block>
+  <block id="207e174801113bba5afa048ccd3450bf" category="cell">총 용량</block>
+  <block id="d12b42b3ce760c17b2733642a5341fde" category="cell">블록의 총 용량입니다.</block>
+  <block id="3955c979ae9ca17a5ac950cd90138b9d" category="cell">임계 임계값에 도달할 때를 예측합니다.</block>
+  <block id="c8c59626a85748cf1d7f517c25e57f01" category="cell">현재 상태</block>
+  <block id="79d98ffc87383da715b1862ccf672c01" category="cell">블럭의 현재 상태.</block>
+  <block id="b261de40074ce75dce8bdd7aafc125b9" category="cell">심각도 수준에 대한 자세한 내용은 을 참조하십시오<block ref="b84733eb90b32c79b9a7de9908517697" category="inline-link-rx"></block>.</block>
+  <block id="0d5bfbbc986ee0b2bb79df34b8858ac2" category="cell">메타데이터 용량입니다</block>
+  <block id="dda11758730c5f4d678197e0924f16eb" category="paragraph">이 클러스터에 사용된 메타데이터 클러스터 용량입니다.</block>
+  <block id="5eed5bb7cb73fc53544a8c4cbe9b3053" category="paragraph">이 클러스터에 사용 가능한 총 메타데이터 용량 및 중요 임계값 예측</block>
+  <block id="697ad46a46ba9a90691a921c684a573d" category="paragraph">이 클러스터에 대한 메타데이터 용량의 현재 상태입니다.</block>
+  <block id="045cbd8c6696c541fba552dc79d3bc0a" category="cell">프로비저닝된 공간</block>
+  <block id="302aeda7ef07ebb46eb0a19b956ad5c5" category="cell">프로비저닝된 공간</block>
+  <block id="efc7ef46ab403a2e755cbe40a44c3c06" category="paragraph">현재 클러스터에 프로비저닝된 공간의 양입니다.</block>
+  <block id="5f7c362dddb90171bb6047102783e583" category="cell">최대 프로비저닝된 공간</block>
+  <block id="21213f79378c09d19e1963fc195c8370" category="paragraph">클러스터에서 프로비저닝할 수 있는 최대 공간입니다.</block>
+  <block id="a6c7e85d51ae3b98197ceb3eafa3686a" category="section-title">효율성</block>
+  <block id="88957c86cad58e39839a568865a785a1" category="paragraph">선택한 클러스터에 대한 클러스터 * 보고 * 드롭다운 메뉴의 * 효율성 * 페이지에서 그래프의 데이터 포인트 위로 마우스 포인터를 이동하면 클러스터의 씬 프로비저닝, 중복 제거 및 압축에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="1150fe2eef0b4c8dfd7fb4dc9f0d100d" category="admonition">모든 결합된 효율성은 보고된 계수 값의 단순한 곱셈을 통해 계산됩니다.</block>
+  <block id="e53d4571afb5cd0d6de7605c1f98049b" category="paragraph">다음 설명은 선택한 클러스터의 효율성을 계산한 세부 정보입니다.</block>
+  <block id="e0169ed836204b619a902e01e39666d0" category="cell">전반적인 효율성</block>
+  <block id="7da851bd0d4261b0aa7db00548d738e5" category="cell">씬 프로비저닝, 중복제거, 압축의 글로벌 효율성이 함께 배가됩니다. 이 계산에서는 시스템에 내장된 이중 나선형 피처를 고려하지 않습니다.</block>
+  <block id="aa967c4d99e6345dc0be8194ede0b40c" category="cell">중복제거 및 압축</block>
+  <block id="4b6a49908e976ffc2beabf09d5096d1c" category="cell">중복제거 및 압축을 사용하여 공간을 절약할 수 있는 효과</block>
+  <block id="a65c22e6af9f696dc25755536ae95d1c" category="cell">씬 프로비저닝</block>
+  <block id="e34d5b17dacd5244fff97855e8bf8ae1" category="cell">이 기능을 사용하여 절약되는 공간의 크기입니다. 이 수치는 클러스터에 할당된 용량과 실제로 저장된 데이터 양 간의 델타를 반영합니다.</block>
+  <block id="83f45cad5e6f535ff10e564a526baad0" category="cell">중복 제거</block>
+  <block id="e8a4df045c15ab836e136fe8c79e05e7" category="cell">클러스터에 중복 데이터를 저장하지 않고 저장한 공간의 비율 승수입니다.</block>
+  <block id="82af841589057aa8922b1ac3bb4a28a4" category="cell">압축</block>
+  <block id="f1f189e77e9adb961b6f46a1b6391503" category="cell">데이터 압축이 클러스터에 저장된 데이터에 미치는 영향 데이터 유형마다 압축률이 다릅니다. 예를 들어 텍스트 데이터와 대부분의 문서는 작은 공간으로 쉽게 압축되지만 비디오 및 그래픽 이미지는 일반적으로 압축하지 않습니다.</block>
+  <block id="9446a98ad14416153cc4d45ab8b531bf" category="section-title">성능</block>
+  <block id="c57c8fec3cce16f2bb8fbc04182cf1da" category="paragraph">선택한 클러스터에 대한 * Reporting * 드롭다운 메뉴의 * Performance * 페이지에서 범주를 선택하고 기간을 기준으로 필터링하여 IOPS 사용량, 처리량 및 클러스터 활용도에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="2365f9d6614b9f34f41e33f1f46329b2" category="section-title">오류 로그</block>
+  <block id="34dca4cae1eb92f7ac0cc3fed62671e8" category="paragraph">선택한 클러스터에 대한 * 보고 * 드롭다운 메뉴의 * 오류 로그 * 페이지에서 클러스터에서 보고된 해결되지 않았거나 해결된 오류에 대한 정보를 볼 수 있습니다. 이 정보는 필터링하여 CSV(쉼표로 구분된 값) 파일로 내보낼 수 있습니다. 심각도 수준에 대한 자세한 내용은 을 참조하십시오<block ref="b84733eb90b32c79b9a7de9908517697" category="inline-link-rx"></block>.</block>
+  <block id="95c682d54021d66b0bb75a594cd6cd25" category="paragraph">선택한 클러스터에 대해 다음 정보가 보고됩니다.</block>
+  <block id="49c22828420491176562be75f22a3f05" category="cell">클러스터 장애의 ID입니다.</block>
+  <block id="44749712dbec183e983dcd78a7736c41" category="cell">날짜</block>
+  <block id="5258bb9dfaa90fedeee1a30e68500a68" category="cell">고장이 기록된 날짜 및 시간입니다.</block>
+  <block id="103ba93432c73d6b7d6459e932afe78c" category="cell">이는 경고, 오류, 위험 또는 모범 사례일 수 있습니다.</block>
+  <block id="361ce9d3ced7d6d02a30fd630ac2500f" category="cell">노드, 드라이브, 클러스터, 서비스 또는 볼륨이 될 수 있습니다.</block>
+  <block id="d0b2c8fc3bcc6e20157cff17ef57800c" category="cell">이 장애가 참조하는 노드의 노드 ID입니다. 노드 및 드라이브 장애에 대해 포함되며, 그렇지 않을 경우 -(대시)로 설정됩니다.</block>
+  <block id="b42e7e9f43276548d600d26ad21cd252" category="cell">노드 이름</block>
+  <block id="e2eb85d11965bfb80a5c2cebe05d9c82" category="cell">이 결함이 참조하는 드라이브의 드라이브 ID입니다. 드라이브 고장에 대해 포함되며, 그렇지 않을 경우 -(대시)로 설정됩니다.</block>
+  <block id="367fe55a2e2220b8cd777603b624e489" category="cell">오류의 원인이 해결되었는지 여부를 표시합니다.</block>
+  <block id="63b31f4ed4d7663eb7eb91b8631e004f" category="cell">문제가 해결된 시간을 표시합니다.</block>
+  <block id="6e51a1e3e56e177165ef898fcc87c854" category="cell">오류 코드</block>
+  <block id="6fa39b864d7c75955b6815cda59e5e38" category="cell">고장의 원인을 나타내는 설명 코드입니다.</block>
+  <block id="3ec365dd533ddb7ef3d1c111186ce872" category="cell">세부 정보</block>
+  <block id="b3d26412e5bd7f458a180d44450aaef7" category="cell">고장 설명 및 추가 세부 정보</block>
+  <block id="87f9f735a1d36793ceaecd4e47124b63" category="section-title">이벤트</block>
+  <block id="3e7300982fd04a6b96ab485ce1439998" category="paragraph">선택한 클러스터에 대한 * Reporting * 드롭다운 메뉴의 * Events * 페이지에서 클러스터에서 발생한 주요 이벤트에 대한 정보를 볼 수 있습니다. 이 정보는 필터링하여 CSV 파일로 내보낼 수 있습니다.</block>
+  <block id="1be7f4094822039b4634c93c23dd7efb" category="cell">이벤트 ID입니다</block>
+  <block id="152d2891395833d77c6475036e42b690" category="cell">각 이벤트와 연결된 고유 ID입니다.</block>
+  <block id="565a343ef221845e92de20cbe1e7e1f1" category="cell">이벤트 시간</block>
+  <block id="d7d243cdd4f9855c08d4d07446b1a498" category="cell">이벤트가 발생한 시간입니다.</block>
+  <block id="d6850e0c5bcba3e6b1fdd913143db620" category="cell">로깅되는 이벤트 유형(예: API 이벤트 또는 클론 이벤트) 를 참조하십시오<block ref="b84733eb90b32c79b9a7de9908517697" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="4c2a8fe7eaf24721cc7a9f0175115bd4" category="cell">메시지</block>
+  <block id="7fe2911af82fa5c0c94c5122f326e2ee" category="cell">이벤트와 연결된 메시지입니다.</block>
+  <block id="e6bc3742b9adcf64569e2b8e6c4a3cfd" category="cell">이벤트를 보고한 서비스(해당하는 경우)</block>
+  <block id="677ba5aa9e9fcb74b2cb9312ed3a977b" category="cell">이벤트를 보고한 노드입니다(해당하는 경우).</block>
+  <block id="398d3f4842780ca0538646ddd35c1ed6" category="cell">이벤트를 보고한 드라이브입니다(해당하는 경우).</block>
+  <block id="e8e23004d802cd4922aa0dd7c9a0b1bc" category="cell">이벤트가 발생한 이유를 식별하는 데 도움이 되는 정보입니다.</block>
+  <block id="673227ee9c703ce2823b53881bb0518c" category="paragraph">선택한 클러스터에 대한 * Reporting * 드롭다운 메뉴의 * Alerts * 페이지에서 미해결 또는 해결된 클러스터 경고를 볼 수 있습니다. 이 정보는 필터링하여 CSV 파일로 내보낼 수 있습니다. 심각도 수준에 대한 자세한 내용은 을 참조하십시오<block ref="b84733eb90b32c79b9a7de9908517697" category="inline-link-rx"></block>.</block>
+  <block id="feb5563fa01a9ebba6af4f9c920d5748" category="paragraph">선택한 클러스터에 대한 * 보고 * 드롭다운 메뉴의 * iSCSI 세션 * 페이지에서 클러스터의 활성 세션 수와 클러스터에서 발생한 iSCSI 세션 수에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="a44207e415b5558c03942d9fcaff4904" category="example-title">iSCSI 세션 예제를 확장합니다</block>
+  <block id="4f8c5e38821332ac37efd50ea0011f9e" category="paragraph"><block ref="4f8c5e38821332ac37efd50ea0011f9e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae164ae6404985f2a931eeee38c6ab42" category="paragraph">그래프의 데이터 포인트 위로 마우스 포인터를 이동하면 정의된 기간의 세션 수를 확인할 수 있습니다.</block>
+  <block id="acac783cc41cfddb0f45c4b16451204d" category="list-text">Active Sessions(활성 세션): 클러스터에서 연결되어 활성 상태인 iSCSI 세션 수입니다.</block>
+  <block id="f3b0a8925d92201833b4d4c98dc00da7" category="list-text">Peak Active Sessions(최대 활성 세션): 지난 24시간 동안 클러스터에서 발생한 최대 iSCSI 세션 수입니다.</block>
+  <block id="1413c9f8974b093d8130ee7db39eb535" category="admonition">이 데이터에는 FC 노드에서 생성된 iSCSI 세션이 포함됩니다.</block>
+  <block id="6fd9fbb0b3472e4871ff81fe4ca95016" category="section-title">가상 네트워크</block>
+  <block id="279658afe4ab0fad0ce2e3af18b9ab0a" category="paragraph">선택한 클러스터에 대한 * 보고 * 드롭다운 메뉴의 * 가상 네트워크 * 페이지에서 클러스터에 구성된 가상 네트워크에 대한 다음 정보를 볼 수 있습니다.</block>
+  <block id="6e7dc70c9186831488745cb36a33bbef" category="cell">VLAN 네트워크의 고유 ID입니다. 시스템에 의해 할당됩니다.</block>
+  <block id="2956b6f0e7b5d8e2e3bd68512747d12d" category="cell">VLAN 네트워크의 고유한 사용자 할당 이름입니다.</block>
+  <block id="05808f0e86c04c2a062c2e041f9e0827" category="cell">VLAN ID입니다</block>
+  <block id="ffd9afd86dda03305dbd98e960cb7be3" category="cell">가상 네트워크가 생성될 때 할당된 VLAN 태그.</block>
+  <block id="dcda39e13b00bf6bd40a507e1833a6f5" category="cell">VIP</block>
+  <block id="ce196fd76f74410d726ae06f114cac1d" category="cell">가상 네트워크에 할당된 스토리지 가상 IP 주소입니다.</block>
+  <block id="536f68587c52377d3e98807b214c5de8" category="cell">넷마스크</block>
+  <block id="d63d7dc2d790031eb7dfc6394aa46028" category="cell">이 가상 네트워크의 넷마스크입니다.</block>
+  <block id="926dec9494209cb088b4962509df1a91" category="cell">게이트웨이</block>
+  <block id="a84aa1a4b03503a52e55d62f556a5d6e" category="cell">가상 네트워크 게이트웨이의 고유 IP 주소입니다. VRF가 활성화되어 있어야 합니다.</block>
+  <block id="e8a3113c5386678f6775568095a9eddb" category="cell">VRF 활성화</block>
+  <block id="a279f84aebeb6b59fd33011eb1cae178" category="cell">가상 라우팅 및 전달이 활성화되었는지 여부를 표시합니다.</block>
+  <block id="0ae5435cfee8b6c05ab6528379211f5b" category="cell">IPS 사용</block>
+  <block id="77430146921bd694ca9e79c23137365d" category="cell">가상 네트워크에 사용되는 가상 네트워크 IP 주소의 범위입니다.</block>
+  <block id="4d023f391eeb350e7e7cb48db31862cd" category="section-title">API 수집</block>
+  <block id="1e6c78e80b17c6b7b921a36a86593bc0" category="inline-link-macro">Element 소프트웨어 API 설명서</block>
+  <block id="1b77c771de8f4f6c3baf80457d54f266" category="paragraph">선택한 클러스터에 대한 * Reporting * 드롭다운 메뉴의 * API Collection * 페이지에서 NetApp SolidFire Active IQ에서 사용하는 API 메소드를 볼 수 있습니다. 이러한 방법에 대한 자세한 설명은 를 참조하십시오 <block ref="f22a227c10cf8287f1c4420ec53d0585" category="inline-link-macro-rx"></block>.</block>
+  <block id="18cc1cea8bdf18884d35610fd16fdb77" category="admonition">Active IQ는 이러한 방법 외에도 NetApp 지원 및 엔지니어링에서 클러스터 상태를 모니터링하는 데 사용되는 일부 내부 API 호출을 합니다. 이러한 콜은 잘못 사용될 경우 클러스터 기능에 지장을 줄 수 있으므로 문서화되지 않습니다. Active IQ API 컬렉션의 전체 목록이 필요한 경우 NetApp 지원에 문의해야 합니다.</block>
+  <block id="0c4d60a128e7714f565d66085537b6a9" category="summary">SolidFire Active IQ의 노드 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="efff5bf65c7253a9f13c3da6e316514f" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 노드 페이지에서는 클러스터의 노드에 대한 정보를 볼 수 있습니다.</block>
+  <block id="86d657b6d468a7d4b765611ea754e07d" category="paragraph">활성 노드에 대한 정보 및 선택한 노드에 대한 노드 임계치 조절의 비율에 대해 알아봅니다.</block>
+  <block id="1fb1691d89c63b4c1b5243e04cd9f5b3" category="inline-link-macro">액티브 노드</block>
+  <block id="6c663e2ebd3f817914a7f20e8dd5b0dd" category="list-text"><block ref="6c663e2ebd3f817914a7f20e8dd5b0dd" category="inline-link-macro-rx"></block></block>
+  <block id="72fb384431f6bdc515c1be4fddf3b93e" category="list-text"><block ref="72fb384431f6bdc515c1be4fddf3b93e" category="inline-link-macro-rx"></block></block>
+  <block id="bf807ea6b20dd5093c3aabab556b7151" category="summary">SolidFire Active IQ 문제를 해결합니다.</block>
+  <block id="174a62637bdb98e952c7c5e781c86dc4" category="doc">문제 해결 및 지원</block>
+  <block id="d290f31130e082bed7a5e74006445b90" category="paragraph">SolidFire Active IQ 또는 다른 NetApp Element 소프트웨어 기반 제품을 사용하는 동안 문제가 발생하거나 기술적 문제가 발생하는 경우 문제 해결을 위해 많은 리소스를 사용할 수 있습니다.</block>
+  <block id="9d6bc68df898deff926bd4b077e87b8e" category="inline-link">기술 자료</block>
+  <block id="5850c1b883e33b60d870781e8115807c" category="list-text">를 검색합니다<block ref="4857702706b4521f6529ed17831a74f4" category="inline-link-rx"></block> 일반적인 기술 문제에 대한 답변입니다.</block>
+  <block id="6f4e4d9fbe846fd8bf7decf7dcffbd63" category="inline-link">NetApp 문서</block>
+  <block id="7a23c2bcdbc21bef24076f3be645e2ac" category="list-text">검색<block ref="e3ac08282893a05df82b44a3239d2483" category="inline-link-rx"></block> NetApp SolidFire 및 NetApp HCI와 관련된 답변입니다.</block>
+  <block id="0373910e51252c7b97dcbea9f4942604" category="inline-link">mysupport.netapp.com</block>
+  <block id="9e98f3448c136646870b07dd55aa9eb8" category="list-text">온라인으로 언제든지 문의해 주십시오.<block ref="5b2696069bfb159b4da1b4fd63c90950" category="inline-link-rx"></block>. 언제든지 질문을 제출할 수 있습니다. 지원이 오프라인 상태인 경우 지원 팀이 영업일 내에 응답합니다.</block>
+  <block id="a733ad4eeac2130a365c398eef6ab4e1" category="list-text">지원 팀에 888.4.NETAPP (888.463.8277)으로 전화하십시오.</block>
+  <block id="4418c720110a4a61ef46395e5ca12251" category="list-text"><block ref="e2590814c1482e01f4d7bf7758b7b100" category="inline-link-macro-rx"></block>.</block>
+  <block id="e08d25d28f81e2e8f6aa3ba1cc3bdf0d" category="summary">SolidFire Active IQ에서 볼륨 세부 정보를 보는 방법에 대해 알아보십시오.</block>
+  <block id="f4ae560c60fc8bb0d0b6ab851ae1869e" category="doc">활성 볼륨</block>
+  <block id="557b10f01522670a114659a8ae978c6a" category="paragraph">Volumes * 페이지에서 활성 볼륨, 개별 볼륨 및 성능 그래프에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="1016ff0c0a0a25fcb2703c537ddb1e6c" category="list-text"><block ref="2159a3d30b5a28e3601f66bf8bc43e89" category="inline-xref-macro-rx"></block></block>
+  <block id="88d327dc22b871bfeab499b388172e6c" category="list-text"><block ref="b33c17c502ed5103f0f2c7e22661f47f" category="inline-xref-macro-rx"></block></block>
+  <block id="d7e4226561da664078446368bf24e413" category="list-text"><block ref="2def3383d458d995413cf567e10cad54" category="inline-xref-macro-rx"></block></block>
+  <block id="324ef602c957b3ee013db702dc88ebbd" category="section-title">활성 볼륨 세부 정보를 봅니다</block>
+  <block id="b8643e41c8b39a40508eae9ba5584382" category="paragraph">선택한 클러스터의 * Volumes * &gt; * Active Volumes * 페이지에서 활성 볼륨 목록에서 다음 정보를 볼 수 있습니다.</block>
+  <block id="9ccebbdcf0c14dc2d7c124c8b6409e35" category="cell">기본 노드 ID입니다</block>
+  <block id="645b03b13bd4145138c3b57ccc3400a5" category="cell">이 볼륨의 기본 노드입니다.</block>
+  <block id="2bc5a323ec4c5f81b720526e8aadd21e" category="cell">보조 노드 ID입니다</block>
+  <block id="a8c5372cb84d7d3cefd81f7cca2508d1" category="cell">이 볼륨에 대한 보조 노드의 목록입니다. 보조 노드의 변경과 같이 일시적인 상태 동안 여러 값이 될 수 있지만 일반적으로 단일 값이 있습니다.</block>
+  <block id="e3fa9173825e8d72d3109748c25adb2b" category="cell">QoS 스로틀</block>
+  <block id="b7704dec80bad8b4f8c5564e2d1d6f28" category="paragraph">운영 스토리지 노드의 높은 부하로 인해 볼륨이 조절되고 있는지 확인합니다.</block>
+  <block id="40c1f7a2846a63dc74ce6b9dbc7933dc" category="list-text">녹색 = 최대 20%</block>
+  <block id="89d6f6a6ae8c5ed89ceadff57f866134" category="list-text">노란색 = 20% 이상</block>
+  <block id="a766a96a4550397e3be62686e9dba4bf" category="list-text">빨간색 = 80% 이상</block>
+  <block id="0cd85d6f0903a4228d0a1061a41e207b" category="cell">볼륨에 대해 보장된 최소 IOPS 수입니다.</block>
+  <block id="b0f4034527d03957cc2cb1f551cd8137" category="cell">볼륨에 허용되는 최대 IOPS 수입니다.</block>
+  <block id="c4802961bcc44906090b75cc0c07e58d" category="cell">짧은 기간 동안 허용되는 최대 IOPS 수입니다.</block>
+  <block id="f741657b8a9c703b4f9ce9ff0c849acd" category="cell">지난 30분 동안의 평균 지연 시간(µs</block>
+  <block id="7aeb6780ec3c98b0f4eee23e1d0cac75" category="cell">이 노드가 1차 노드인 모든 볼륨에 대해 읽기 및 쓰기 작업을 완료하는 데 마지막 30분 동안 측정된 마이크로초 단위의 평균 시간입니다.</block>
+  <block id="8045d6e7a1be43321c6aacff3cd803a6" category="cell">볼륨에 대해 생성된 스냅샷의 수입니다.</block>
+  <block id="83195ad3b0c05b1455b3fc233ba98d03" category="cell">개별 볼륨에 대한 자세한 내용을 보려면 수직 드롭다운 메뉴를 선택합니다.</block>
+  <block id="98d99278a2f04912ab18de8f6e866ed1" category="section-title">개별 볼륨 세부 정보를 봅니다</block>
+  <block id="98382f841ba4fc0c20e5af0041dedf8d" category="paragraph">볼륨 * 페이지에서 개별 볼륨에 대한 추가 정보를 볼 수 있습니다.</block>
+  <block id="55f28afac50fa2f3764fe7335f1821db" category="list-text">Volumes * &gt; * Active Volumes * 를 선택합니다.</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="inline-image-macro">추가 정보</block>
+  <block id="97f72a45ca1e151175e31eaa8bde1d52" category="list-text">작업 열에서 을 선택합니다 <block ref="cdebc265529e000c5722a7028c8024ee" category="inline-image-macro-rx" type="image"></block> 원하는 볼륨에 대한 아이콘을 클릭하고 * 세부 정보 보기 * 를 선택합니다.</block>
+  <block id="7d5a20f283f1f159bc8fca5cea5abdf2" category="paragraph">활성 볼륨에 대한 페이지가 열리면 정보 표시줄에서 최근 볼륨 데이터를 볼 수 있습니다.</block>
+  <block id="e5e232275261e481cb1332fe1e05f070" category="cell">볼륨에 대한 시스템 생성 ID입니다.</block>
+  <block id="94a1800545581d04983407fd1d145e62" category="cell">볼륨의 총 크기입니다.</block>
+  <block id="7da55ffd0ff54b317006c52ea7f2c0e1" category="paragraph">볼륨이 얼마나 찼는지 보여줍니다.</block>
+  <block id="abec01fb58480a49a084850b03ff2d7c" category="list-text">빨간색 = 95% 이상</block>
+  <block id="42bbfc003515ffd17bbf2687a043f11d" category="cell">평균 IOPS</block>
+  <block id="e3b8968fd9318f5d739250d54e769ff4" category="cell">최근 30분 동안 볼륨에 대해 실행된 평균 IOPS 수입니다.</block>
+  <block id="edd5221a3f19c0c3519847deb797f926" category="cell">평균 처리량</block>
+  <block id="9d8e7acc5e639c5d381f284b3a9e6bce" category="cell">지난 30분 동안 볼륨에 대해 실행된 평균 처리량입니다.</block>
+  <block id="4a3eb27a7f301e9be259f35e484b176e" category="cell">평균 지연 시간</block>
+  <block id="0b580c0d1be4cfdf4da6f879cf00f88d" category="cell">마지막 30분 동안 볼륨에 대한 읽기 및 쓰기 작업을 완료하는 데 걸리는 평균 시간(마이크로초)입니다.</block>
+  <block id="67e36c1bc8a90a031bad32c1819deab1" category="cell">볼륨 세부 정보 표시 * 드롭다운 메뉴에서 추가 세부 정보를 볼 수 있습니다.</block>
+  <block id="9b2ec600406f1490117cd1550ae54c71" category="cell">볼륨에 할당된 읽기/쓰기 권한입니다.</block>
+  <block id="e3ec7263fd93737a7c3599382db8ec4a" category="cell">액세스 그룹</block>
+  <block id="167fb14a8a43814f4122abeff3b8827c" category="cell">연결된 볼륨 액세스 그룹:</block>
+  <block id="46c8458b542fa323f8704fe0785024b7" category="cell">0이 아닌 블록</block>
+  <block id="fa531db3c4b0fe067ae347fe61cca796" category="cell">마지막 가비지 수집 작업이 완료된 후 데이터가 포함된 총 4KiB 블록 수입니다.</block>
+  <block id="60b67cf928897f790fe38d6e60635f68" category="cell">제로 블록</block>
+  <block id="98655971ffafc4d21baacb14823c4eb0" category="cell">마지막 가비지 수집 작업이 완료된 후 데이터가 없는 총 4KiB 블록 수입니다.</block>
+  <block id="e964f015143fe755e8288a14280010fd" category="cell">스냅샷 수</block>
+  <block id="cb0b3ac9b7a179d7ab7a6fca23f53ad7" category="cell">연결된 스냅샷의 수입니다.</block>
+  <block id="8aa8c731cfe2c1c5fc7e8d8161be302a" category="cell">512e 활성화됨</block>
+  <block id="4b70e4e226aa2663d010aeae818edca9" category="cell">볼륨에서 512e가 활성화되어 있는지 여부를 식별합니다.</block>
+  <block id="49040853732d48deb2df7eebcd95b127" category="cell">운영 스토리지 노드의 높은 부하로 인해 볼륨이 조절되고 있는지 여부를 식별합니다.</block>
+  <block id="fe6f6567eb042d45b55b29aa9a29df5b" category="cell">볼륨이 페어링되었습니다</block>
+  <block id="3864a6411a8582c09e9f190a2d97c876" category="cell">볼륨이 페어링되었는지 여부를 나타냅니다.</block>
+  <block id="bb1bce6ceb9138a27ff4a45ffa2b6cc4" category="cell">볼륨 생성 작업이 완료된 시간입니다.</block>
+  <block id="7336e8d668382e4fcc192f488c6d7388" category="cell">블록 크기</block>
+  <block id="9ee9ada271ccb1402b94ecea9c679af3" category="cell">볼륨의 블록 크기입니다.</block>
+  <block id="a017bf9c6a361a667e032823a6e40f10" category="cell">IQN을 선택합니다</block>
+  <block id="a0b7e25b2864f5bf822f46c10f6d6d70" category="cell">볼륨의 IQN(iSCSI Qualified Name)입니다.</block>
+  <block id="5b20d3decdaa7d1ffa5dec3145341152" category="cell">SciEUIDeviceID입니다</block>
+  <block id="881e72cca1f47930233cfa5388bf8372" category="cell">EUI-64 기반 16바이트 형식의 볼륨에 대한 전역적으로 고유한 SCSI 디바이스 식별자입니다.</block>
+  <block id="4cb169ebb12659f7aa944d1f4d858180" category="cell">ScsiNADeviceID입니다</block>
+  <block id="0810b69cc64402bbe9330f886ca32076" category="cell">NAA IEEE 등록 확장 형식의 볼륨에 대한 전역적으로 고유한 SCSI 장치 식별자입니다.</block>
+  <block id="287234a1ff35a314b5b6bc4e5828e745" category="cell">속성</block>
+  <block id="542b7dd5cce482c91fbc9c4d58a7dd79" category="cell">JSON 개체 형식의 이름/값 쌍 목록입니다.</block>
+  <block id="2aa151cde9559423a1344e78388a5ddc" category="section-title">개별 볼륨 성능 그래프를 봅니다</block>
+  <block id="085fada455a41090c0b87a8111a28348" category="paragraph">볼륨 * 페이지에서 각 볼륨의 성능 활동을 그래픽 형식으로 볼 수 있습니다. 이 정보는 처리량, IOPS, 지연 시간, 대기열 길이, 평균 IO 크기에 대한 실시간 통계를 및 각 볼륨의 용량입니다.</block>
+  <block id="18af9f90626aa8ebda9eba5cdb5383e2" category="list-text">Actions * 열에서 을 선택합니다 <block ref="cdebc265529e000c5722a7028c8024ee" category="inline-image-macro-rx" type="image"></block> 원하는 볼륨에 대한 아이콘을 클릭하고 * 세부 정보 보기 * 를 선택합니다.</block>
+  <block id="2cae8af7ba94a4af5b21955a8fc3f3a4" category="paragraph">성능 그래프와 동기화되는 조정 가능한 타임라인을 표시하기 위해 별도의 페이지가 열립니다.</block>
+  <block id="7fd029bcdd4a41a83d2472169c5372a0" category="list-text">왼쪽에서 축소판 그래프를 선택하여 성능 그래프를 자세히 봅니다. 다음 그래프를 볼 수 있습니다.</block>
+  <block id="0b85467ebafa7ca3c47e82dc38184484" category="list-text">처리량</block>
+  <block id="79073619fba8242703524f16870ff858" category="list-text">IOPS</block>
+  <block id="26ae7bdd1d6fb8c4886e6fde8d12601c" category="list-text">지연 시간</block>
+  <block id="085adc16280aabef4b6fe2344f24ba5b" category="list-text">큐 길이</block>
+  <block id="ad76541a6e4b94763c23440a141cb87f" category="list-text">평균 IO 크기</block>
+  <block id="0c62d3c3703cc9cfe18da37951bf1957" category="list-text">(선택 사항) 을 선택하여 각 그래프를 CSV 파일로 내보낼 수 있습니다 <block ref="2915399c84d3d8e8b7be56e94c232606" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭합니다.</block>
+  <block id="1d106124801228432411a3ec12f75276" category="summary">관리 노드에서 SolidFire Active IQ 보고 기능을 사용하도록 설정하는 방법에 대해 알아봅니다.</block>
+  <block id="2608b149e5d7ac8d0fd12c6175bbe965" category="doc">SolidFire Active IQ 보고를 활성화합니다</block>
+  <block id="e78d077c08f454fe0bda46f85b4815fb" category="paragraph">설치 또는 업그레이드 중에 SolidFire Active IQ 보고 기능을 활성화하지 않은 경우 관리 노드에서 Active IQ 서버가 관리 노드로부터 클러스터의 데이터 페이로드를 수신할 수 있습니다. 연결이 성공적으로 설정되면 클러스터는 Active IQ 서버로 정보를 보냅니다. 그런 다음 Active IQ UI에서 클러스터를 볼 수 있으며, 클러스터 정보가 표시됩니다.</block>
+  <block id="b46ffcc9e6980359ceefabd56b5eff67" category="admonition">Active IQ에서 Google Chrome 및 Firefox 브라우저를 실행할 수 있습니다.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
+  <block id="56ee8203bf76c58f39596dab101d98d5" category="list-text">Active IQ의 일부 기능(예: QoS)에서는 Element 11.3 이상이 올바르게 작동해야 합니다. 모든 Active IQ 기능을 사용할 수 있는지 확인하려면 다음 단계를 수행하는 것이 좋습니다.</block>
+  <block id="7ae82c07422143d84f2406fe018d3f73" category="list-text">스토리지 클러스터에서 NetApp Element 소프트웨어 11.3 이상이 실행 중입니다.</block>
+  <block id="d95dde96d5f37c05bba91d1bff6d1a55" category="list-text">버전 11.3 이상을 실행하는 관리 노드를 배포했습니다.</block>
+  <block id="48999150d3601e85bd7d225657eb6811" category="list-text">인터넷에 접속할 수 있습니다. 외부 연결이 없는 어두운 사이트에서는 Active IQ Collector 서비스를 사용할 수 없습니다.</block>
+  <block id="82a2b40d5c47d3f7c952492cdb40edd6" category="list-text">설치의 기본 자산 ID를 가져옵니다.</block>
+  <block id="2be2a7ca72e09c58cfb47c549453cdd1" category="list-text">관리 노드에서 인벤토리 서비스 REST API UI를 엽니다.</block>
+  <block id="03917624197381e26d93d8783477b3bf" category="list-text">authorize * 를 선택하고 다음을 완료합니다.</block>
+  <block id="e70cbab1a499d9b8977a700c05be8d8b" category="list-text">클러스터 사용자 이름 및 암호를 입력합니다.</block>
+  <block id="498dbe1fd0d4770ec7a8825a95fb73f3" category="list-text">Client ID를 mnode-client로 입력한다.</block>
+  <block id="618de31a7af637f5e228aa0b8c0614ba" category="list-text">세션을 시작하려면 * authorize * 를 선택합니다.</block>
+  <block id="dca88fc888afa88e757dfbda4102fd6c" category="list-text">창을 닫습니다.</block>
+  <block id="4e1983f58c81d12130ee2409db704d73" category="list-text">REST API UI에서 * Get Windows/Installations * 를 선택합니다.</block>
+  <block id="b1f85b610b71ac9db3be3c5efe00f9a4" category="list-text">체험하기 * 를 선택합니다.</block>
+  <block id="c226d28399dfd8c127b616b86c9d4fea" category="list-text">Execute * 를 선택합니다.</block>
+  <block id="53c2c27c3b3fb674bd0285146df5b77b" category="list-text">코드 200 응답 본문에서 설치 시 id를 복사한다.</block>
+  <block id="05c59d2489c111c7947e09976e2c1d9a" category="admonition">설치 또는 업그레이드 중에 생성된 기본 자산 구성을 설치하였습니다.</block>
+  <block id="092651f6be0e540a683ac1fc90004d5a" category="list-text">원격 측정 활성화:</block>
+  <block id="58b7a2d986aefcee324485ed446a8349" category="list-text">관리 노드의 IP 주소 뒤에 '/mnode'를 입력하여 관리 노드의 mnode service API UI에 접근한다.</block>
+  <block id="1fca2b4a66eca3cc3857ef2cc620c7a4" category="list-text">authorize * 또는 임의의 잠금 아이콘을 선택하고 다음을 완료합니다.</block>
+  <block id="7d7525a997cbefb4dec8acd4be173a4c" category="list-text">기본 자산 구성:</block>
+  <block id="cf6ee90fd7f4fb99d8f880e72cabceed" category="list-text">PUT/ASSET/{ASSET_ID} * 를 선택합니다.</block>
+  <block id="d029bae3ea75a749fb092a781db91a57" category="list-text">JSON 페이로드에 다음을 입력합니다.</block>
+  <block id="f6dc362c9bea8a038a53d530dd18219f" category="list-text">이전 단계의 기본 ID를 * asset_ID * 에 입력합니다.</block>
+  <block id="5ca0dbfdd4f905ba3125c694cd1f359f" category="paragraph">Active IQ 서비스는 자산이 변경될 때마다 자동으로 다시 시작됩니다. 자산을 수정하면 설정이 적용되기 전에 짧은 지연이 발생합니다.</block>
+  <block id="c9618f4b15d53501dee68300c1517890" category="inline-link-macro">SolidFire Active IQ</block>
+  <block id="d54aa041fbc60813d85a10116f19acba" category="list-text">에 로그인합니다 <block ref="4ebae971a9ad9014320b80bb2122d87f" category="inline-link-macro-rx"></block> 클러스터를 볼 수 있는지 확인합니다.</block>
+  <block id="efaf46da503dff8a534048e87cf05c05" category="summary">SolidFire Active IQ의 액티브 노드 페이지에 대해 알아보십시오.</block>
+  <block id="aa2722f0dd149fa426d354dcd17c882b" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * 노드 * &gt; * 활성 노드 * 페이지에서 클러스터의 노드에 대한 정보를 볼 수 있습니다.</block>
+  <block id="efa3af2000f434495156bd711f91876d" category="paragraph">사용 가능한 세부 정보는 시스템에 따라 다릅니다.</block>
+  <block id="a896398c6d72bfcee974918d75f31685" category="list-text"><block ref="6b768338154a8197cc67e41af532b78b" category="inline-xref-macro-rx"></block></block>
+  <block id="f89f98ad3bf8dccd3b5dfa50eb3713e7" category="list-text"><block ref="5d3f50a6fbc21b3b38fa712473d01526" category="inline-xref-macro-rx"></block></block>
+  <block id="e19e77df266d9b912205d3a03d83af20" category="list-text">MVIP VLAN ID: MVIP용 가상 LAN ID입니다</block>
+  <block id="e59ddee5a346c6438ae959fb2ffff0c6" category="cell">노드에서 실행되는 Element 소프트웨어의 버전입니다.</block>
+  <block id="03fa629af0b583e1d9945542f825cd19" category="list-text">노드에 역할이 없는 경우 값은 -(대시)로 설정됩니다.</block>
+  <block id="8ec8dfb4d7be94e7859a33de61f8c29a" category="paragraph">NetApp HCI 클러스터의 스토리지 노드 및 컴퓨팅 노드에 대한 정보 확인:</block>
+  <block id="f829472f2b82b6aceb87ef0a8b5ba06d" category="list-text"><block ref="d959f89411a3301bd57e734714f7c48d" category="inline-xref-macro-rx"></block></block>
+  <block id="b260ea351a49954d42bfd30fa98cada1" category="list-text"><block ref="4c8790a7a252179a67d34ef563a45701" category="inline-xref-macro-rx"></block></block>
+  <block id="c2ca16d048ec66e04bca283eab048ec2" category="cell">호스트</block>
+  <block id="a89b9974f7e79d6447036846d82a5630" category="cell">컴퓨팅 노드의 VMware vMotion 네트워크 IP 주소입니다.</block>
+  <block id="92322619669e3ea67285191635e38ca0" category="summary">SolidFire Active IQ에 대해 자세히 알아보십시오.</block>
+  <block id="2ab359ffeac1725ecfaeb8d017747085" category="doc">SolidFire Active IQ에 대해 자세히 알아보십시오</block>
+  <block id="2d24d754666d0b21fe6fc9c67d60634d" category="paragraph">SolidFire Active IQ를 사용하기 전에 SolidFire Active IQ의 작동 방식과 이 기능이 수집하는 정보에 대해 알고 있어야 합니다.</block>
+  <block id="8dbbd87f01178639319815ba98d9d4bc" category="section-title">SolidFire Active IQ의 작동 방식</block>
+  <block id="8296e5a5843626a7deba367ac0a6efed" category="paragraph">Collector 및 원격 측정과 같은 서비스는 관리 노드에서 실행됩니다. 이러한 서비스는 클러스터에 대한 읽기 전용 액세스로 구성되고 스케줄에 따라 클러스터에 API 호출을 수행하여 주요 성능, 용량 및 상태 메트릭을 수집합니다. 이 정보는 HTTPS를 통해 Active IQ 클라우드 데이터베이스에 업로드되며, 이 데이터베이스는 Active IQ UI를 통해 귀사와 NetApp Support에서 처리 및 제공됩니다. Active IQ UI에서 클러스터에 대해 수신한 최신 API 페이로드 및 수집 간격을 보려면 SSO 자격 증명을 사용하여 로그인하고 * Reporting * 드롭다운 메뉴에서 * API Collection * 을 선택합니다.</block>
+  <block id="b1026bd3d8abc4aec4981330dc62b906" category="inline-link-macro">Access SolidFire Active IQ(로그인 필요)</block>
+  <block id="a6dc0a9f123b0664c5bb023e693bef51" category="paragraph"><block ref="a6dc0a9f123b0664c5bb023e693bef51" category="inline-link-macro-rx"></block></block>
+  <block id="b066c8b2c0d4cbbe120fcbe58e323812" category="section-title">SolidFire Active IQ에서 수집하는 정보</block>
+  <block id="8e594354549dfe611311e389b7ad8354" category="paragraph">SolidFire Active IQ는 볼륨, 클러스터, 노드, 성능 및 구성에 대한 정보를 수집합니다.</block>
+  <block id="94ac66c1bafc92f84c2417670a032f3c" category="list-text">볼륨, 스냅샷 및 계정 노드 ID와 같은 리소스 ID입니다</block>
+  <block id="f5d3ba6d4c5aca75d63fc35a6b7e59bf" category="list-text">클러스터 및 볼륨의 성능 및 용량 데이터</block>
+  <block id="93797aa369d63924fdaf43fe23967074" category="list-text">오류 및 이벤트 기록</block>
+  <block id="8b50b4468a34cc50512a6c4215ae72cb" category="list-text">NetApp HCI 및 Element 소프트웨어 버전</block>
+  <block id="19ac3e527aa447c4fa83e30c8610a613" category="list-text">QoS(서비스 품질) 구성</block>
+  <block id="47b06577d695e2a5cc8748234f077aef" category="list-text">크기, 생성 날짜 등과 같은 볼륨 세부 정보</block>
+  <block id="f1a844136b0c4517e631ab1bd1e4be42" category="list-text">볼륨 액세스 그룹 및 세션 구성</block>
+  <block id="82b804eb5ad617b984087d39cd6edc80" category="list-text">노드 및 클러스터 네트워크 구성</block>
+  <block id="d4f28ca55292af16243c26ed79320f59" category="paragraph">SolidFire Active IQ는 다음과 같은 고객의 중요한 정보를 수집하지 않습니다.</block>
+  <block id="9819c2ad11829f5fbf46461062e79aa1" category="list-text">실제 최종 사용자 데이터</block>
+  <block id="e18ee67232545172093ce053ae9d2c73" category="list-text">암호</block>
+  <block id="9eb1156f4d1fd9e2532eb9afa84a62b3" category="list-text">CHAP(Challenge-Handshake Authentication Protocol) 암호</block>
+  <block id="0d0cda84398958595522a3d083d1728a" category="list-text">클러스터 관리 사용자 정보입니다</block>
+  <block id="3212d3d522b251a7d0b3641c45a81573" category="summary">SolidFire Active IQ를 시작하는 방법에 대해 알아보십시오.</block>
+  <block id="9200ebe2b4ab5b00a77d52efaf85a6de" category="doc">SolidFire Active IQ를 시작하십시오</block>
+  <block id="b25037cf63d119a232994ab4f2b4bf2c" category="paragraph">SolidFire Active IQ 툴을 사용하면 용량과 성능을 모니터링할 수 있을 뿐만 아니라 클러스터 상태에 대한 정보를 어디에서나 쉽게 액세스할 수 있습니다. SolidFire Active IQ의 사용 방식에 상관없이 사용을 시작하기 전에 알아야 할 몇 가지 사항은 다음과 같습니다.</block>
+  <block id="8cd7ccc6d38ee23b097ee26faf4c71c8" category="list-text"><block ref="ad1b90f44edaa6f6bcf1d6954c507065" category="inline-link-macro-rx"></block>: SolidFire Active IQ의 작동 방식과 이 기능이 수집하는 정보에 대해 알고 있어야 합니다.</block>
+  <block id="19bda018dd14a0253ab90b899617cc17" category="list-text"><block ref="4370f207367a64bc8e4d74d8bfee1cf2" category="inline-link-macro-rx"></block>: Active IQ 서버가 클러스터에 연결하고 클러스터 정보를 받으려면 관리 노드에서 Active IQ 보고 기능을 활성화해야 합니다.</block>
+  <block id="9105bd82ad51c438cd590bde945827a7" category="inline-link-macro">SolidFire Active IQ UI를 사용합니다</block>
+  <block id="b88f946c2a4f0d4f82a08759e3744ea1" category="list-text"><block ref="3d10ba7dfbb53d51fde6e6e02a6608a9" category="inline-link-macro-rx"></block>: 필터링, 정렬, 데이터 내보내기 및 클러스터 선택과 같은 새로운 기능 또는 향상된 기능에 대해 알아봅니다.</block>
+  <block id="dff97aa9c118deaf53b64587432eaa6a" category="summary">SolidFire Active IQ의 복제 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="36b3b446a74e8c661084ac077df02e4e" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * Replication * 페이지에서는 클러스터 쌍과 볼륨 쌍에 대한 정보를 제공합니다.</block>
+  <block id="146bce7fc037908ea900e585e01888de" category="paragraph">클러스터 쌍 및 볼륨 쌍 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="13e68c53de2e870d7b6bf48dadd38d86" category="inline-xref">클러스터 쌍</block>
+  <block id="ba903dc7619ef9e0df34c837de8649ae" category="list-text"><block ref="e79dc9f248dfa60bbbdf5131074bd941" category="inline-xref-macro-rx"></block></block>
+  <block id="b4a20e3a6be7e6cd6f8e3dcdd45cb2a8" category="inline-xref">볼륨 쌍</block>
+  <block id="b3bfae786e70112d669d90551b5c5eba" category="list-text"><block ref="3a50de34db8b7d843b2b3ad0f3c013cd" category="inline-xref-macro-rx"></block></block>
+  <block id="5864eb77049f5c5b166d2b392773ea3e" category="paragraph">선택한 클러스터의 * Replication * &gt; * Cluster Pairs * 페이지에서 클러스터 쌍에 대한 다음 정보를 볼 수 있습니다.</block>
+  <block id="15ce2362da4804063e2de46d1634caa2" category="cell">클러스터 쌍 ID입니다</block>
+  <block id="035bea5e545a887bcc63d0ffb9fb8d2c" category="cell">클러스터 쌍이 생성될 때 지정한 ID 번호입니다.</block>
+  <block id="d8916b50ac9bfbe9dea4f9dc1dd401f7" category="cell">원격 클러스터 이름</block>
+  <block id="244bab27e8b7f4f7a9edc65e61a0d689" category="cell">페어의 원격 클러스터 이름입니다.</block>
+  <block id="add29b59b554ed238e660a5cce974fbb" category="cell">원격 MVIP</block>
+  <block id="651eed3e767f3f9b660ec8e4052356c3" category="cell">관리 원격 클러스터의 가상 IP입니다.</block>
+  <block id="afa615f561deb78e40afd2730845e262" category="cell">볼륨 복제</block>
+  <block id="b6987714e9a90d0caa48013cb4d0e22f" category="cell">페어링된 클러스터에 복제된 볼륨의 수를 나타냅니다.</block>
+  <block id="ca640c07681b922f317812c6ff7cb6cc" category="cell">클러스터 쌍의 상태입니다.</block>
+  <block id="912cace1d02a102438733f58249c0800" category="paragraph">선택한 클러스터의 * Replication * &gt; * Volume Pairs * 페이지에서 볼륨 쌍에 대한 다음 정보를 볼 수 있습니다.</block>
+  <block id="f176814637761ab3c2b01691d384eb66" category="cell">볼륨을 생성할 때 지정된 ID 번호입니다.</block>
+  <block id="9164ce359f4300d6bc66fb6d5226b6c9" category="cell">볼륨 상태</block>
+  <block id="820dd44f68be3816aff07ef246c73157" category="cell">복제 볼륨의 상태입니다.</block>
+  <block id="1ef5d9900b3e3fc7a9cb0ffb7556c0a3" category="cell">복제 모드</block>
+  <block id="63abc4d8ad20d0becbcd1b03bfd85a1a" category="cell">볼륨 쌍에 대해 선택된 모드의 유형입니다.</block>
+  <block id="02674a4ef33e11c879283629996c8ff8" category="cell">방향</block>
+  <block id="7637b98b8b68bf56cf3e21e0c524ec96" category="paragraph">볼륨 데이터의 방향을 나타냅니다.</block>
+  <block id="324c0596251bd1b8197b912e85ab09f9" category="list-text">소스: 데이터가 클러스터 외부의 타겟에 기록되고 있음을 나타냅니다.</block>
+  <block id="bc47d627a1c2ea42da7fe57343e96f24" category="list-text">타겟: 데이터가 외부 소스에서 로컬 볼륨에 기록되고 있음을 나타냅니다.</block>
+  <block id="384f458efba5d695355cf7a5c6e24381" category="cell">비동기 지연</block>
+  <block id="91b62bcb11ddfb783aa522627ed1e314" category="paragraph">볼륨이 원격 클러스터와 마지막으로 동기화된 이후의 시간입니다. 볼륨이 페어링되지 않은 경우 null입니다.</block>
+  <block id="a39d1a7586a858f4653dc900aa1dfd74" category="admonition">활성 복제 상태의 타겟 볼륨은 항상 0의 비동기 지연을 가집니다. 타겟 볼륨은 복제 중에 시스템을 인식하고 비동기식 지연이 항상 정확하다고 가정합니다.</block>
+  <block id="b8f1dcb8ef923b6c9187cb4124cef8af" category="cell">원격 클러스터</block>
+  <block id="744264ccb653f435c1152ecc358d3a40" category="cell">볼륨이 상주하는 원격 클러스터의 이름입니다.</block>
+  <block id="396f09f4dc265ada6fef962b3170e32a" category="cell">원격 볼륨 ID입니다</block>
+  <block id="1d571a87e429de32d15e077fd11efa4c" category="cell">원격 클러스터에 있는 볼륨의 볼륨 ID입니다.</block>
+  <block id="44adb78cbb192de5e6a6c4bd6d8da174" category="summary">SolidFire Active IQ의 볼륨 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="78ff19f8a597b0628577f1e3f71ac1c4" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * Volumes * 페이지에서 클러스터에 프로비저닝된 볼륨에 대한 정보를 볼 수 있습니다. 각 볼륨 정보 범주는 표 형식 또는 그래픽 형식으로 표시됩니다.</block>
+  <block id="4b3882079dc61996a0dcb7c9b9c37ee5" category="paragraph">볼륨 * 페이지에서 표시되는 내용에 대해 알아보십시오.</block>
+  <block id="1150a0b884d0dd07c0a3bde268351f74" category="list-text"><block ref="1150a0b884d0dd07c0a3bde268351f74" category="inline-link-macro-rx"></block></block>
+  <block id="672a4320e1a78f0a36aecf676649f5e2" category="list-text"><block ref="672a4320e1a78f0a36aecf676649f5e2" category="inline-link-macro-rx"></block></block>
+  <block id="8778e72f2aa424cdad901e0a8908b46e" category="summary">NetApp SolidFire Active IQ는 클러스터 전체 통계에 대한 이력 보기를 지속적으로 업데이트하고 있는 웹 기반 툴입니다. SolidFire Active IQ 툴을 사용하면 용량과 성능을 어디서나 쉽게 모니터링할 수 있으며 액세스할 수 있습니다.</block>
+  <block id="cd7ee3a7eb57fefdba5349f5a38d1d67" category="doc">NetApp SolidFire Active IQ를 참조하십시오</block>
+  <block id="679ac3cb12c1714537521f1e0ad3c546" category="summary">SolidFire Active IQ의 모든 클러스터 보기 대시보드에 대해 자세히 알아보십시오.</block>
+  <block id="387397fa94879a4b5ee9efc8798efed4" category="paragraph">모든 클러스터 보기 * 의 * 대시보드 * 페이지에서 계정과 연결된 클러스터에 대한 성능, 용량 및 클러스터 통계 정보를 볼 수 있습니다.</block>
+  <block id="6b81099aae7202b9cc93e38c9d441665" category="cell">각 노드에서 실행 중인 클러스터 마스터의 버전입니다.</block>
+  <block id="24586119508a57ed58d505dad14869c3" category="cell">클러스터의 노드 수입니다.</block>
+  <block id="875cc10c5010f4de76184ecf640ede59" category="cell">클러스터의 볼륨 수입니다.</block>
+  <block id="0c432aaa367370346aa38d0a6898f3b1" category="cell">압축, 중복제거 및 씬 프로비저닝으로 인해 시스템에서 표시되는 효율성의 크기입니다.</block>
+  <block id="e5c71a9b354de2daff44e5f79164922d" category="cell">사용된 블록 용량입니다</block>
+  <block id="db27a0849df1c7221d827b77dbefa236" category="cell">오류</block>
+  <block id="c94784abb407afbc30328b1905f79829" category="cell">클러스터에서 현재 해결되지 않은 장애가 감지된 횟수입니다.</block>
+  <block id="7da3bc07d4fea7050e1ef95738ae7d64" category="cell">클러스터에 할당된 스토리지 가상 IP 주소입니다.</block>
+  <block id="7ded4ca42319833daf1e9577fc5c6ccc" category="cell">MVIP</block>
+  <block id="2ab66ed3d8055038e1ec8ca5a0e7ae65" category="cell">관리 가상 IP 주소를 클러스터에 할당합니다.</block>
+  <block id="28b65ad4fb748f1996eafbe159d05998" category="cell">마지막 업데이트</block>
+  <block id="37a0f68565e76510eec398329494df81" category="cell">가장 최근 클러스터가 업데이트된 시간 및 날짜입니다.</block>
+  <block id="d5794d615e972d4bdfd38b2e41d32b69" category="paragraph">모든 클러스터 보기 * 의 * 용량 * 기간 페이지에서 NetApp 용량 모델에 대한 정보를 볼 수 있습니다.</block>
+  <block id="c6bce2a0c02ed4dc352779f8ecfdb3f5" category="cell">회사 ID입니다</block>
+  <block id="c5304b20d5c5cdaba5d5b23eb5e28d13" category="cell">라이센스와 연결된 회사 ID입니다.</block>
+  <block id="e7b47c58815acf1d3afa59a84b5db7fb" category="cell">회사 이름</block>
+  <block id="5240302f8d79254b01b76ca5f541ab28" category="cell">라이센스와 연결된 회사의 이름입니다.</block>
+  <block id="f6aca2dcfee051b254bbcb878dc70d09" category="cell">추가 수익 실적을</block>
+  <block id="fbb45e763d52955617b6f7bf9aabf391" category="cell">고객 환경의 라이센스 수입니다.</block>
+  <block id="65b4bbc87526e01f50753c370ffce47b" category="cell">클러스터 수와 고객에게 속하는 클러스터의 ID입니다.</block>
+  <block id="5f576237a840d1af41718f5e4d14e1ff" category="cell">라이센스 용량</block>
+  <block id="955664e257753ca576d7b0c82cf76d2f" category="cell">고객 환경에서 라이센스가 부여된 용량 노드에 할당된 용량입니다.</block>
+  <block id="c4ed6b7a93a993b1b380f32c53438c9d" category="cell">사용된 용량</block>
+  <block id="231e178a523a4059cc5cd57dcea3d6a1" category="cell">고객에 속하는 모든 클러스터에서 현재 사용된 용량입니다.</block>
+  <block id="fe39ad85a0161490bd3de016e8b78715" category="summary">SolidFire Active IQ에서 선택한 클러스터의 대시보드 페이지에 대해 알아보십시오.</block>
+  <block id="6f62e89a8e7dade71af4a03b96ca6f70" category="doc">단일 클러스터 보기 대시보드</block>
+  <block id="b65c21930213ff455568ac2a7793fdae" category="paragraph">선택한 클러스터의 * Dashboard * 페이지에서 성능, 용량, 컴퓨팅 활용률과 같은 상위 레벨 클러스터 세부 정보를 볼 수 있습니다.</block>
+  <block id="2b56b60f878922093facd42284848a0c" category="inline-image-macro">자세한 정보</block>
+  <block id="322d18de68603bba1e7afd4ecddcacba" category="paragraph">클러스터에 대한 자세한 정보를 보거나 를 선택하려면 * 세부 정보 표시 * 드롭다운 메뉴를 선택합니다 <block ref="c32549a97e18cfcab584bd16f681f71f" category="inline-image-macro-rx" type="image"></block> 아이콘 을 클릭하면 세부 보고 정보를 확인할 수 있습니다. 또한 마우스 포인터를 그래프 선 및 보고 데이터 위로 이동하여 추가 세부 정보를 표시할 수도 있습니다.</block>
+  <block id="c8f146c6e2242c2ebc3a9d095615d541" category="paragraph">사용 가능한 세부 정보는 시스템에 따라 다릅니다.</block>
+  <block id="fde3715cb82189439c5bf63ecb683e6b" category="list-text"><block ref="86e9f15af2c379eb2bb8f284faa63160" category="inline-xref-macro-rx"></block></block>
+  <block id="0a241f94edf44b9add41d1a3ea9033b6" category="list-text"><block ref="a9d62dbaa5d09f2df1f30708819d96c4" category="inline-xref-macro-rx"></block></block>
+  <block id="206d78c8afb62198a69e6bf89022bb47" category="section-title">스토리지 전용 시스템입니다</block>
+  <block id="5ab5e4f44c7c9930101b303206d68beb" category="paragraph">SolidFire 스토리지 기반 솔루션의 경우 * 대시보드 * 페이지에서 * 세부 정보 표시 * 를 선택하면 클러스터에 대한 세부 정보 및 성능 정보를 볼 수 있습니다.</block>
+  <block id="c1a54053e507c96d3a5fc18ad6be9092" category="cell">정보 표시줄</block>
+  <block id="e5e93fd33d3997b477ba7bbfc393cb68" category="cell">이 상단 표시줄에서는 선택한 클러스터의 현재 상태를 빠르게 확인할 수 있습니다. 이 표시줄에는 노드 수, 볼륨 수, 장애 세부 정보, 효율성에 대한 실시간 통계, 블록 및 메타데이터 용량에 대한 상태가 표시됩니다. 이 표시줄의 링크가 UI의 해당 데이터에 열려 있습니다.</block>
+  <block id="ba208095a4b9ae3911479c2f4e1eaef4" category="cell">클러스터 세부 정보</block>
+  <block id="7389f7c485c0cece9e7f3eb40f18676d" category="paragraph">다음 값을 표시하려면 * Show Details * 를 선택하여 정보 표시줄을 확장합니다.</block>
+  <block id="bc900967f1944d62f33d1dff61323479" category="list-text">요소 버전</block>
+  <block id="be637a8e5eae74e796f29c77dd7bf739" category="list-text">Fibre Channel 세션</block>
+  <block id="588cc032e37390eb5e045bbe00ed0e70" category="list-text">구성된 총 최대 IOPS입니다</block>
+  <block id="63ca65a5ae90f26f40e9ea7e52e782c3" category="list-text">총 최대 IOPS</block>
+  <block id="2920efdd915e81690d1274fe4d3e6069" category="list-text">노드 유형</block>
+  <block id="d3505ea6a298289a848db2319575a2c7" category="list-text">유휴 데이터 암호화</block>
+  <block id="6a4d46deeb21ef2b80060c11f49187e4" category="list-text">활용</block>
+  <block id="c592641da9cd2c9ce2d888fa760d4673" category="list-text">구성된 총 최소 IOPS입니다</block>
+  <block id="00ef904a45554d6229d21523e7098172" category="cell">이 그래프는 IOPS 및 처리량 사용량을 보여 줍니다.</block>
+  <block id="860400941e2b302219a9f20bc0e97d4d" category="paragraph">이 그림은 설치 클러스터의 상태와 전체 상태를 보여줍니다.</block>
+  <block id="5d44d9d46b4e88a1d76fb80f6864ec0a" category="list-text">프로비저닝됨: 시스템에서 생성된 모든 볼륨의 총 용량입니다.</block>
+  <block id="7031a5179f1458f666ba075ddaccbaac" category="list-text">물리적 용량: 모든 효율성을 적용한 후 시스템에서 저장할 데이터의 총 물리적 용량(총 블록 데이터 용량)입니다.</block>
+  <block id="14d524fab3f1cd81979bb13a11512350" category="list-text">Block Capacity(블록 용량): 현재 사용 중인 블록 데이터 용량의 양입니다.</block>
+  <block id="2de6b7929ed0395c11e68fe85a3c1d23" category="list-text">메타데이터 용량: 현재 사용 중인 메타데이터 용량의 양입니다.</block>
+  <block id="639e0d3ff147fcd6d7d5f1f2c395ae27" category="list-text">효율성: 압축, 중복제거 및 씬 프로비저닝으로 인해 시스템에서 표시되는 효율성의 크기입니다.</block>
+  <block id="7897561133ee0e53b28ae3028d3cae82" category="section-title">NetApp HCI 시스템 개요</block>
+  <block id="842212508fab10beba76dad23ac2287e" category="paragraph">NetApp HCI 기반 솔루션의 경우 * 대시보드 * 페이지에서 * 세부 정보 표시 * 를 선택하면 클러스터와 관련된 세부 정보 및 성능 정보를 볼 수 있습니다.</block>
+  <block id="bdbf539317b61ded9528ce004b1a51d4" category="cell">이 상단 표시줄에서는 선택한 클러스터의 현재 상태를 빠르게 확인할 수 있습니다. 이 표시줄에는 컴퓨팅 및 스토리지 노드의 수, 컴퓨팅 상태, 스토리지 상태, 가상 머신 수 및 NetApp HCI 시스템과 연결된 볼륨 수가 표시됩니다. 이 표시줄의 링크가 UI의 해당 데이터에 열려 있습니다.</block>
+  <block id="9fd8780b202c8a3774a8dbea81b69278" category="cell">설치 세부 정보</block>
+  <block id="1b21b0d71706897b69f108572c444d40" category="list-text">하이퍼바이저</block>
+  <block id="114102f86f31810b2bc8c43ead2004d3" category="list-text">연결된 vCenter 인스턴스입니다</block>
+  <block id="d3d44969b780bc9de6c0d6393f0f8aeb" category="list-text">연결된 데이터 센터</block>
+  <block id="8f7a3e7198606a204fd98670edd21cb5" category="list-text">컴퓨팅 노드 유형</block>
+  <block id="54dd22073f00de5b91fa50d6c037f040" category="list-text">스토리지 노드 유형입니다</block>
+  <block id="ee781b435a6a5b7491fdae43d018d768" category="cell">컴퓨팅 활용률</block>
+  <block id="37a9043811991ca1dcfd85ee76c1b369" category="cell">CPU 및 메모리 사용량이 이 그래프에 표시됩니다.</block>
+  <block id="3f66ff9522ede52d62ea481c9e4990ed" category="cell">스토리지 용량</block>
+  <block id="845fd12e3c31b51563647c4572d65ac3" category="cell">스토리지 성능</block>
+  <block id="5106cb7ea917f7c22d63d5d6d8e17c02" category="cell">IOPS와 처리량은 이 그래프에 표시됩니다.</block>
+  <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">개요</block>
+  <block id="23de2a1ae75bcf2f4de17d30fe859a05" category="sidebar">모든 클러스터 보기 대시보드</block>
+  <block id="c5562ce2e22a86c247849904ecef3dc8" category="sidebar">보고</block>
+  <block id="9949f61a3827392769230f94e185dd46" category="sidebar">SolidFire Active IQ 도구를 사용합니다</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
+  <block id="be7fd157e3e9efece064903e66974656" category="sidebar">제품 설명서</block>
+  <block id="491094e0aaecba36b60cd7a5a211ccb5" category="sidebar">SolidFire 및 Element 소프트웨어</block>
+  <block id="08edd2123939d5309dced149763a50ee" category="sidebar">NetApp HCI</block>
+  <block id="d60c463bb4096f3ed4bd1618626dfe10" category="sidebar">문제 해결</block>
+  <block id="0607bd332350ef193bc31ef1c742c508" category="sidebar">기술 지원 부서에 문의하십시오</block>
+</blocks>

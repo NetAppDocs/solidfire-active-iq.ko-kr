@@ -1,0 +1,41 @@
+---
+permalink: task-active-iq-capacity-licensing.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, capacity, licensing 
+summary: SolidFire Active IQ의 용량 라이센스 페이지에 대해 자세히 알아보십시오. 
+---
+= 용량 라이센스
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+모든 클러스터 보기 * 의 * 용량 라이센스 * 페이지에서 NetApp 용량 라이센스 모델에 대한 정보를 볼 수 있습니다. 표준 SolidFire 어플라이언스를 사용하는 고객은 이 페이지를 무시해야 합니다.
+
+용량 라이센스는 NetApp에서 제공하는 대체 라이센스 옵션입니다. 용량 라이센스 관련 작업에 대한 자세한 정보 또는 수행:
+
+[cols="25,75"]
+|===
+| 제목 | 설명 
+
+
+| 풀 이름입니다 | 라이센스와 연관된 고객의 이름입니다. 
+
+
+| 정규 용량 | 구입한 소프트웨어 용량 라이센스의 합계입니다. 
+
+
+| 프로비저닝된 용량 | 고객 환경에서 라이센스가 부여된 모든 용량 노드에 할당된 프로비저닝된 용량의 양입니다. 
+
+
+| 사용된 용량 | 클러스터 풀의 모든 클러스터에서 현재 사용된 용량입니다. 
+
+
+| 클러스터 | 클러스터 풀 및 해당 ID의 개수로, 라이센스의 클러스터 풀을 구성합니다. 
+|===
+
+
+== 자세한 내용을 확인하십시오
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 제품 설명서"^]

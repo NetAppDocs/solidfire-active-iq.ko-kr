@@ -1,0 +1,100 @@
+---
+settings:
+  name: SolidFire Active IQ
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: NetApp SolidFire Active IQ를 참조하십시오
+    url: "/index.html"
+    entries:
+    - title: SolidFire Active IQ를 시작하십시오
+      entries:
+      - title: 개요
+        url: "/task-active-iq-get-started-overview.html"
+      - title: SolidFire Active IQ에 대해 자세히 알아보십시오
+        url: "/concept-active-iq-learn-about-active-iq.html"
+      - title: SolidFire Active IQ 보고를 활성화합니다
+        url: "/task-active-iq-enable-reporting.html"
+      - title: Active IQ UI를 사용합니다
+        url: "/task-active-iq-use-the-user-interface.html"
+    - title: SolidFire Active IQ 관리
+      entries:
+      - title: 개요
+        url: "/task-active-iq-manage-overview.html"
+      - title: 모든 클러스터 보기
+        entries:
+        - title: 개요
+          url: "/task-active-iq-all-clusters-view-overview.html"
+        - title: 모든 클러스터 보기 대시보드
+          url: "/task-active-iq-all-clusters-view-dashboard.html"
+        - title: 경고
+          url: "/task-active-iq-alerts.html"
+        - title: 용량 라이센스
+          url: "/task-active-iq-capacity-licensing.html"
+        - title: 용량
+          url: "/task-active-iq-term-capacity.html"
+      - title: 클러스터를 선택합니다
+        entries:
+        - title: 개요
+          url: "/task-active-iq-select-cluster-overview.html"
+        - title: 단일 클러스터 보기 대시보드
+          url: "/task-active-iq-single-cluster-view-dashboard.html"
+        - title: 보고
+          url: "/task-active-iq-reporting-options.html"
+      - title: 노드
+        entries:
+        - title: 개요
+          url: "/task-active-iq-nodes-overview.html"
+        - title: 액티브 노드
+          url: "/task-active-iq-active-nodes.html"
+        - title: 노드 임계치 조절
+          url: "/task-active-iq-node-throttling.html"
+      - title: 드라이브
+        url: "/task_active_iq_drives.html"
+      - title: 볼륨
+        entries:
+        - title: 개요
+          url: "/task_active_iq_volumes_overview.html"
+        - title: 활성 볼륨
+          url: "/task-active-iq-active-volumes.html"
+        - title: 스냅샷 및 스냅샷 스케줄
+          url: "/task-active-iq-snapshots-and-schedules.html"
+      - title: 복제
+        url: "/task_active_iq_replication.html"
+      - title: 가상 볼륨
+        url: "/task-active-iq-virtual-volumes.html"
+      - title: QoS 권장 사항
+        url: "/task-active-iq-qos-recommendations.html"
+      - title: 가상 머신
+        url: "/task-active-iq-virtual-machines.html"
+      - title: VMware 알람
+        url: "/task-active-iq-vmware-alarms.html"
+    - title: 문제 해결 및 지원
+      url: "/task-active-iq-troubleshoot-support.html"
+homepage:
+  tiles:
+  - title: SolidFire Active IQ 도구를 사용합니다
+    links:
+    - title: 시작하십시오
+      url: "/task-active-iq-get-started-overview.html"
+    - title: SolidFire Active IQ 관리
+      url: "/task-active-iq-manage-overview.html"
+  - title: 제품 설명서
+    links:
+    - title: SolidFire 및 Element 소프트웨어
+      url: https://docs.netapp.com/us-en/element-software/index.html
+    - title: NetApp HCI
+      url: https://docs.netapp.com/us-en/hci/index.html
+    - title: NetApp 제품 설명서
+      url: https://www.netapp.com/support-and-training/documentation
+  - title: 문제 해결
+    links:
+    - title: 문제 해결
+      url: "/task-active-iq-troubleshoot-support.html"
+    - title: 기술 지원 부서에 문의하십시오
+      url: https://mysupport.netapp.com/site/global/dashboard

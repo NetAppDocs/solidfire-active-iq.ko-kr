@@ -1,0 +1,28 @@
+---
+permalink: task-active-iq-all-clusters-view-overview.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, all, clusters, view 
+summary: SolidFire Active IQ의 모든 클러스터 보기 페이지에 대해 알아보십시오. 
+---
+= 모든 클러스터 보기
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+모든 클러스터 보기 * 는 SolidFire Active IQ의 시작 페이지입니다.
+
+모든 클러스터 보기 * 에서 액세스할 수 있는 기능에 대해 알아보십시오.
+
+* link:task-active-iq-all-clusters-view-dashboard.html["모든 클러스터 보기 대시보드"]
+* link:task-active-iq-alerts.html["경고"]
+* link:task-active-iq-capacity-licensing.html["용량 라이센스"]
+* link:task-active-iq-term-capacity.html["용량"]
+
+
+
+
+== 자세한 내용을 확인하십시오
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 제품 설명서"^]

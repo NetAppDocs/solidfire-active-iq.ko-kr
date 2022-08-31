@@ -1,0 +1,47 @@
+---
+permalink: task-active-iq-vmware-alarms.html 
+sidebar: sidebar 
+keywords: solidfire, active, iq, all, vmware, alarm, hci 
+summary: SolidFire Active IQ에서 VMware 경보 페이지에 대해 자세히 알아보십시오. 
+---
+= VMware 알람
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+선택한 NetApp HCI 클러스터의 측면 패널에서 사용할 수 있는 * VMware 알람 * 페이지에서 클러스터에 대한 VMware 알람 관련 정보를 볼 수 있습니다.
+
+
+NOTE: VMware 알람 * 페이지는 NetApp HCI 클러스터에서만 사용할 수 있습니다.
+
+UI에 표시되는 VMware 알람 데이터에 대해 알아봅니다.
+
+[cols="30,70"]
+|===
+| 제목 | 설명 
+
+
+| vCenter IP입니다 | vCenter Server의 IP 주소입니다. 
+
+
+| 엔티티 ID | vSphere에서 알람이 발생한 객체의 ID입니다. 
+
+
+| 상태 | VMware 알람의 심각도입니다. 
+
+
+| 알람 이름 | VMware 알람의 이름입니다. 
+
+
+| 설명 | VMware 알람에 대한 설명입니다. 
+
+
+| 트리거 시간 | 클러스터 자체가 아닌 Active IQ에서 경고가 트리거된 시간입니다. 
+|===
+
+
+== 자세한 내용을 확인하십시오
+
+https://www.netapp.com/support-and-training/documentation/["NetApp 제품 설명서"^]
