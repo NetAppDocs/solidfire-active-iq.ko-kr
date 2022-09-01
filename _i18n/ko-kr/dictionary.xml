@@ -84,7 +84,6 @@
   <block id="f3bf056f68b8355023f77881422e7f1f" category="section-title">그래프를 보고 날짜 범위를 선택합니다</block>
   <block id="b7b7b61b3c4499c5f2b5308b977a1f92" category="paragraph">Active IQ의 그래프와 날짜 범위는 서로 완벽하게 통합됩니다. 날짜 범위를 선택하면 해당 페이지의 모든 그래프가 선택한 범위로 조정됩니다. 각 그래프에 표시되는 기본 날짜 범위는 7일입니다.</block>
   <block id="3cb48fc4c57bd3575e0c430007bfe074" category="paragraph">달력 드롭다운 상자 또는 미리 정의된 범위 집합에서 날짜 범위를 선택할 수 있습니다. 날짜 범위는 현재 브라우저 시간(선택 시)과 구성된 시간을 사용하여 계산됩니다. 또한 하단의 막대 그래프 위로 직접 빗질하여 원하는 간격을 선택할 수 있습니다. 왼쪽에서 축소판 그림 레이아웃을 선택하여 그래프 간을 전환할 수 있습니다.</block>
-  <block id="0461c4fc34e0832d93b7333b2c5410c3" category="paragraph">그래프에는 선택한 노드에서 호스팅되는 볼륨의 최소 및 최대 IOPS 설정에 따라 노드의 임계치 조절율이 표시됩니다.</block>
   <block id="71f0bed4fc7583649837eed2b8ee49c4" category="list-text">녹색 = 최대 39%</block>
   <block id="a4965bbdc77616cfb8e9619447a55ffc" category="list-text">노란색 = 40 ~ 59%</block>
   <block id="77b4dabdac23af0111f4e3fffcb2f6e5" category="list-text">빨간색 = 59% 이상</block>
@@ -842,7 +841,6 @@
   <block id="56ee8203bf76c58f39596dab101d98d5" category="list-text">Active IQ의 일부 기능(예: QoS)에서는 Element 11.3 이상이 올바르게 작동해야 합니다. 모든 Active IQ 기능을 사용할 수 있는지 확인하려면 다음 단계를 수행하는 것이 좋습니다.</block>
   <block id="7ae82c07422143d84f2406fe018d3f73" category="list-text">스토리지 클러스터에서 NetApp Element 소프트웨어 11.3 이상이 실행 중입니다.</block>
   <block id="d95dde96d5f37c05bba91d1bff6d1a55" category="list-text">버전 11.3 이상을 실행하는 관리 노드를 배포했습니다.</block>
-  <block id="48999150d3601e85bd7d225657eb6811" category="list-text">인터넷에 접속할 수 있습니다. 외부 연결이 없는 어두운 사이트에서는 Active IQ Collector 서비스를 사용할 수 없습니다.</block>
   <block id="82a2b40d5c47d3f7c952492cdb40edd6" category="list-text">설치의 기본 자산 ID를 가져옵니다.</block>
   <block id="2be2a7ca72e09c58cfb47c549453cdd1" category="list-text">관리 노드에서 인벤토리 서비스 REST API UI를 엽니다.</block>
   <block id="03917624197381e26d93d8783477b3bf" category="list-text">authorize * 를 선택하고 다음을 완료합니다.</block>
@@ -1027,4 +1025,6 @@
   <block id="08edd2123939d5309dced149763a50ee" category="sidebar">NetApp HCI</block>
   <block id="d60c463bb4096f3ed4bd1618626dfe10" category="sidebar">문제 해결</block>
   <block id="0607bd332350ef193bc31ef1c742c508" category="sidebar">기술 지원 부서에 문의하십시오</block>
+  <block id="1b4febc902d7bf51135668545d151a14" category="paragraph">그래프에는 선택한 노드에서 호스팅되는 볼륨의 최소 및 최대 IOPS 설정에 따라 노드의 임계치 조절율이 표시됩니다.</block>
+  <block id="b28e179f94097b207a2dc9172aa4b4d0" category="list-text">인터넷에 접속할 수 있습니다. 외부 연결이 없는 어두운 사이트에서는 Active IQ Collector 서비스를 사용할 수 없습니다.</block>
 </blocks>
