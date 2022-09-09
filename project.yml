@@ -42,18 +42,12 @@ sidebar:
         entries:
         - title: 개요
           url: "/task-active-iq-select-cluster-overview.html"
-        - title: 단일 클러스터 보기 대시보드
+        - title: 단일 클러스터 뷰 대시보드
           url: "/task-active-iq-single-cluster-view-dashboard.html"
         - title: 보고
           url: "/task-active-iq-reporting-options.html"
       - title: 노드
-        entries:
-        - title: 개요
-          url: "/task-active-iq-nodes-overview.html"
-        - title: 액티브 노드
-          url: "/task-active-iq-active-nodes.html"
-        - title: 노드 임계치 조절
-          url: "/task-active-iq-node-throttling.html"
+        url: "/task-active-iq-nodes.html"
       - title: 드라이브
         url: "/task_active_iq_drives.html"
       - title: 볼륨
@@ -68,8 +62,14 @@ sidebar:
         url: "/task_active_iq_replication.html"
       - title: 가상 볼륨
         url: "/task-active-iq-virtual-volumes.html"
-      - title: QoS 권장 사항
-        url: "/task-active-iq-qos-recommendations.html"
+      - title: QoS 관리
+        entries:
+        - title: 개요
+          url: "/task-active-iq-qos-management-overview.html"
+        - title: 권장 사항
+          url: "/task-active-iq-recommendations.html"
+        - title: 노드 임계치 조절
+          url: "/task-active-iq-throttling.html"
       - title: 가상 머신
         url: "/task-active-iq-virtual-machines.html"
       - title: VMware 알람

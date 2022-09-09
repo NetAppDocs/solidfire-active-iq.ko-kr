@@ -15,7 +15,7 @@ summary: SolidFire Active IQ의 가상 볼륨 페이지에 대해 자세히 알�
 
 VVOL 관련 작업에 대해 알아보십시오.
 
-* <<Virtual Volumes Details>>
+* <<Virtual Volumes>>
 * <<Storage Containers>>
 * <<Protocol Endpoints>>
 * <<Hosts>>
@@ -24,7 +24,7 @@ VVOL 관련 작업에 대해 알아보십시오.
 
 
 
-== 가상 볼륨 세부 정보
+== 가상 볼륨
 
 선택한 클러스터의 * VVol * > * Virtual Volumes * 페이지는 클러스터의 각 활성 가상 볼륨에 대한 정보를 제공합니다.
 

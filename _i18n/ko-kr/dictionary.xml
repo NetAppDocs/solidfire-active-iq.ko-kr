@@ -71,13 +71,10 @@
   <block id="b22459c42fa05b62fcf6efae76d217e0" category="list-text"><block ref="b22459c42fa05b62fcf6efae76d217e0" category="inline-link-macro-rx"></block></block>
   <block id="df583ae7ba964fd4806b55904da81813" category="inline-link-macro">경고</block>
   <block id="24065c72b6183812a2182740e9714ac5" category="list-text"><block ref="24065c72b6183812a2182740e9714ac5" category="inline-link-macro-rx"></block></block>
-  <block id="799a3fe6cff876fa3027852cc5707a2e" category="inline-link-macro">용량 라이센스</block>
-  <block id="d670b82fe0337950f878b889f6933104" category="list-text"><block ref="d670b82fe0337950f878b889f6933104" category="inline-link-macro-rx"></block></block>
   <block id="d7d8c18bcc1cc8a4b125abd8f5edd2b9" category="inline-link-macro">용량</block>
   <block id="4eca902cc4ae3f106780131e01e88f4b" category="list-text"><block ref="4eca902cc4ae3f106780131e01e88f4b" category="inline-link-macro-rx"></block></block>
   <block id="0cefee73bdb85b3d4d3c8c689e1f1c0a" category="summary">SolidFire Active IQ의 노드 제한 페이지에 대해 자세히 알아보십시오.</block>
   <block id="25a0046a8717b473571a227501cd74e2" category="doc">노드 임계치 조절</block>
-  <block id="59fcde6598b4ab87af49810271746190" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * Nodes * &gt; * Node Throtling * 페이지에서 클러스터의 노드에 대한 비율 조절을 볼 수 있습니다. 노드는 디스플레이 왼쪽에 축소판 그림 레이아웃으로 표시되며 선택한 시간 범위의 임계치 조절 정도에 따라 정렬됩니다.</block>
   <block id="0df9a444c778c6506f58f43cc0edd434" category="paragraph">노드 제한 정보 보기에 대한 자세한 내용:</block>
   <block id="4f54b4cc4d3960f8f2d85ac01981e683" category="list-text"><block ref="597facc265a5c58f66b22d76ff98b78e" category="inline-xref-macro-rx"></block></block>
   <block id="48a5c77d4bcca65797ec6cae22e9596d" category="list-text"><block ref="3aad2e6e5736129db0c2a3093b04110c" category="inline-xref-macro-rx"></block></block>
@@ -118,8 +115,6 @@
   <block id="277d58ac537e0d48d56c275fffae51d7" category="doc">클러스터를 선택합니다</block>
   <block id="eb72be22d7fc9772a8840871ba71b0a8" category="paragraph">클러스터 선택 * 드롭다운 목록에서 클러스터를 선택하면 특정 클러스터에 대한 클러스터 정보를 볼 수 있습니다. 각 클러스터 정보 범주는 표 형식 또는 그래픽 형식으로 표시됩니다.</block>
   <block id="bf4336b6c177b0eea8653853a0f152fc" category="paragraph">측면 패널의 * 대시보드 * 클러스터 개요 또는 * 보고 * 드롭다운 메뉴에서 사용할 수 있는 다양한 목록 및 필터에 대해 알아보십시오.</block>
-  <block id="8dbfa38b833867442634cdf2a6756bca" category="inline-link-macro">단일 클러스터 보기 대시보드</block>
-  <block id="394c111301227a2139f9444cb09edb3f" category="list-text"><block ref="394c111301227a2139f9444cb09edb3f" category="inline-link-macro-rx"></block></block>
   <block id="bbb006833f01ec561077704bef27cb73" category="inline-link-macro">클러스터에 대한 보고 옵션</block>
   <block id="e8451b80e6ac689caa1caf052ce73f12" category="list-text"><block ref="e8451b80e6ac689caa1caf052ce73f12" category="inline-link-macro-rx"></block></block>
   <block id="f6fb41cae39c67dddfa257340be0abea" category="summary">SolidFire Active IQ 페이지에 대해 자세히 알아보십시오.</block>
@@ -204,7 +199,6 @@
   <block id="9b99bf7d2bfd4b09363304c166832734" category="cell">클러스터</block>
   <block id="331491aa4118975b5d832b3bf73155ca" category="cell">클러스터 풀 및 해당 ID의 개수로, 라이센스의 클러스터 풀을 구성합니다.</block>
   <block id="3c222046ebbbdf4ee7fc9e22673e99f4" category="summary">SolidFire Active IQ의 QoS 권장 사항 페이지에 대해 자세히 알아보십시오.</block>
-  <block id="4bcb78be7a1595a1156ae7e0b3ed4052" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * QoS 권장 사항 * 페이지는 최근 성능 데이터를 기반으로 클러스터에 대한 일일 QoS(서비스 품질) 권장 사항을 제공합니다. QoS 권장 사항은 Element 소프트웨어 11.x 이상의 클러스터에만 지원됩니다.</block>
   <block id="b5634ec4fac0ffe7638c4b1bfc6bf2a0" category="paragraph">Active IQ은 최근 활동에 대한 볼륨 통계 데이터를 기반으로 성능을 권장합니다. 권장 사항은 볼륨에 대한 QoS 최대 및 최소 보장 IOPS에 중점을 두며 클러스터 향상이 필요할 경우 UI에서만 표시됩니다.</block>
   <block id="e7f0956807b7442475634b0ca02cf15a" category="inline-link">SolidFire 스토리지 클러스터의 성능 및 QoS</block>
   <block id="6163567ff604813c415da0727538ba46" category="list-text"><block ref="6163567ff604813c415da0727538ba46" category="inline-link-rx"></block></block>
@@ -325,12 +319,10 @@
   <block id="273520ae2b0e4a202c36942359c00981" category="summary">SolidFire Active IQ의 가상 볼륨 페이지에 대해 자세히 알아보십시오.</block>
   <block id="aca90d0397c9490780bfa614d3eda075" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * VVol 페이지 * 에서 가상 볼륨 및 관련 저장소 컨테이너, 프로토콜 엔드포인트, 바인딩 및 호스트에 대한 정보를 볼 수 있습니다.</block>
   <block id="6fa75a2879ede33bb8dcbe609ed93225" category="paragraph">VVOL 관련 작업에 대해 알아보십시오.</block>
-  <block id="8ee38da65565b437e30df8b4fc2120c6" category="list-text"><block ref="cc3a190077155e9f11e55893a04126b0" category="inline-xref-macro-rx"></block></block>
   <block id="20a800131c78b90a5f3cfe114f23578f" category="list-text"><block ref="5ded2a046dc5ca86637f3ae24cd70a11" category="inline-xref-macro-rx"></block></block>
   <block id="427c47678b1253b05de4cc969a1e69a1" category="list-text"><block ref="0438ed7546a9ccca6ea31cb94f48bb41" category="inline-xref-macro-rx"></block></block>
   <block id="3a711397217e10d79c4f76137db4c3fa" category="list-text"><block ref="9d7a5a13ad72f63838a097b34692bfd2" category="inline-xref-macro-rx"></block></block>
   <block id="330ab730707379ab7dd6073af2af7a37" category="list-text"><block ref="842b4663dd531fbec8e79946bdde515b" category="inline-xref-macro-rx"></block></block>
-  <block id="1cd4dd4eff6bc90708a6a05c5d116a57" category="section-title">가상 볼륨 세부 정보</block>
   <block id="0b286bd72571d699ece37ec34b85f379" category="paragraph">선택한 클러스터의 * VVol * &gt; * Virtual Volumes * 페이지는 클러스터의 각 활성 가상 볼륨에 대한 정보를 제공합니다.</block>
   <block id="fd6bac109d479ec3660fd4daeeded3a1" category="cell">기본 볼륨의 ID입니다.</block>
   <block id="72d6eb7733941a274a474f7cc4d97973" category="cell">스냅샷 ID입니다</block>
@@ -739,12 +731,6 @@
   <block id="1e6c78e80b17c6b7b921a36a86593bc0" category="inline-link-macro">Element 소프트웨어 API 설명서</block>
   <block id="1b77c771de8f4f6c3baf80457d54f266" category="paragraph">선택한 클러스터에 대한 * Reporting * 드롭다운 메뉴의 * API Collection * 페이지에서 NetApp SolidFire Active IQ에서 사용하는 API 메소드를 볼 수 있습니다. 이러한 방법에 대한 자세한 설명은 를 참조하십시오 <block ref="f22a227c10cf8287f1c4420ec53d0585" category="inline-link-macro-rx"></block>.</block>
   <block id="18cc1cea8bdf18884d35610fd16fdb77" category="admonition">Active IQ는 이러한 방법 외에도 NetApp 지원 및 엔지니어링에서 클러스터 상태를 모니터링하는 데 사용되는 일부 내부 API 호출을 합니다. 이러한 콜은 잘못 사용될 경우 클러스터 기능에 지장을 줄 수 있으므로 문서화되지 않습니다. Active IQ API 컬렉션의 전체 목록이 필요한 경우 NetApp 지원에 문의해야 합니다.</block>
-  <block id="0c4d60a128e7714f565d66085537b6a9" category="summary">SolidFire Active IQ의 노드 페이지에 대해 자세히 알아보십시오.</block>
-  <block id="efff5bf65c7253a9f13c3da6e316514f" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 노드 페이지에서는 클러스터의 노드에 대한 정보를 볼 수 있습니다.</block>
-  <block id="86d657b6d468a7d4b765611ea754e07d" category="paragraph">활성 노드에 대한 정보 및 선택한 노드에 대한 노드 임계치 조절의 비율에 대해 알아봅니다.</block>
-  <block id="1fb1691d89c63b4c1b5243e04cd9f5b3" category="inline-link-macro">액티브 노드</block>
-  <block id="6c663e2ebd3f817914a7f20e8dd5b0dd" category="list-text"><block ref="6c663e2ebd3f817914a7f20e8dd5b0dd" category="inline-link-macro-rx"></block></block>
-  <block id="72fb384431f6bdc515c1be4fddf3b93e" category="list-text"><block ref="72fb384431f6bdc515c1be4fddf3b93e" category="inline-link-macro-rx"></block></block>
   <block id="bf807ea6b20dd5093c3aabab556b7151" category="summary">SolidFire Active IQ 문제를 해결합니다.</block>
   <block id="174a62637bdb98e952c7c5e781c86dc4" category="doc">문제 해결 및 지원</block>
   <block id="d290f31130e082bed7a5e74006445b90" category="paragraph">SolidFire Active IQ 또는 다른 NetApp Element 소프트웨어 기반 제품을 사용하는 동안 문제가 발생하거나 기술적 문제가 발생하는 경우 문제 해결을 위해 많은 리소스를 사용할 수 있습니다.</block>
@@ -864,7 +850,6 @@
   <block id="c9618f4b15d53501dee68300c1517890" category="inline-link-macro">SolidFire Active IQ</block>
   <block id="d54aa041fbc60813d85a10116f19acba" category="list-text">에 로그인합니다 <block ref="4ebae971a9ad9014320b80bb2122d87f" category="inline-link-macro-rx"></block> 클러스터를 볼 수 있는지 확인합니다.</block>
   <block id="efaf46da503dff8a534048e87cf05c05" category="summary">SolidFire Active IQ의 액티브 노드 페이지에 대해 알아보십시오.</block>
-  <block id="aa2722f0dd149fa426d354dcd17c882b" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * 노드 * &gt; * 활성 노드 * 페이지에서 클러스터의 노드에 대한 정보를 볼 수 있습니다.</block>
   <block id="efa3af2000f434495156bd711f91876d" category="paragraph">사용 가능한 세부 정보는 시스템에 따라 다릅니다.</block>
   <block id="a896398c6d72bfcee974918d75f31685" category="list-text"><block ref="6b768338154a8197cc67e41af532b78b" category="inline-xref-macro-rx"></block></block>
   <block id="f89f98ad3bf8dccd3b5dfa50eb3713e7" category="list-text"><block ref="5d3f50a6fbc21b3b38fa712473d01526" category="inline-xref-macro-rx"></block></block>
@@ -973,7 +958,6 @@
   <block id="c4ed6b7a93a993b1b380f32c53438c9d" category="cell">사용된 용량</block>
   <block id="231e178a523a4059cc5cd57dcea3d6a1" category="cell">고객에 속하는 모든 클러스터에서 현재 사용된 용량입니다.</block>
   <block id="fe39ad85a0161490bd3de016e8b78715" category="summary">SolidFire Active IQ에서 선택한 클러스터의 대시보드 페이지에 대해 알아보십시오.</block>
-  <block id="6f62e89a8e7dade71af4a03b96ca6f70" category="doc">단일 클러스터 보기 대시보드</block>
   <block id="b65c21930213ff455568ac2a7793fdae" category="paragraph">선택한 클러스터의 * Dashboard * 페이지에서 성능, 용량, 컴퓨팅 활용률과 같은 상위 레벨 클러스터 세부 정보를 볼 수 있습니다.</block>
   <block id="2b56b60f878922093facd42284848a0c" category="inline-image-macro">자세한 정보</block>
   <block id="322d18de68603bba1e7afd4ecddcacba" category="paragraph">클러스터에 대한 자세한 정보를 보거나 를 선택하려면 * 세부 정보 표시 * 드롭다운 메뉴를 선택합니다 <block ref="c32549a97e18cfcab584bd16f681f71f" category="inline-image-macro-rx" type="image"></block> 아이콘 을 클릭하면 세부 보고 정보를 확인할 수 있습니다. 또한 마우스 포인터를 그래프 선 및 보고 데이터 위로 이동하여 추가 세부 정보를 표시할 수도 있습니다.</block>
@@ -1016,7 +1000,6 @@
   <block id="845fd12e3c31b51563647c4572d65ac3" category="cell">스토리지 성능</block>
   <block id="5106cb7ea917f7c22d63d5d6d8e17c02" category="cell">IOPS와 처리량은 이 그래프에 표시됩니다.</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">개요</block>
-  <block id="23de2a1ae75bcf2f4de17d30fe859a05" category="sidebar">모든 클러스터 보기 대시보드</block>
   <block id="c5562ce2e22a86c247849904ecef3dc8" category="sidebar">보고</block>
   <block id="9949f61a3827392769230f94e185dd46" category="sidebar">SolidFire Active IQ 도구를 사용합니다</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
@@ -1027,4 +1010,18 @@
   <block id="0607bd332350ef193bc31ef1c742c508" category="sidebar">기술 지원 부서에 문의하십시오</block>
   <block id="1b4febc902d7bf51135668545d151a14" category="paragraph">그래프에는 선택한 노드에서 호스팅되는 볼륨의 최소 및 최대 IOPS 설정에 따라 노드의 임계치 조절율이 표시됩니다.</block>
   <block id="b28e179f94097b207a2dc9172aa4b4d0" category="list-text">인터넷에 접속할 수 있습니다. 외부 연결이 없는 어두운 사이트에서는 Active IQ Collector 서비스를 사용할 수 없습니다.</block>
+  <block id="c357af7a99b77ac25c548aef6df0d1a8" category="list-text"><block ref="c357af7a99b77ac25c548aef6df0d1a8" category="inline-link-macro-rx"></block></block>
+  <block id="16beb139f89865caa5bdd51a5b9fadcd" category="summary">SolidFire Active IQ의 QoS 관리 페이지에 대해 자세히 알아보십시오.</block>
+  <block id="d57c256b226c8f444c1c9b3956085ad8" category="doc">QoS 관리</block>
+  <block id="5085a6d22e1a79b7b82997ea97e58d72" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * QoS Management * 페이지에서 클러스터의 노드에 대한 QoS 권장 사항 및 성능 저하 정보를 볼 수 있습니다.</block>
+  <block id="be4ba82940f402388451f5cc834ece73" category="paragraph">선택한 노드의 QoS 권장 사항 및 성능 저하 정보를 확인하는 방법에 대해 알아보십시오.</block>
+  <block id="5259ae4afb5996ff48788b2fa720114c" category="inline-link-macro">권장 사항</block>
+  <block id="a360a35f96153959d5b43412ede22440" category="list-text"><block ref="a360a35f96153959d5b43412ede22440" category="inline-link-macro-rx"></block></block>
+  <block id="74372e2fdee501a3a9fa25f6ef28ec0a" category="list-text"><block ref="74372e2fdee501a3a9fa25f6ef28ec0a" category="inline-link-macro-rx"></block></block>
+  <block id="00c4d35e3b52aa64cb1fc6084c8a6b2e" category="inline-link-macro">단일 클러스터 뷰 대시보드</block>
+  <block id="926bcde67df442aed657539d0f151a77" category="list-text"><block ref="926bcde67df442aed657539d0f151a77" category="inline-link-macro-rx"></block></block>
+  <block id="36d2e075918140efadafcbd5672eb0ad" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * QoS Management * &gt; * Recommendations * 페이지는 최근 성능 데이터를 기반으로 클러스터에 대한 일일 QoS(Quality of Service) 권장 사항을 제공합니다. QoS 권장 사항은 Element 소프트웨어 11.x 이상의 클러스터에만 지원됩니다.</block>
+  <block id="4408a36df9e9ed5aa8dd852943967324" category="list-text"><block ref="370537d09346032450865c36be0b772b" category="inline-xref-macro-rx"></block></block>
+  <block id="b01d0fd0e15cd69ca0c99c35e0db5116" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * Nodes * 페이지에서 클러스터의 노드에 대한 정보를 볼 수 있습니다.</block>
+  <block id="9b549dfa7e57d3b25fa9e46fe3685b2b" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * QoS Management * &gt; * Node Throtling * 페이지에서 클러스터의 노드에 대한 비율 조절을 볼 수 있습니다. 노드는 디스플레이 왼쪽에 축소판 그림 레이아웃으로 표시되며 선택한 시간 범위의 임계치 조절 정도에 따라 정렬됩니다.</block>
 </blocks>
