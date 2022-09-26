@@ -15,11 +15,11 @@ summary: SolidFire Active IQ의 가상 볼륨 페이지에 대해 자세히 알�
 
 VVOL 관련 작업에 대해 알아보십시오.
 
-* <<Virtual Volumes>>
-* <<Storage Containers>>
-* <<Protocol Endpoints>>
-* <<Hosts>>
-* <<Bindings>>
+*  Volumes
+*  Containers
+*  Endpoints
+* 
+* 
 
 
 

@@ -79,7 +79,6 @@
   <block id="4f54b4cc4d3960f8f2d85ac01981e683" category="list-text"><block ref="597facc265a5c58f66b22d76ff98b78e" category="inline-xref-macro-rx"></block></block>
   <block id="48a5c77d4bcca65797ec6cae22e9596d" category="list-text"><block ref="3aad2e6e5736129db0c2a3093b04110c" category="inline-xref-macro-rx"></block></block>
   <block id="f3bf056f68b8355023f77881422e7f1f" category="section-title">그래프를 보고 날짜 범위를 선택합니다</block>
-  <block id="b7b7b61b3c4499c5f2b5308b977a1f92" category="paragraph">Active IQ의 그래프와 날짜 범위는 서로 완벽하게 통합됩니다. 날짜 범위를 선택하면 해당 페이지의 모든 그래프가 선택한 범위로 조정됩니다. 각 그래프에 표시되는 기본 날짜 범위는 7일입니다.</block>
   <block id="3cb48fc4c57bd3575e0c430007bfe074" category="paragraph">달력 드롭다운 상자 또는 미리 정의된 범위 집합에서 날짜 범위를 선택할 수 있습니다. 날짜 범위는 현재 브라우저 시간(선택 시)과 구성된 시간을 사용하여 계산됩니다. 또한 하단의 막대 그래프 위로 직접 빗질하여 원하는 간격을 선택할 수 있습니다. 왼쪽에서 축소판 그림 레이아웃을 선택하여 그래프 간을 전환할 수 있습니다.</block>
   <block id="71f0bed4fc7583649837eed2b8ee49c4" category="list-text">녹색 = 최대 39%</block>
   <block id="a4965bbdc77616cfb8e9619447a55ffc" category="list-text">노란색 = 40 ~ 59%</block>
@@ -110,7 +109,6 @@
   <block id="99678f7a117bc8aabf09db380162078b" category="cell">VMware 알람의 이름입니다.</block>
   <block id="a27b6647124cd63c0c6175743b633c3e" category="cell">VMware 알람에 대한 설명입니다.</block>
   <block id="598b092e27986b9b865df094fe4948b9" category="cell">트리거 시간</block>
-  <block id="677b17da2c12cb51b4885efd8fc8d12e" category="cell">클러스터 자체가 아닌 Active IQ에서 경고가 트리거된 시간입니다.</block>
   <block id="3e029ce2c3d8433b34f693041956192d" category="summary">SolidFire Active IQ에서 클러스터 정보를 보는 방법에 대해 알아보십시오.</block>
   <block id="277d58ac537e0d48d56c275fffae51d7" category="doc">클러스터를 선택합니다</block>
   <block id="eb72be22d7fc9772a8840871ba71b0a8" category="paragraph">클러스터 선택 * 드롭다운 목록에서 클러스터를 선택하면 특정 클러스터에 대한 클러스터 정보를 볼 수 있습니다. 각 클러스터 정보 범주는 표 형식 또는 그래픽 형식으로 표시됩니다.</block>
@@ -124,7 +122,6 @@
   <block id="d8ca343535696fc3bc6e295975432a7c" category="list-text"><block ref="d8ca343535696fc3bc6e295975432a7c" category="inline-link-macro-rx"></block></block>
   <block id="15ac47d735d2abb9f151cb6f3bd87f56" category="list-text"><block ref="15ac47d735d2abb9f151cb6f3bd87f56" category="inline-link-macro-rx"></block></block>
   <block id="187c6ad3a74cc93ac6c2229d398e383e" category="inline-link-macro">노드</block>
-  <block id="81da7f2200669b74dbe1d84983bfe4dc" category="list-text"><block ref="81da7f2200669b74dbe1d84983bfe4dc" category="inline-link-macro-rx"></block></block>
   <block id="63a6b9b3b5de50d32228700cfe042610" category="inline-link-macro">드라이브</block>
   <block id="1c968709a3462ab0df1449c2d11bde23" category="list-text"><block ref="1c968709a3462ab0df1449c2d11bde23" category="inline-link-macro-rx"></block></block>
   <block id="c6f01c78bfe0a0a495cb5d3ed77824a9" category="inline-link-macro">볼륨</block>
@@ -133,8 +130,6 @@
   <block id="c0ce04e9e4abab6be41f5db5258d5c42" category="list-text"><block ref="c0ce04e9e4abab6be41f5db5258d5c42" category="inline-link-macro-rx"></block></block>
   <block id="86a60eaa1d2754d3ef920fff5bdf0e91" category="inline-link-macro">가상 볼륨</block>
   <block id="44273fb1c66e463d49a94f9db5f32122" category="list-text"><block ref="44273fb1c66e463d49a94f9db5f32122" category="inline-link-macro-rx"></block></block>
-  <block id="cfadbebab98b6929c6f6db3fddfc6860" category="inline-link-macro">QoS 권장 사항</block>
-  <block id="3220a3924ad848bdfae6c4beb49a4df0" category="list-text"><block ref="3220a3924ad848bdfae6c4beb49a4df0" category="inline-link-macro-rx"></block></block>
   <block id="1b031407a74cfe3989b3fe7b4a7d1a12" category="inline-link-macro">가상 머신(NetApp HCI 클러스터만 해당)</block>
   <block id="f00a95482a80a821b5463f824bd414ef" category="list-text"><block ref="f00a95482a80a821b5463f824bd414ef" category="inline-link-macro-rx"></block></block>
   <block id="a9ddb5f12cc652ccb3d0e88c6a1c5a53" category="inline-link-macro">VMware 알람(NetApp HCI 클러스터만 해당)</block>
@@ -199,13 +194,11 @@
   <block id="9b99bf7d2bfd4b09363304c166832734" category="cell">클러스터</block>
   <block id="331491aa4118975b5d832b3bf73155ca" category="cell">클러스터 풀 및 해당 ID의 개수로, 라이센스의 클러스터 풀을 구성합니다.</block>
   <block id="3c222046ebbbdf4ee7fc9e22673e99f4" category="summary">SolidFire Active IQ의 QoS 권장 사항 페이지에 대해 자세히 알아보십시오.</block>
-  <block id="b5634ec4fac0ffe7638c4b1bfc6bf2a0" category="paragraph">Active IQ은 최근 활동에 대한 볼륨 통계 데이터를 기반으로 성능을 권장합니다. 권장 사항은 볼륨에 대한 QoS 최대 및 최소 보장 IOPS에 중점을 두며 클러스터 향상이 필요할 경우 UI에서만 표시됩니다.</block>
   <block id="e7f0956807b7442475634b0ca02cf15a" category="inline-link">SolidFire 스토리지 클러스터의 성능 및 QoS</block>
   <block id="6163567ff604813c415da0727538ba46" category="list-text"><block ref="6163567ff604813c415da0727538ba46" category="inline-link-rx"></block></block>
   <block id="50ee1f895e7e284e9dd0f8f045bc11a2" category="inline-link">볼륨 QoS 정책 생성 및 관리</block>
   <block id="47c1cc14a918686ff80203d8d1e3607c" category="list-text"><block ref="47c1cc14a918686ff80203d8d1e3607c" category="inline-link-rx"></block></block>
   <block id="c1611363cb08bee418a62fbfb67269a0" category="summary">SolidFire Active IQ의 UI 기능에 대해 알아봅니다.</block>
-  <block id="be16873972b6107404555247ffe64f79" category="doc">Active IQ UI를 사용합니다</block>
   <block id="f1a747b1e6d6c145fc34a1bf342de1e5" category="paragraph">의 UI 기능에 대해 알아봅니다 <block ref="69d38b4c8b518e174614111f3e530167" category="inline-link-macro-rx"></block>:</block>
   <block id="75b5f200ff2e07a1cd3c280094c30efa" category="list-text"><block ref="f0659da1107154bd84c9b38aff0b247a" category="inline-xref-macro-rx"></block></block>
   <block id="0c1d112f9709394d300cbeaa66450a9a" category="list-text"><block ref="7fe5ed762c45abe7d0470e2a89b1a892" category="inline-xref-macro-rx"></block></block>
@@ -214,7 +207,6 @@
   <block id="16df60c28b1f6e1a615a049c6108358e" category="list-text"><block ref="bfbbec3472fd971f56fdb3fbab3e87d8" category="inline-xref-macro-rx"></block></block>
   <block id="1a6488574db4303b10848152736e8e55" category="list-text"><block ref="1f6092bfe2d74192af9ae009324aa099" category="inline-xref-macro-rx"></block></block>
   <block id="aa01e24e60b9724b9b233b2a1e85f950" category="section-title">필터를 사용합니다</block>
-  <block id="5d26e76a9cf020fc45752e6bd4299da5" category="paragraph">Active IQ의 페이지에서 목록 정보를 정렬하고 필터링할 수 있습니다. 노드, 드라이브, 볼륨 등과 같은 목록을 볼 때 필터 기능을 사용하여 정보에 초점을 맞추고 화면에 보다 쉽게 맞출 수 있습니다.</block>
   <block id="07090d1b9cebf025d6cde2aae5e03df7" category="list-text">목록 정보를 볼 때 * Filter * 를 선택합니다.</block>
   <block id="cdbd324b57aa494a017f6e074e75201f" category="list-text">드롭다운 메뉴에서 필터링 기준으로 사용할 열 이름을 선택합니다.</block>
   <block id="f63739fda10056be3da6baf6e8dd41e2" category="list-text">열의 제약 조건을 선택합니다.</block>
@@ -226,7 +218,6 @@
   <block id="fa5e680730153cba5aa2eea9fe92df91" category="list-text">(선택 사항) (* x*)를 선택하여 필터를 제거하고 필터링되지 않은 목록 정보를 표시합니다.</block>
   <block id="d8f25e98301a184a517a02a45e877668" category="admonition">일부 테이블에는 보기에서 열을 제외하는 옵션이 있습니다. 최상의 결과를 얻으려면 * 열 * 을 선택하여 필터를 설정할 때 필요한 모든 열이 표시되는지 확인합니다.</block>
   <block id="0afcb3a7292642b6ea0c8552bcdda4b4" category="section-title">목록 정렬</block>
-  <block id="6feb28d1635888c4fa07a4bae13d10e0" category="paragraph">Active IQ UI 내의 특정 페이지에서 하나 이상의 열을 기준으로 목록 정보를 정렬할 수 있습니다. 이렇게 하면 화면에 필요한 정보를 쉽게 정렬할 수 있습니다.</block>
   <block id="b2fe74238164b5710d7de83add293f15" category="list-text">단일 열을 기준으로 정렬하려면 정보가 원하는 순서로 정렬될 때까지 열 머리글을 선택합니다.</block>
   <block id="8966a96d9cb66f42b54a27af655b2dde" category="list-text">여러 열을 정렬하려면 다음 단계를 수행하십시오.</block>
   <block id="5086a34fd2d544eff43f823c0abb1a5e" category="list-text">정보가 원하는 순서로 정렬될 때까지 정렬할 첫 번째 열의 열 머리글을 선택합니다.</block>
@@ -240,13 +231,10 @@
   <block id="9dc1a16b99af819147fc3f744fc8a213" category="paragraph">전체 목록 보기 또는 그래프 데이터를 CSV(쉼표로 구분된 값) 형식으로 내보낼 수 있습니다. 클러스터 또는 노드 등의 일부 목록에서는 내보낼 열을 선택할 수 있으며 기본적으로 표시된 열이 선택됩니다. 특정 정렬 순서가 있거나 표시된 항목을 제한하는 데 필터를 사용하는 경우 해당 정렬 순서와 필터는 내보낸 파일에 보존됩니다.</block>
   <block id="b09eaa1277bfee2694f0a182ed0f097b" category="list-text">목록 보기 또는 그래프에서 를 선택합니다 <block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭합니다.</block>
   <block id="979c617c7763705237acbbc078c557d0" category="section-title">클러스터를 선택합니다</block>
-  <block id="e5fad98e0daae45b4573102e78e1e75c" category="paragraph">Active IQ에서는 사용자 환경의 개별 클러스터에 대한 정보를 볼 수 있습니다.</block>
-  <block id="106cd3aec5e4e5fa0e87d54a10970b5a" category="list-text">Active IQ 대시보드에서 * 클러스터 선택 * 을 선택합니다.</block>
   <block id="3227b9c5b489035bbfe108ec539744f8" category="list-text">드롭다운 메뉴에는 사용 가능한 클러스터가 나열됩니다.</block>
   <block id="5849fbc4cd9d8ff6190306213ca2cd61" category="list-text">검색 필드를 사용하여 원하는 클러스터 또는 최근에 본 클러스터를 찾습니다.</block>
   <block id="86a2da85271fc1113b1bf591705f342e" category="list-text">이름을 선택하여 클러스터를 선택합니다.</block>
   <block id="6c2fc87d25afe10c773420717eeb2df8" category="section-title">아이콘 참조</block>
-  <block id="2af69473b0142d749e9f31cb03d74915" category="paragraph">Active IQ용 UI를 볼 때 다음 아이콘이 표시될 수 있습니다.</block>
   <block id="817434295a673aed431435658b65d9a7" category="cell">아이콘을 클릭합니다</block>
   <block id="9e36976cde9f2ece8b67172092ddc794" category="inline-image-macro">새로 고침 아이콘</block>
   <block id="6044018059a6046033f39c1dce734735" category="paragraph"><block ref="6044018059a6046033f39c1dce734735" category="inline-image-macro-rx" type="image"></block></block>
@@ -273,7 +261,6 @@
   <block id="45ebbd5bdb9477285076cbc10c602f1d" category="paragraph"><block ref="45ebbd5bdb9477285076cbc10c602f1d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea2e81a1b728b000d0a80f1b7adb8d39" category="cell">자세한 내용을 보려면 선택하십시오.</block>
   <block id="1ae8a55f317d3b2570e79a0b4a668040" category="section-title">피드백을 제공합니다</block>
-  <block id="7ad9169e449c48f53920205d4212004e" category="paragraph">UI 전체에서 액세스할 수 있는 전자 메일 피드백 옵션을 사용하여 Active IQ UI를 개선하고 UI 문제를 해결할 수 있습니다.</block>
   <block id="0c6ab2fbcdd7cedaa7510d6167c60089" category="list-text">UI의 모든 페이지에서 을 선택합니다 <block ref="0394d5cd9adafeb64d44c535a81d6cea" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하고 * 피드백 * 을 선택합니다.</block>
   <block id="e392fa2dbe4893eaf358507add7c6068" category="list-text">E-mail의 메시지 본문에 관련 정보를 입력합니다.</block>
   <block id="ed6e35e068e0c344e24d1f96c26dbafd" category="list-text">유용한 스크린샷을 첨부하십시오.</block>
@@ -415,7 +402,6 @@
   <block id="21069985229913cfdaf583d12e439f5c" category="paragraph">UI에 표시되는 VM 데이터의 필터링 및 이해에 대해 알아봅니다.</block>
   <block id="12e08d602c4e243c7e7f50806c91254f" category="section-title">가상 머신 세부 정보를 봅니다</block>
   <block id="8ea1b2897da42a4661881c12f4c2e0d5" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * Virtual Machines * 페이지는 클러스터와 연결된 각 활성 VM에 대한 정보를 제공합니다.</block>
-  <block id="d1a4d22bcbd84f65a5e8493bd0648a37" category="paragraph">모든 Active IQ 페이지에서 사용할 수 있는 일반 필터링 옵션 외에도 * 가상 머신 * 페이지에는 일반적인 VM 가용성 상태를 확인하기 위해 선택할 수 있는 빠른 필터 버튼이 있습니다.</block>
   <block id="3977b1efa79b62267b5296bdda767f96" category="paragraph">정보 표시줄은 다음 데이터에 대한 간략한 개요를 제공합니다.</block>
   <block id="8fc013cf555a5949086eb32f3d1c8477" category="list-text">가상 머신: 스토리지 클러스터와 연결된 VM의 수 및 다양한 가용성 상태입니다.</block>
   <block id="5c5bc2732adae8204719332c2130b4ea" category="list-text">상태: VM에 대한 경고 또는 오류 수입니다.</block>
@@ -503,7 +489,6 @@
   <block id="12466c75ab546c4ddbc461e4de8e07db" category="list-text">* 네트워크 *: 네트워크 구성 및 상태와 관련된 경고가 표시되지 않습니다.</block>
   <block id="0db1cce788620df7a4c7d689ff100e01" category="list-text">* 전원 *: 전원 중복성 경고가 표시되지 않습니다. 전체 전원 손실 시 발생하는 _nodeOffline_alert 를 표시하지 않습니다.</block>
   <block id="8afa45cebae7b4d6b5e5612895162c7f" category="cell">선택한 정책의 편집 및 삭제 옵션을 보려면 세로 드롭다운 메뉴를 선택합니다.</block>
-  <block id="49d358016a7837e9dc8880930fffab76" category="paragraph">Active IQ의 * 모든 클러스터 보기 * 에서 정보를 모니터링하기 위한 경고 정책을 만들 수 있습니다. 경고 정책을 사용하면 설치 과정에서 하나 이상의 클러스터와 상태 또는 성능 이벤트에 대한 알림을 받을 수 있으므로 보다 심각한 이벤트 이전에 또는 이에 대한 응답으로 작업을 수행할 수 있습니다.</block>
   <block id="36ed984fd18203c62c9a269a95420a4e" category="list-text">경고 * &gt; * 정책 * 을 선택합니다.</block>
   <block id="41025e9c551610edae39a167ecbe1b73" category="list-text">Create Policy * 를 선택합니다.</block>
   <block id="7ed81deb3a22d8d97542963bd55c0baf" category="list-text">Policy Type * 목록에서 알림 유형을 선택합니다. 을 참조하십시오 <block ref="6d8e22bf2b0db32d52a030f270d32ede" category="inline-xref-macro-rx"></block>.</block>
@@ -536,7 +521,6 @@
   <block id="164ad6bd1a9ceba54f457dfe0ce85008" category="cell">프로비저닝 가능한 공간</block>
   <block id="596ec0bf4bea008d7bd36761f1e0cae3" category="cell">프로비저닝 가능한 클러스터 공간이 지정된 비율 미만일 때 알림을 보냅니다.</block>
   <block id="4dab6622470bb0314e94cb50bbe0cc21" category="cell">수집기가 보고를 하지 않습니다</block>
-  <block id="d4172f749d3caf851de49361bf395028" category="cell">관리 노드에서 실행되는 Active IQ의 Collector가 지정된 기간 동안 Active IQ로 데이터를 전송하지 못할 때 알림을 보냅니다.</block>
   <block id="12d4e8c195d420a94eb66a6817679969" category="cell">드라이브 마모</block>
   <block id="93cd8a60fc9b91519dd8d2d115514856" category="cell">클러스터의 드라이브가 지정된 마모 또는 예약 공간 잔여 비율보다 작을 경우 알림을 보냅니다.</block>
   <block id="c5b0aacb61d57bd9ceefa1b1c235fbfb" category="cell">iSCSI 세션</block>
@@ -544,7 +528,6 @@
   <block id="a810f7ffd8b3ba7fc2959a7fd14c6ec1" category="cell">섀시 복원성</block>
   <block id="77842a19e3e2ead223bcccb4cd8836c1" category="cell">클러스터의 사용된 공간이 사용자가 지정한 백분율보다 클 때 알림을 보냅니다. 클러스터 복구 임계값에 도달하기 전에 미리 알림을 제공할 수 있는 백분율을 선택해야 합니다. 이 임계값에 도달하면 클러스터가 더 이상 섀시 레벨 장애로부터 자동으로 복구되지 않습니다.</block>
   <block id="779eeaf551ed09558987b7ac98255734" category="cell">VMware 경보</block>
-  <block id="c9184508136db9cf47dc30aa2804ded2" category="cell">VMware 알람이 트리거되어 Active IQ에 보고되면 알림을 보냅니다.</block>
   <block id="702a419d8a0eab07e38ee09f58a29bbe" category="cell">맞춤형 보호 도메인 복구</block>
   <block id="9fae5454809c4b11e59aed2ffb0787ed" category="cell">사용된 공간이 지정된 사용자 지정 보호 도메인 복구 임계값 비율을 초과하면 시스템에서 알림을 보냅니다. 이 비율이 100에 도달하면 사용자 지정 보호 도메인 장애가 발생한 후 스토리지 클러스터에 자가 복구할 수 있는 충분한 가용 용량이 없는 것입니다.</block>
   <block id="cc775eb9d20d6f35d83ef2b8af721a64" category="cell">노드 코어/크래시 덤프 파일</block>
@@ -600,7 +583,6 @@
   <block id="54337ee0f200dfcaa388f569168f76f4" category="list-text">단일 클러스터의 경우 클러스터의 Actions 메뉴를 선택하고 * End Suppression * 을 선택합니다.</block>
   <block id="9ef78003c570ffd4cf0f0340af7c6c32" category="list-text">여러 클러스터의 경우 클러스터를 선택한 다음 * 선택된 차단 종료 * 를 선택합니다.</block>
   <block id="ccc56a6622f5dccc8b39bf717c5273e9" category="section-title">경고 알림 이메일</block>
-  <block id="c06a2fcebc732d180073389e143e156a" category="paragraph">Active IQ 알림 가입자는 시스템에서 트리거되는 각 알림에 대해 서로 다른 상태 이메일을 받습니다. 경고와 관련된 상태 이메일에는 세 가지 유형이 있습니다.</block>
   <block id="bcbb59ba38b8d8a53386ea9e5e619fa2" category="cell">새 경고 이메일</block>
   <block id="df4912f6cebf8a31418b4aeb4d73f330" category="cell">이 유형의 이메일은 알림이 트리거될 때 전송됩니다.</block>
   <block id="ce547e1ced608d92b9c86ba4168ed5b6" category="cell">미리 알림 경고 전자 메일</block>
@@ -730,7 +712,6 @@
   <block id="4d023f391eeb350e7e7cb48db31862cd" category="section-title">API 수집</block>
   <block id="1e6c78e80b17c6b7b921a36a86593bc0" category="inline-link-macro">Element 소프트웨어 API 설명서</block>
   <block id="1b77c771de8f4f6c3baf80457d54f266" category="paragraph">선택한 클러스터에 대한 * Reporting * 드롭다운 메뉴의 * API Collection * 페이지에서 NetApp SolidFire Active IQ에서 사용하는 API 메소드를 볼 수 있습니다. 이러한 방법에 대한 자세한 설명은 를 참조하십시오 <block ref="f22a227c10cf8287f1c4420ec53d0585" category="inline-link-macro-rx"></block>.</block>
-  <block id="18cc1cea8bdf18884d35610fd16fdb77" category="admonition">Active IQ는 이러한 방법 외에도 NetApp 지원 및 엔지니어링에서 클러스터 상태를 모니터링하는 데 사용되는 일부 내부 API 호출을 합니다. 이러한 콜은 잘못 사용될 경우 클러스터 기능에 지장을 줄 수 있으므로 문서화되지 않습니다. Active IQ API 컬렉션의 전체 목록이 필요한 경우 NetApp 지원에 문의해야 합니다.</block>
   <block id="bf807ea6b20dd5093c3aabab556b7151" category="summary">SolidFire Active IQ 문제를 해결합니다.</block>
   <block id="174a62637bdb98e952c7c5e781c86dc4" category="doc">문제 해결 및 지원</block>
   <block id="d290f31130e082bed7a5e74006445b90" category="paragraph">SolidFire Active IQ 또는 다른 NetApp Element 소프트웨어 기반 제품을 사용하는 동안 문제가 발생하거나 기술적 문제가 발생하는 경우 문제 해결을 위해 많은 리소스를 사용할 수 있습니다.</block>
@@ -763,7 +744,6 @@
   <block id="b0f4034527d03957cc2cb1f551cd8137" category="cell">볼륨에 허용되는 최대 IOPS 수입니다.</block>
   <block id="c4802961bcc44906090b75cc0c07e58d" category="cell">짧은 기간 동안 허용되는 최대 IOPS 수입니다.</block>
   <block id="f741657b8a9c703b4f9ce9ff0c849acd" category="cell">지난 30분 동안의 평균 지연 시간(µs</block>
-  <block id="7aeb6780ec3c98b0f4eee23e1d0cac75" category="cell">이 노드가 1차 노드인 모든 볼륨에 대해 읽기 및 쓰기 작업을 완료하는 데 마지막 30분 동안 측정된 마이크로초 단위의 평균 시간입니다.</block>
   <block id="8045d6e7a1be43321c6aacff3cd803a6" category="cell">볼륨에 대해 생성된 스냅샷의 수입니다.</block>
   <block id="83195ad3b0c05b1455b3fc233ba98d03" category="cell">개별 볼륨에 대한 자세한 내용을 보려면 수직 드롭다운 메뉴를 선택합니다.</block>
   <block id="98d99278a2f04912ab18de8f6e866ed1" category="section-title">개별 볼륨 세부 정보를 봅니다</block>
@@ -781,7 +761,6 @@
   <block id="edd5221a3f19c0c3519847deb797f926" category="cell">평균 처리량</block>
   <block id="9d8e7acc5e639c5d381f284b3a9e6bce" category="cell">지난 30분 동안 볼륨에 대해 실행된 평균 처리량입니다.</block>
   <block id="4a3eb27a7f301e9be259f35e484b176e" category="cell">평균 지연 시간</block>
-  <block id="0b580c0d1be4cfdf4da6f879cf00f88d" category="cell">마지막 30분 동안 볼륨에 대한 읽기 및 쓰기 작업을 완료하는 데 걸리는 평균 시간(마이크로초)입니다.</block>
   <block id="67e36c1bc8a90a031bad32c1819deab1" category="cell">볼륨 세부 정보 표시 * 드롭다운 메뉴에서 추가 세부 정보를 볼 수 있습니다.</block>
   <block id="9b2ec600406f1490117cd1550ae54c71" category="cell">볼륨에 할당된 읽기/쓰기 권한입니다.</block>
   <block id="e3ec7263fd93737a7c3599382db8ec4a" category="cell">액세스 그룹</block>
@@ -821,8 +800,6 @@
   <block id="0c62d3c3703cc9cfe18da37951bf1957" category="list-text">(선택 사항) 을 선택하여 각 그래프를 CSV 파일로 내보낼 수 있습니다 <block ref="2915399c84d3d8e8b7be56e94c232606" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭합니다.</block>
   <block id="1d106124801228432411a3ec12f75276" category="summary">관리 노드에서 SolidFire Active IQ 보고 기능을 사용하도록 설정하는 방법에 대해 알아봅니다.</block>
   <block id="2608b149e5d7ac8d0fd12c6175bbe965" category="doc">SolidFire Active IQ 보고를 활성화합니다</block>
-  <block id="e78d077c08f454fe0bda46f85b4815fb" category="paragraph">설치 또는 업그레이드 중에 SolidFire Active IQ 보고 기능을 활성화하지 않은 경우 관리 노드에서 Active IQ 서버가 관리 노드로부터 클러스터의 데이터 페이로드를 수신할 수 있습니다. 연결이 성공적으로 설정되면 클러스터는 Active IQ 서버로 정보를 보냅니다. 그런 다음 Active IQ UI에서 클러스터를 볼 수 있으며, 클러스터 정보가 표시됩니다.</block>
-  <block id="b46ffcc9e6980359ceefabd56b5eff67" category="admonition">Active IQ에서 Google Chrome 및 Firefox 브라우저를 실행할 수 있습니다.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
   <block id="56ee8203bf76c58f39596dab101d98d5" category="list-text">Active IQ의 일부 기능(예: QoS)에서는 Element 11.3 이상이 올바르게 작동해야 합니다. 모든 Active IQ 기능을 사용할 수 있는지 확인하려면 다음 단계를 수행하는 것이 좋습니다.</block>
   <block id="7ae82c07422143d84f2406fe018d3f73" category="list-text">스토리지 클러스터에서 NetApp Element 소프트웨어 11.3 이상이 실행 중입니다.</block>
@@ -865,7 +842,6 @@
   <block id="2ab359ffeac1725ecfaeb8d017747085" category="doc">SolidFire Active IQ에 대해 자세히 알아보십시오</block>
   <block id="2d24d754666d0b21fe6fc9c67d60634d" category="paragraph">SolidFire Active IQ를 사용하기 전에 SolidFire Active IQ의 작동 방식과 이 기능이 수집하는 정보에 대해 알고 있어야 합니다.</block>
   <block id="8dbbd87f01178639319815ba98d9d4bc" category="section-title">SolidFire Active IQ의 작동 방식</block>
-  <block id="8296e5a5843626a7deba367ac0a6efed" category="paragraph">Collector 및 원격 측정과 같은 서비스는 관리 노드에서 실행됩니다. 이러한 서비스는 클러스터에 대한 읽기 전용 액세스로 구성되고 스케줄에 따라 클러스터에 API 호출을 수행하여 주요 성능, 용량 및 상태 메트릭을 수집합니다. 이 정보는 HTTPS를 통해 Active IQ 클라우드 데이터베이스에 업로드되며, 이 데이터베이스는 Active IQ UI를 통해 귀사와 NetApp Support에서 처리 및 제공됩니다. Active IQ UI에서 클러스터에 대해 수신한 최신 API 페이로드 및 수집 간격을 보려면 SSO 자격 증명을 사용하여 로그인하고 * Reporting * 드롭다운 메뉴에서 * API Collection * 을 선택합니다.</block>
   <block id="b1026bd3d8abc4aec4981330dc62b906" category="inline-link-macro">Access SolidFire Active IQ(로그인 필요)</block>
   <block id="a6dc0a9f123b0664c5bb023e693bef51" category="paragraph"><block ref="a6dc0a9f123b0664c5bb023e693bef51" category="inline-link-macro-rx"></block></block>
   <block id="b066c8b2c0d4cbbe120fcbe58e323812" category="section-title">SolidFire Active IQ에서 수집하는 정보</block>
@@ -887,7 +863,6 @@
   <block id="9200ebe2b4ab5b00a77d52efaf85a6de" category="doc">SolidFire Active IQ를 시작하십시오</block>
   <block id="b25037cf63d119a232994ab4f2b4bf2c" category="paragraph">SolidFire Active IQ 툴을 사용하면 용량과 성능을 모니터링할 수 있을 뿐만 아니라 클러스터 상태에 대한 정보를 어디에서나 쉽게 액세스할 수 있습니다. SolidFire Active IQ의 사용 방식에 상관없이 사용을 시작하기 전에 알아야 할 몇 가지 사항은 다음과 같습니다.</block>
   <block id="8cd7ccc6d38ee23b097ee26faf4c71c8" category="list-text"><block ref="ad1b90f44edaa6f6bcf1d6954c507065" category="inline-link-macro-rx"></block>: SolidFire Active IQ의 작동 방식과 이 기능이 수집하는 정보에 대해 알고 있어야 합니다.</block>
-  <block id="19bda018dd14a0253ab90b899617cc17" category="list-text"><block ref="4370f207367a64bc8e4d74d8bfee1cf2" category="inline-link-macro-rx"></block>: Active IQ 서버가 클러스터에 연결하고 클러스터 정보를 받으려면 관리 노드에서 Active IQ 보고 기능을 활성화해야 합니다.</block>
   <block id="9105bd82ad51c438cd590bde945827a7" category="inline-link-macro">SolidFire Active IQ UI를 사용합니다</block>
   <block id="b88f946c2a4f0d4f82a08759e3744ea1" category="list-text"><block ref="3d10ba7dfbb53d51fde6e6e02a6608a9" category="inline-link-macro-rx"></block>: 필터링, 정렬, 데이터 내보내기 및 클러스터 선택과 같은 새로운 기능 또는 향상된 기능에 대해 알아봅니다.</block>
   <block id="dff97aa9c118deaf53b64587432eaa6a" category="summary">SolidFire Active IQ의 복제 페이지에 대해 자세히 알아보십시오.</block>
@@ -1024,4 +999,29 @@
   <block id="4408a36df9e9ed5aa8dd852943967324" category="list-text"><block ref="370537d09346032450865c36be0b772b" category="inline-xref-macro-rx"></block></block>
   <block id="b01d0fd0e15cd69ca0c99c35e0db5116" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * Nodes * 페이지에서 클러스터의 노드에 대한 정보를 볼 수 있습니다.</block>
   <block id="9b549dfa7e57d3b25fa9e46fe3685b2b" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * QoS Management * &gt; * Node Throtling * 페이지에서 클러스터의 노드에 대한 비율 조절을 볼 수 있습니다. 노드는 디스플레이 왼쪽에 축소판 그림 레이아웃으로 표시되며 선택한 시간 범위의 임계치 조절 정도에 따라 정렬됩니다.</block>
+  <block id="7ff6daa1a681385f423e95a7f18161fa" category="list-text"><block ref="7ff6daa1a681385f423e95a7f18161fa" category="inline-link-macro-rx"></block></block>
+  <block id="6b83be76b9c570a2cddff82aed1845cd" category="list-text"><block ref="6b83be76b9c570a2cddff82aed1845cd" category="inline-link-macro-rx"></block></block>
+  <block id="b31933dd9383963840626a69d4b34c47" category="list-text"><block ref="4370f207367a64bc8e4d74d8bfee1cf2" category="inline-link-macro-rx"></block>: Active IQ 서버가 클러스터에 연결하고 클러스터 정보를 받으려면 관리 노드에서 SolidFire Active IQ 보고 기능을 활성화해야 합니다.</block>
+  <block id="9927f2404de0472632f204c4fa98e1c6" category="paragraph">Collector 및 원격 측정과 같은 서비스는 관리 노드에서 실행됩니다. 이러한 서비스는 클러스터에 대한 읽기 전용 액세스로 구성되고 스케줄에 따라 클러스터에 API 호출을 수행하여 주요 성능, 용량 및 상태 메트릭을 수집합니다. 이 정보는 HTTPS를 통해 SolidFire Active IQ 클라우드 데이터베이스에 업로드되며, 이 데이터베이스는 SolidFire Active IQ UI를 통해 귀사와 NetApp Support에서 처리 및 제공됩니다. SolidFire Active IQ UI에서 클러스터에 대해 수신한 최신 API 페이로드 및 수집 간격을 보려면 SSO 자격 증명을 사용하여 로그인하고 * Reporting * 드롭다운 메뉴에서 * API Collection * 을 선택합니다.</block>
+  <block id="96e3c5a892e3537b54d00dc35ccf9f36" category="paragraph">설치 또는 업그레이드 중에 SolidFire Active IQ 보고 기능을 활성화하지 않은 경우 관리 노드에서 SolidFire Active IQ 서버가 관리 노드로부터 클러스터의 데이터 페이로드를 수신할 수 있습니다. 연결이 성공적으로 설정되면 클러스터는 SolidFire Active IQ 서버로 정보를 보냅니다. 그런 다음 SolidFire Active IQ UI에서 클러스터를 볼 수 있으며, 클러스터 정보가 표시됩니다.</block>
+  <block id="510895b97c10d0e3aa35ddf13764e621" category="admonition">SolidFire Active IQ에서 Google Chrome 및 Firefox 브라우저를 실행할 수 있습니다.</block>
+  <block id="4a943f8cd4281990b05677e29cb8ac56" category="cell">이 노드가 1차 노드인 모든 볼륨에 대해 실행된 평균 IOPS 수입니다. IOPS는 클러스터 측에서 500밀리초 이상 주기적으로 수집됩니다. SolidFire Active IQ는 60초 간격으로 이러한 값을 수집합니다. 각 볼륨의 평균 IOPS는 최근 30분 동안 수집된 SolidFire Active IQ 값을 기준으로 계산됩니다.</block>
+  <block id="c12000028afc91ba3df9d7d246fce948" category="cell">이 노드가 1차 노드인 모든 볼륨에 대해 실행된 평균 처리량입니다. 클러스터 측에서 500밀리초 이상의 간격으로 처리량이 수집됩니다. SolidFire Active IQ는 60초 간격으로 이러한 값을 수집합니다. 각 볼륨에 대해 지난 30분 동안 수집된 SolidFire Active IQ 값을 사용하여 평균 처리량을 계산합니다.</block>
+  <block id="4eadebc24c89d02ea356d0e01e739bdf" category="cell">이 노드가 1차 노드인 모든 볼륨에서 읽기 및 쓰기 작업을 완료하는 데 걸리는 평균 시간(마이크로초)입니다. 지연 시간은 클러스터 측에서 500밀리초 이상 간격을 측정합니다. SolidFire Active IQ는 60초 간격으로 이러한 값을 수집합니다. 각 볼륨의 평균 지연 시간은 최근 30분 동안 수집된 SolidFire Active IQ 값을 기준으로 계산됩니다. 자세한 내용은 다음을 참조하십시오<block ref="996f08614653af80b4f318332cbb79cc" category="inline-link-rx"></block>.</block>
+  <block id="2fff8a29ac28db690456bd3a5624d15d" category="cell">마지막 30분 동안 볼륨에 대한 읽기 및 쓰기 작업을 완료하는 데 걸리는 평균 시간(마이크로초)입니다. 자세한 내용은 다음을 참조하십시오<block ref="996f08614653af80b4f318332cbb79cc" category="inline-link-rx"></block>.</block>
+  <block id="eaa54d3494e5debfd810d9a11bb0c208" category="paragraph">SolidFire Active IQ은 최근 활동에 대한 볼륨 통계 데이터를 기반으로 성능을 권장합니다. 권장 사항은 볼륨에 대한 QoS 최대 및 최소 보장 IOPS에 중점을 두며 클러스터 향상이 필요할 경우 UI에서만 표시됩니다.</block>
+  <block id="f680ee7ec525111dba2df560203d7f7e" category="paragraph">SolidFire Active IQ의 그래프와 날짜 범위는 서로 완벽하게 통합됩니다. 날짜 범위를 선택하면 해당 페이지의 모든 그래프가 선택한 범위로 조정됩니다. 각 그래프에 표시되는 기본 날짜 범위는 7일입니다.</block>
+  <block id="4d82c829067dd90d1d495f167668baa1" category="cell">클러스터 자체가 아닌 SolidFire Active IQ에서 경고가 트리거된 시간입니다.</block>
+  <block id="ea696fd82bced602de4f7d7cab2ceadf" category="paragraph">모든 SolidFire Active IQ 페이지에서 사용할 수 있는 일반 필터링 옵션 외에도 * 가상 머신 * 페이지에는 일반적인 VM 가용성 상태를 확인하기 위해 선택할 수 있는 빠른 필터 버튼이 있습니다.</block>
+  <block id="c676c8802ba92ea3f0735d38f6ecb857" category="paragraph">SolidFire Active IQ의 페이지에서 목록 정보를 정렬하고 필터링할 수 있습니다. 노드, 드라이브, 볼륨 등과 같은 목록을 볼 때 필터 기능을 사용하여 정보에 초점을 맞추고 화면에 보다 쉽게 맞출 수 있습니다.</block>
+  <block id="dfc44552ee42df05632a5555bd3c5d10" category="paragraph">SolidFire Active IQ UI 내의 특정 페이지에서 하나 이상의 열을 기준으로 목록 정보를 정렬할 수 있습니다. 이렇게 하면 화면에 필요한 정보를 쉽게 정렬할 수 있습니다.</block>
+  <block id="7f8c0d79a70f15c2c91c34f1a62ac499" category="paragraph">SolidFire Active IQ에서는 사용자 환경의 개별 클러스터에 대한 정보를 볼 수 있습니다.</block>
+  <block id="c7644ea56581948d4b3d3e118f969dd3" category="list-text">SolidFire Active IQ 대시보드에서 * 클러스터 선택 * 을 선택합니다.</block>
+  <block id="2fb83e16aa1b173cb1dd65766e0d7e3b" category="paragraph">SolidFire Active IQ UI를 볼 때 다음 아이콘이 표시될 수 있습니다.</block>
+  <block id="d6670ea8650dcb3671cb6d4eeba43553" category="paragraph">UI 전체에서 액세스할 수 있는 전자 메일 피드백 옵션을 사용하여 SolidFire Active IQ UI를 개선하고 UI 문제를 해결할 수 있습니다.</block>
+  <block id="bc61065501380ecc6cd9d1f861a48461" category="paragraph">SolidFire Active IQ의 * 모든 클러스터 보기 * 에서 정보를 모니터링하기 위한 경고 정책을 만들 수 있습니다. 경고 정책을 사용하면 설치 과정에서 하나 이상의 클러스터와 상태 또는 성능 이벤트에 대한 알림을 받을 수 있으므로 보다 심각한 이벤트 이전에 또는 이에 대한 응답으로 작업을 수행할 수 있습니다.</block>
+  <block id="474d7c9eb19859668726a36e86e68540" category="cell">관리 노드에서 실행되는 SolidFire Active IQ의 Collector가 지정된 기간 동안 SolidFire Active IQ로 데이터를 전송하지 못할 때 알림을 보냅니다.</block>
+  <block id="1283e547f2c97bde5254234dd71e8920" category="cell">VMware 알람이 트리거되어 SolidFire Active IQ에 보고되면 알림을 보냅니다.</block>
+  <block id="8f7bdd75076dbc076948c8a43fa2529c" category="paragraph">SolidFire Active IQ 알림 가입자는 시스템에서 트리거되는 각 알림에 대해 서로 다른 상태 이메일을 받습니다. 경고와 관련된 상태 이메일에는 세 가지 유형이 있습니다.</block>
+  <block id="472062bb6f5f96a2db31c5e5b3da2b6e" category="admonition">SolidFire Active IQ는 이러한 방법 외에도 NetApp 지원 및 엔지니어링에서 클러스터 상태를 모니터링하는 데 사용되는 일부 내부 API 호출을 합니다. 이러한 콜은 잘못 사용될 경우 클러스터 기능에 지장을 줄 수 있으므로 문서화되지 않습니다. SolidFire Active IQ API 컬렉션의 전체 목록이 필요한 경우 NetApp 지원에 문의해야 합니다.</block>
 </blocks>

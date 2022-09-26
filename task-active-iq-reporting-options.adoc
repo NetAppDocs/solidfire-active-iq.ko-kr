@@ -13,15 +13,15 @@ summary: SolidFire Active IQ에서 선택한 클러스터의 보고 옵션에 �
 [role="lead"]
 측면 패널의 * Reporting * 드롭다운 메뉴에 대해 자세히 알아보십시오.
 
-* <<Capacity>>
-* <<Efficiency>>
-* <<Performance>>
-* <<Error log>>
-* <<Events>>
-* <<Alerts>>
-* <<iSCSI Sessions>>
-* <<Virtual Networks>>
-* <<API Collection>>
+* 
+* 
+* 
+*  log
+* 
+* 
+*  Sessions
+*  Networks
+*  Collection
 
 
 
@@ -224,7 +224,7 @@ NOTE: 모든 결합된 효율성은 보고된 계수 값의 단순한 곱셈을 
 | 제목 | 설명 
 
 
-| 트리거됨 | 클러스터 자체가 아닌 Active IQ에서 경고가 트리거된 시간입니다. 
+| 트리거됨 | 클러스터 자체가 아닌 SolidFire Active IQ에서 경고가 트리거된 시간입니다. 
 
 
 | 마지막 알림 | 가장 최근의 경고 이메일이 전송된 시간입니다. 
@@ -305,7 +305,7 @@ NOTE: 이 데이터에는 FC 노드에서 생성된 iSCSI 세션이 포함됩니
 선택한 클러스터에 대한 * Reporting * 드롭다운 메뉴의 * API Collection * 페이지에서 NetApp SolidFire Active IQ에서 사용하는 API 메소드를 볼 수 있습니다. 이러한 방법에 대한 자세한 설명은 를 참조하십시오 link:https://docs.netapp.com/us-en/element-software/api/index.html["Element 소프트웨어 API 설명서"^].
 
 
-NOTE: Active IQ는 이러한 방법 외에도 NetApp 지원 및 엔지니어링에서 클러스터 상태를 모니터링하는 데 사용되는 일부 내부 API 호출을 합니다. 이러한 콜은 잘못 사용될 경우 클러스터 기능에 지장을 줄 수 있으므로 문서화되지 않습니다. Active IQ API 컬렉션의 전체 목록이 필요한 경우 NetApp 지원에 문의해야 합니다.
+NOTE: SolidFire Active IQ는 이러한 방법 외에도 NetApp 지원 및 엔지니어링에서 클러스터 상태를 모니터링하는 데 사용되는 일부 내부 API 호출을 합니다. 이러한 콜은 잘못 사용될 경우 클러스터 기능에 지장을 줄 수 있으므로 문서화되지 않습니다. SolidFire Active IQ API 컬렉션의 전체 목록이 필요한 경우 NetApp 지원에 문의해야 합니다.
 
 
 

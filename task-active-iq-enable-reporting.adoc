@@ -11,10 +11,10 @@ summary: 관리 노드에서 SolidFire Active IQ 보고 기능을 사용하도�
 
 
 [role="lead"]
-설치 또는 업그레이드 중에 SolidFire Active IQ 보고 기능을 활성화하지 않은 경우 관리 노드에서 Active IQ 서버가 관리 노드로부터 클러스터의 데이터 페이로드를 수신할 수 있습니다. 연결이 성공적으로 설정되면 클러스터는 Active IQ 서버로 정보를 보냅니다. 그런 다음 Active IQ UI에서 클러스터를 볼 수 있으며, 클러스터 정보가 표시됩니다.
+설치 또는 업그레이드 중에 SolidFire Active IQ 보고 기능을 활성화하지 않은 경우 관리 노드에서 SolidFire Active IQ 서버가 관리 노드로부터 클러스터의 데이터 페이로드를 수신할 수 있습니다. 연결이 성공적으로 설정되면 클러스터는 SolidFire Active IQ 서버로 정보를 보냅니다. 그런 다음 SolidFire Active IQ UI에서 클러스터를 볼 수 있으며, 클러스터 정보가 표시됩니다.
 
 
-NOTE: Active IQ에서 Google Chrome 및 Firefox 브라우저를 실행할 수 있습니다.
+NOTE: SolidFire Active IQ에서 Google Chrome 및 Firefox 브라우저를 실행할 수 있습니다.
 
 .시작하기 전에
 * Active IQ의 일부 기능(예: QoS)에서는 Element 11.3 이상이 올바르게 작동해야 합니다. 모든 Active IQ 기능을 사용할 수 있는지 확인하려면 다음 단계를 수행하는 것이 좋습니다.

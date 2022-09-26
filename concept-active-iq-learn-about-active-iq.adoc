@@ -17,7 +17,7 @@ SolidFire Active IQ를 사용하기 전에 SolidFire Active IQ의 작동 방식�
 
 == SolidFire Active IQ의 작동 방식
 
-Collector 및 원격 측정과 같은 서비스는 관리 노드에서 실행됩니다. 이러한 서비스는 클러스터에 대한 읽기 전용 액세스로 구성되고 스케줄에 따라 클러스터에 API 호출을 수행하여 주요 성능, 용량 및 상태 메트릭을 수집합니다. 이 정보는 HTTPS를 통해 Active IQ 클라우드 데이터베이스에 업로드되며, 이 데이터베이스는 Active IQ UI를 통해 귀사와 NetApp Support에서 처리 및 제공됩니다. Active IQ UI에서 클러스터에 대해 수신한 최신 API 페이로드 및 수집 간격을 보려면 SSO 자격 증명을 사용하여 로그인하고 * Reporting * 드롭다운 메뉴에서 * API Collection * 을 선택합니다.
+Collector 및 원격 측정과 같은 서비스는 관리 노드에서 실행됩니다. 이러한 서비스는 클러스터에 대한 읽기 전용 액세스로 구성되고 스케줄에 따라 클러스터에 API 호출을 수행하여 주요 성능, 용량 및 상태 메트릭을 수집합니다. 이 정보는 HTTPS를 통해 SolidFire Active IQ 클라우드 데이터베이스에 업로드되며, 이 데이터베이스는 SolidFire Active IQ UI를 통해 귀사와 NetApp Support에서 처리 및 제공됩니다. SolidFire Active IQ UI에서 클러스터에 대해 수신한 최신 API 페이로드 및 수집 간격을 보려면 SSO 자격 증명을 사용하여 로그인하고 * Reporting * 드롭다운 메뉴에서 * API Collection * 을 선택합니다.
 
 link:https://activeiq.solidfire.com/["Access SolidFire Active IQ(로그인 필요)"^]
 

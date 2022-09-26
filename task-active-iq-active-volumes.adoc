@@ -13,9 +13,9 @@ summary: SolidFire Active IQ에서 볼륨 세부 정보를 보는 방법에 대�
 [role="lead"]
 Volumes * 페이지에서 활성 볼륨, 개별 볼륨 및 성능 그래프에 대한 세부 정보를 볼 수 있습니다.
 
-* <<View active volume details>>
-* <<View individual volume details>>
-* <<View individual volume performance graphs>>
+*  active volume details
+*  individual volume details
+*  individual volume performance graphs
 
 
 
@@ -73,13 +73,13 @@ Volumes * 페이지에서 활성 볼륨, 개별 볼륨 및 성능 그래프에 �
 | 버스트 IOPS | 짧은 기간 동안 허용되는 최대 IOPS 수입니다. 
 
 
-| 지난 30분 동안의 평균 IOPS | 이 노드가 1차 노드인 모든 볼륨에 대해 최근 30분 동안 실행된 평균 IOPS 수의 합계입니다. 
+| 지난 30분 동안의 평균 IOPS | 이 노드가 1차 노드인 모든 볼륨에 대해 실행된 평균 IOPS 수입니다. IOPS는 클러스터 측에서 500밀리초 이상 주기적으로 수집됩니다. SolidFire Active IQ는 60초 간격으로 이러한 값을 수집합니다. 각 볼륨의 평균 IOPS는 최근 30분 동안 수집된 SolidFire Active IQ 값을 기준으로 계산됩니다. 
 
 
-| 지난 30분 동안의 평균 처리량 | 이 노드가 1차 노드인 모든 볼륨에 대해 최근 30분 동안 실행된 평균 처리량 합계입니다. 
+| 지난 30분 동안의 평균 처리량 | 이 노드가 1차 노드인 모든 볼륨에 대해 실행된 평균 처리량입니다. 클러스터 측에서 500밀리초 이상의 간격으로 처리량이 수집됩니다. SolidFire Active IQ는 60초 간격으로 이러한 값을 수집합니다. 각 볼륨에 대해 지난 30분 동안 수집된 SolidFire Active IQ 값을 사용하여 평균 처리량을 계산합니다. 
 
 
-| 지난 30분 동안의 평균 지연 시간(µs | 이 노드가 1차 노드인 모든 볼륨에 대해 읽기 및 쓰기 작업을 완료하는 데 마지막 30분 동안 측정된 마이크로초 단위의 평균 시간입니다. 
+| 지난 30분 동안의 평균 지연 시간(µs | 이 노드가 1차 노드인 모든 볼륨에서 읽기 및 쓰기 작업을 완료하는 데 걸리는 평균 시간(마이크로초)입니다. 지연 시간은 클러스터 측에서 500밀리초 이상 간격을 측정합니다. SolidFire Active IQ는 60초 간격으로 이러한 값을 수집합니다. 각 볼륨의 평균 지연 시간은 최근 30분 동안 수집된 SolidFire Active IQ 값을 기준으로 계산됩니다. 자세한 내용은 다음을 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_is_read_and_write_latency_measured_in_Element_Software_%3F["KB 문서를 참조하십시오"^]. 
 
 
 | 스냅샷 수 | 볼륨에 대해 생성된 스냅샷의 수입니다. 
@@ -127,7 +127,7 @@ Volumes * 페이지에서 활성 볼륨, 개별 볼륨 및 성능 그래프에 �
 | 평균 처리량 | 지난 30분 동안 볼륨에 대해 실행된 평균 처리량입니다. 
 
 
-| 평균 지연 시간 | 마지막 30분 동안 볼륨에 대한 읽기 및 쓰기 작업을 완료하는 데 걸리는 평균 시간(마이크로초)입니다. 
+| 평균 지연 시간 | 마지막 30분 동안 볼륨에 대한 읽기 및 쓰기 작업을 완료하는 데 걸리는 평균 시간(마이크로초)입니다. 자세한 내용은 다음을 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_is_read_and_write_latency_measured_in_Element_Software_%3F["KB 문서를 참조하십시오"^]. 
 
 
 2+| 볼륨 세부 정보 표시 * 드롭다운 메뉴에서 추가 세부 정보를 볼 수 있습니다. 
