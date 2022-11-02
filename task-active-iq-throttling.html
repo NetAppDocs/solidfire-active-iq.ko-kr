@@ -143,6 +143,17 @@
               $("#mysidebar").navgoco('toggle', true);
           });
 
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/ko-kr/solidfire-active-iq"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
+          });
+
       });
 
   </script>
@@ -256,6 +267,8 @@
         </a>
       </div>
 
+      
+      
       
       <div class="search-property-bar">
         <div id="search-demo-container" class="searchbox n-property-bar__search">
@@ -604,7 +617,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> SolidFire Active IQ를 시작하십시오</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="개요"
@@ -641,7 +654,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> SolidFire Active IQ 관리</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="개요"
@@ -657,7 +670,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 모든 클러스터 보기</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="개요"
@@ -701,7 +714,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 클러스터를 선택합니다</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="개요"
@@ -745,7 +758,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 볼륨</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="개요"
@@ -789,7 +802,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> QoS 관리</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="개요"
@@ -843,6 +856,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -894,7 +908,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-09-26 14:41:16 +0000">09/26/2022</time>
+    <time datetime="2022-11-02 20:07:19 +0000">11/02/2022</time>
     
   
 
@@ -934,20 +948,18 @@
 <p>달력 드롭다운 상자 또는 미리 정의된 범위 집합에서 날짜 범위를 선택할 수 있습니다. 날짜 범위는 현재 브라우저 시간(선택 시)과 구성된 시간을 사용하여 계산됩니다. 또한 하단의 막대 그래프 위로 직접 빗질하여 원하는 간격을 선택할 수 있습니다. 왼쪽에서 축소판 그림 레이아웃을 선택하여 그래프 간을 전환할 수 있습니다.</p>
 </div>
 <div class="paragraph">
-<p>그래프에는 선택한 노드에서 호스팅되는 볼륨의 최소 및 최대 IOPS 설정에 따라 노드의 임계치 조절율이 표시됩니다.</p>
+<p>그래프에는 선택한 노드에 호스팅된 볼륨의 최소 및 최대 IOPS 설정을 기준으로 선택한 기간 동안의 노드 임계치 조절이 표시됩니다. 색상은 임계치 조절(녹색(없음), 노란색(제한됨) 또는 빨간색(높음)의 양을 나타냅니다. 자세한 내용은 다음 그래프 예를 참조하십시오.</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>녹색 = 최대 39%</p>
-</li>
-<li>
-<p>노란색 = 40 ~ 59%</p>
-</li>
-<li>
-<p>빨간색 = 59% 이상</p>
-</li>
-</ul>
+<div class="exampleblock">
+<div class="title">예 1. 그래프 예제를 확장합니다</div>
+<div class="content">
+<div class="paragraph">
+<p><span class="image"><img src="./media/node_throttling_range.PNG" alt="노드 제한 그래프"></span></p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>특정 시점의 세부 정보를 보려면 그래프의 어느 지점에나 마우스 포인터를 놓습니다.</p>
 </div>
 <div class="paragraph">
 <p><a href="task-active-iq-qos-recommendations.html">"클러스터를 위한 QoS 권장 사항에 대해 알아보십시오"</a>.</p>
@@ -963,17 +975,6 @@ Node Throtling 페이지에서 스토리지 클러스터에 QoS 푸쉬백이 있
 </td>
 </tr>
 </table>
-</div>
-<div class="paragraph">
-<p>특정 시점의 세부 정보를 보려면 그래프의 어느 지점에나 마우스 포인터를 놓습니다.</p>
-</div>
-<div class="exampleblock">
-<div class="title">예 1. 그래프 예제를 확장합니다</div>
-<div class="content">
-<div class="paragraph">
-<p><span class="image"><img src="./media/node_throttling_range.PNG" alt="노드 제한 그래프"></span></p>
-</div>
-</div>
 </div>
 </div>
 </div>
@@ -1038,11 +1039,7 @@ Node Throtling 페이지에서 스토리지 클러스터에 QoS 푸쉬백이 있
         <div class="n-footer__copyright">
           <ul class="n-footer__copyright-list">
             <li class="n-footer__copyright-link">
-              <span class="n-footer__fine-print">웹 사이트에 대한 피드백이 있으십니까?</span>
-              <a target="_self" href="javascript:netapp_mailto()">의견을 공유해 주십시오</a>
-            </li>
-            <li class="n-footer__copyright-link">
-              <a href="https://docs.netapp.com/ko-kr/announcements/">공지 사항</a>
+              <a target="_self" href="javascript:netapp_mailto()">이 페이지에 대한 피드백 보내기</a>
             </li>
           </ul>
         </div>
