@@ -23,6 +23,7 @@ summary: SolidFire Active IQ 페이지에 대해 자세히 알아보십시오.
 * link:task-active-iq-qos-management-overview.html["QoS 관리"]
 * link:task-active-iq-virtual-machines.html["가상 머신(NetApp HCI 클러스터만 해당)"]
 * link:task-active-iq-vmware-alarms.html["VMware 알람(NetApp HCI 클러스터만 해당)"]
+* link:task-active-iq-all-nodes-view.html["모든 노드 보기"]
 
 
 

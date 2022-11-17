@@ -155,7 +155,7 @@ image:more_information.PNG["추가 정보 아이콘"]
 
  a| 
 image:more_details.PNG["자세한 정보 아이콘"]
-| 자세한 내용을 보려면 선택하십시오. 
+| 자세한 내용을 보려면 선택하십시오.image:description.PNG["설명"] 
 |===
 
 

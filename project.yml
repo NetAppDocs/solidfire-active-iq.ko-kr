@@ -73,6 +73,8 @@ sidebar:
       url: "/task-active-iq-virtual-machines.html"
     - title: VMware 알람
       url: "/task-active-iq-vmware-alarms.html"
+    - title: 모든 노드 보기
+      url: "/task-active-iq-all-nodes-view.html"
   - title: 문제 해결 및 지원
     url: "/task-active-iq-troubleshoot-support.html"
 homepage:
