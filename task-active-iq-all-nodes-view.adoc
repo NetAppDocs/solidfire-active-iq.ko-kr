@@ -18,8 +18,8 @@ NOTE: SolidFire Active IQ 계정에 연결된 회사 이름이 하나만 있는 
 
 모든 노드 및 제한된 노드 페이지에 대해 자세히 알아보기:
 
-*  information about all nodes
-*  information about throttled nodes
+* <<모든 노드에 대한 정보를 봅니다>>
+* <<제한된 노드에 대한 정보를 봅니다>>
 
 
 

@@ -15,8 +15,8 @@ summary: SolidFire Active IQ의 노드 제한 페이지에 대해 자세히 알�
 
 노드 제한 정보 보기에 대한 자세한 내용:
 
-*  graphs and select date ranges
-*  node throttling data
+* <<그래프를 보고 날짜 범위를 선택합니다>>
+* <<노드 제한 데이터를 내보냅니다>>
 
 
 
@@ -30,6 +30,7 @@ SolidFire Active IQ의 그래프와 날짜 범위는 서로 완벽하게 통합�
 그래프에는 선택한 노드에 호스팅된 볼륨의 최소 및 최대 IOPS 설정을 기준으로 선택한 기간 동안의 노드 임계치 조절이 표시됩니다. 색상은 임계치 조절(녹색(없음), 노란색(제한됨) 또는 빨간색(높음)의 양을 나타냅니다. 자세한 내용은 다음 그래프 예를 참조하십시오.
 
 .그래프 예제를 확장합니다
+[%collapsible]
 ====
 image:node_throttling_range.PNG["노드 제한 그래프"]
 

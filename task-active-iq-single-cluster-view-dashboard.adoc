@@ -17,8 +17,8 @@ summary: SolidFire Active IQ에서 선택한 클러스터의 대시보드 페이
 
 사용 가능한 세부 정보는 시스템에 따라 다릅니다.
 
-*  system
-*  HCI system overview
+* <<스토리지 전용 시스템입니다>>
+* <<NetApp HCI 시스템 개요>>
 
 
 
