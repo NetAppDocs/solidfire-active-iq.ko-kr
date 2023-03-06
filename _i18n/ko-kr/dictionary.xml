@@ -292,7 +292,6 @@
   <block id="6ecb056d430ebf109cb53b71b4e3bbf6" category="cell">노드의 모델 유형을 표시합니다.</block>
   <block id="21dffd11e52f3b29376f4508b2ad0b1a" category="cell">서비스 태그</block>
   <block id="c85128056ac648977b9e0da5daf91c2d" category="cell">노드에 할당된 고유한 서비스 태그 번호입니다.</block>
-  <block id="0b78ef57d4dacade728a829821159de3" category="cell">1GbE 또는 10GbE 네트워크 관리 작업을 위해 노드에 할당된 관리 IP MIP 주소입니다.</block>
   <block id="70087224b93e8179deda7438fae8e843" category="cell">클러스터 IP</block>
   <block id="4d08639c19d21e8b1b2dd93fd1ecb110" category="cell">동일한 클러스터의 노드 간 통신에 사용되는 노드에 할당된 클러스터 IP 주소입니다.</block>
   <block id="9f4766e9e0e83d660691c78a09d23354" category="cell">복제 포트</block>
@@ -1070,4 +1069,41 @@
   <block id="57829e1c527aadb9862b10c223954f81" category="paragraph">단일 클러스터 또는 여러 클러스터에 대한 클러스터 수준에서 현재 날짜 및 시간에 대한 경고 알림을 표시하지 않거나 향후 날짜 및 시간에 시작하도록 예약할 수 있습니다.</block>
   <block id="fb0d7f8aefdf99cea1fcfde269bee06a" category="admonition">클러스터는 동일한 억제 유형의 여러 선택을 포함할 수 있는 여러 억제 유형을 가질 수 있습니다. 예약된 억제 기간 동안 억제 유형이 이미 있으면 회색으로 표시됩니다. 이 기능 억제 유형을 다시 선택하려면 * Overlap Existing * 을 선택합니다. 동일한 억제 유형의 다중 선택은 겹치는 시간을 가질 수 있으며, 향후 억제를 예약하는 경우에는 다른 시간에 있을 수 있습니다. 두 개의 억제에서 겹치는 기간이 있는 경우, 이 기능은 첫 번째 억제 시작 시간과 마지막 종료 시간을 포함하는 단일 억제 기능을 갖는 것과 같습니다.</block>
   <block id="8c585eacf0d12977061621d6833ec987" category="list-text">알림 억제를 시작할 시작 날짜 및 시간을 선택합니다.</block>
+  <block id="28b4baca1ac41f0c9cbe42a9ec42628e" category="inline-xref">SnapMirror 엔드포인트</block>
+  <block id="ac1101609fb27790d21f3e5682730a46" category="list-text"><block ref="6106c5f20c38abc927c216f441b22257" category="inline-xref-macro-rx"></block></block>
+  <block id="b7bae3475f98c5511fcd900e6b4c8f8c" category="inline-xref">SnapMirror 관계</block>
+  <block id="ad2c46e1bdf00bc2c2373e711d1d2954" category="list-text"><block ref="c593ef727a82bdc9f5c1b753b116f514" category="inline-xref-macro-rx"></block></block>
+  <block id="f17f50f30412e2177a16f9b4da89f874" category="paragraph">선택한 클러스터의 * 복제 * &gt; * SnapMirror 엔드포인트 * 페이지에서 SnapMirror 엔드포인트에 대한 다음 정보를 볼 수 있습니다.</block>
+  <block id="6bb4d406451e3685e40319c445ae0352" category="cell">끝점 ID입니다</block>
+  <block id="32246b37b740b49b6825d9f37e2ee6c5" category="cell">끝점 식별 번호입니다.</block>
+  <block id="0e948943e8277507eeeec08bbb91d3b4" category="cell">클러스터 관리 IP입니다</block>
+  <block id="6e24b6e3023bd7d9208c26111ae95b8d" category="cell">클러스터 관리 IP 주소입니다.</block>
+  <block id="fef48b3b39a9c7cdf35ffca8bf736a75" category="cell">IPS</block>
+  <block id="ea96be9e75d8d3d690aedae5040edf2f" category="cell">관계</block>
+  <block id="8f8605419f690965c300901a20d62391" category="cell">끝점에 대해 구성된 관계 수입니다.</block>
+  <block id="718d288064e78f83f1ba4c375c26c029" category="cell">이는 끝점이 현재 연결되어 있는지 여부를 나타냅니다. 이 값은 * Connected * 또는 * disconnected * 입니다.</block>
+  <block id="028ac3812784d5be0fd01695fc043cff" category="paragraph">선택한 클러스터의 * 복제 * &gt; * SnapMirror 관계 * 페이지에서 SnapMirror 관계에 대한 다음 정보를 볼 수 있습니다.</block>
+  <block id="6b381cadf674c5e31b229c76f56806c5" category="cell">소스 볼륨</block>
+  <block id="5fc8efaf812ad6d749473c5b1e7a1d08" category="cell">소스의 볼륨 ID입니다.</block>
+  <block id="3b63d6a8b8cc0fb1c86125151f2eca0a" category="cell">대상 클러스터</block>
+  <block id="64afd1e289d3d4ac65cd7bae034156d3" category="cell">SnapMirror 관계에서 대상 클러스터의 이름입니다.</block>
+  <block id="61bf1d352b9b723607cb778169e813a0" category="cell">대상 볼륨</block>
+  <block id="0ebc9eebbe2a97262f813b92e1f22992" category="cell">SnapMirror 관계에서 대상 볼륨의 이름입니다.</block>
+  <block id="46a2a41cc6e552044816a2d04634545d" category="cell">상태</block>
+  <block id="1fdf08bae98f520da3e0d1b2000eabac" category="paragraph">미러 관계의 상태입니다. 다음 세 가지 값을 사용할 수 있습니다.</block>
+  <block id="8881a06cabd3e842b7977e9044018e5d" category="list-text">초기화되지 않음: 대상 볼륨이 초기화되지 않았습니다.</block>
+  <block id="baaef4c79409be356afa390f0a267777" category="list-text">SnapMirrored: 대상 볼륨이 초기화되었으며 SnapMirror 업데이트를 받을 준비가 되었습니다.</block>
+  <block id="8ea0f60fec4bd7852564eff6914e37e5" category="list-text">부분 해제: 대상 볼륨이 읽기-쓰기 상태이고 스냅샷이 있습니다.</block>
+  <block id="2177b3ffa647aac85952207f57133f55" category="paragraph">관계가 현재 양호한 경우 * 정상 * 또는 * 비정상 * 값을 가질 수 있습니다.</block>
+  <block id="163c9089cced4c196e834ce87a1ec90e" category="admonition">수동 또는 예약된 업데이트가 실패하거나 중단되거나 마지막으로 예약된 업데이트가 지연될 경우 * 비정상 * 값이 발생할 수 있습니다. 상태 뒤에 있는 * Details * 필드는 * 비정상 * 상태의 이유를 표시합니다.</block>
+  <block id="2029c90a49e8add716fcc3051a0c01ff" category="cell">관계 유형</block>
+  <block id="b2896d0a757d4adea7b0bf1946d16ab9" category="paragraph">SnapMirror 관계의 유형입니다.</block>
+  <block id="2e5e6f53be4c64301d71ec17f9666006" category="admonition">SolidFire 시스템에서는 항상 로 설정됩니다<block ref="a6c02c92cdc6c7fe213f68be0ab9ee11" prefix=" " category="inline-code"></block>. NetApp 시스템에는 SolidFire 시스템의 경우 적용되지 않는 다른 유형의 유효한 관계가 있습니다.</block>
+  <block id="ddf35be1d25ba7857330965fdbcd63ec" category="paragraph">클러스터의 상태:</block>
+  <block id="6c1691f6c440f43922bce2a3183b9614" category="list-text">양호: 클러스터에 연관된 심각한 오류가 없습니다.</block>
+  <block id="353d8a4aaa6f9c840d2d0330d5cb9610" category="list-text">오프라인: 클러스터에 액세스할 수 없습니다. 오류 로그를 보려면 링크를 선택하십시오.</block>
+  <block id="9810bf56aaa37a450fe2ace2a59a888f" category="list-text">오류: 이 클러스터와 관련된 오류가 있습니다. 오류 로그를 보려면 링크를 선택하십시오.</block>
+  <block id="9f360968c28895acf09b091f83e3603f" category="cell">SnapMirror 관계를 식별하는 데 도움이 되는 정보입니다.</block>
+  <block id="42a1881fef50454fa6bd56b43e9ed96e" category="inline-link">NetApp Element 소프트웨어와 ONTAP 간의 복제</block>
+  <block id="ccae24276cef39694a819c260df1defb" category="list-text"><block ref="ccae24276cef39694a819c260df1defb" category="inline-link-rx"></block></block>
 </blocks>
