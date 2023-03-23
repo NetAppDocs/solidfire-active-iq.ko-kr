@@ -1106,4 +1106,5 @@
   <block id="9f360968c28895acf09b091f83e3603f" category="cell">SnapMirror 관계를 식별하는 데 도움이 되는 정보입니다.</block>
   <block id="42a1881fef50454fa6bd56b43e9ed96e" category="inline-link">NetApp Element 소프트웨어와 ONTAP 간의 복제</block>
   <block id="ccae24276cef39694a819c260df1defb" category="list-text"><block ref="ccae24276cef39694a819c260df1defb" category="inline-link-rx"></block></block>
+  <block id="f5f48e4a05f564b44c9541295334dd2e" category="paragraph">지정된 용량 라이센스 풀을 보려면 해당 풀에 포함된 모든 클러스터를 볼 수 있는 권한이 있어야 합니다. 관련된 상위 및 하위 회사 관계가 있는 경우, 계정 관리자와 협력하여 이 정보가 올바르게 기록되었는지 확인하십시오. 그렇지 않으면 용량 라이센스 풀을 사용할 수 없게 될 수 있습니다.</block>
 </blocks>
