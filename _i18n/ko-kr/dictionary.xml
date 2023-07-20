@@ -764,7 +764,6 @@
   <block id="cb0b3ac9b7a179d7ab7a6fca23f53ad7" category="cell">연결된 스냅샷의 수입니다.</block>
   <block id="8aa8c731cfe2c1c5fc7e8d8161be302a" category="cell">512e 활성화됨</block>
   <block id="4b70e4e226aa2663d010aeae818edca9" category="cell">볼륨에서 512e가 활성화되어 있는지 여부를 식별합니다.</block>
-  <block id="49040853732d48deb2df7eebcd95b127" category="cell">운영 스토리지 노드의 높은 부하로 인해 볼륨이 조절되고 있는지 여부를 식별합니다.</block>
   <block id="fe6f6567eb042d45b55b29aa9a29df5b" category="cell">볼륨이 페어링되었습니다</block>
   <block id="3864a6411a8582c09e9f190a2d97c876" category="cell">볼륨이 페어링되었는지 여부를 나타냅니다.</block>
   <block id="bb1bce6ceb9138a27ff4a45ffa2b6cc4" category="cell">볼륨 생성 작업이 완료된 시간입니다.</block>
@@ -1112,4 +1111,5 @@
   <block id="dc8427aa0b7126878455064a038e5809" category="list-text">노란색: 노드의 임계치 조절이 제한됩니다. 볼륨은 최대 IOPS 설정에서 스로틀되지만 최소 IOPS 설정 이상으로 성능이 유지됩니다.</block>
   <block id="960834da3ed67c2325c72e0370fc8205" category="list-text">빨간색: 노드의 임계치 조절이 높습니다. 볼륨이 더 심하게 조절되면 성능이 최소 IOPS 설정보다 떨어질 수 있습니다.</block>
   <block id="504a73ee059265d2d8bb14a8164db243" category="paragraph">Total Volume Throughput * 그래프는 선택한 노드에 대한 운영 볼륨의 처리량 합계를 표시합니다. 그래프에는 볼륨 읽기 및 쓰기 처리량의 합계가 표시됩니다. 메타데이터 또는 다른 노드 트래픽은 포함되지 않습니다. 또한 노드에 볼륨이 있는 경우에도 고려되므로 볼륨이 노드에서 전송되면 처리량이 떨어집니다.</block>
+  <block id="f1fa7b7cc46f8f0571dab3e8216c76eb" category="cell">볼륨의 현재 임계치를 나타냅니다. 이 값에는 볼륨에 대한 기간별 임계치 조절이 포함되지 않습니다.</block>
 </blocks>
