@@ -79,15 +79,12 @@
   <block id="4f54b4cc4d3960f8f2d85ac01981e683" category="list-text"><block ref="597facc265a5c58f66b22d76ff98b78e" category="inline-xref-macro-rx"></block></block>
   <block id="48a5c77d4bcca65797ec6cae22e9596d" category="list-text"><block ref="3aad2e6e5736129db0c2a3093b04110c" category="inline-xref-macro-rx"></block></block>
   <block id="f3bf056f68b8355023f77881422e7f1f" category="section-title">그래프를 보고 날짜 범위를 선택합니다</block>
-  <block id="3cb48fc4c57bd3575e0c430007bfe074" category="paragraph">달력 드롭다운 상자 또는 미리 정의된 범위 집합에서 날짜 범위를 선택할 수 있습니다. 날짜 범위는 현재 브라우저 시간(선택 시)과 구성된 시간을 사용하여 계산됩니다. 또한 하단의 막대 그래프 위로 직접 빗질하여 원하는 간격을 선택할 수 있습니다. 왼쪽에서 축소판 그림 레이아웃을 선택하여 그래프 간을 전환할 수 있습니다.</block>
   <block id="f8feac3680b404eb25b3b1fea6aa6e70" category="inline-link-macro">클러스터를 위한 QoS 권장 사항에 대해 알아보십시오</block>
   <block id="ea716f1a51591b923cd83aaa8faa830c" category="paragraph"><block ref="4334742ebeca91bbb52799a64e982fde" category="inline-link-macro-rx"></block>.</block>
   <block id="dd76252ea7a50def2a98f218cb1505b4" category="inline-link">KB 문서를 참조하십시오</block>
   <block id="847e4940ea24aaa4424f3c4a37535b12" category="admonition">Node Throtling 페이지에서 스토리지 클러스터에 QoS 푸쉬백이 있는지 확인할 수 있습니다. 을 참조하십시오<block ref="6de779e3b42a864ec2ff941281a0ceca" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="f5a7af379fa1ac15911d3b781873b129" category="paragraph">특정 시점의 세부 정보를 보려면 그래프의 어느 지점에나 마우스 포인터를 놓습니다.</block>
   <block id="19eb44463cdadfc868f1a40170c2492a" category="example-title">그래프 예제를 확장합니다</block>
-  <block id="f49cb77ff5ce537f4ee301d1be0be1c1" category="inline-image-macro">노드 제한 그래프</block>
-  <block id="201fcedd51648e6d2c3fb5c04a6413ce" category="paragraph"><block ref="201fcedd51648e6d2c3fb5c04a6413ce" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c82fc13660c1f7b9e81fb05a1b3dc1a0" category="section-title">노드 제한 데이터를 내보냅니다</block>
   <block id="b94aaf1b6153416c8fbec130b4b4572c" category="paragraph">그래프 데이터를 CSV(쉼표로 구분된 값) 형식으로 내보낼 수 있습니다. 그래프에 표시된 정보만 내보내집니다.</block>
   <block id="e6e76398fa578c847ffbf12cf9020f0d" category="list-text">목록 보기 또는 그래프에서 를 선택합니다 <block ref="045b9f10f68ab62e06536e6b96ca72ee" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭합니다.</block>
@@ -977,8 +974,6 @@
   <block id="c357af7a99b77ac25c548aef6df0d1a8" category="list-text"><block ref="c357af7a99b77ac25c548aef6df0d1a8" category="inline-link-macro-rx"></block></block>
   <block id="16beb139f89865caa5bdd51a5b9fadcd" category="summary">SolidFire Active IQ의 QoS 관리 페이지에 대해 자세히 알아보십시오.</block>
   <block id="d57c256b226c8f444c1c9b3956085ad8" category="doc">QoS 관리</block>
-  <block id="5085a6d22e1a79b7b82997ea97e58d72" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * QoS Management * 페이지에서 클러스터의 노드에 대한 QoS 권장 사항 및 성능 저하 정보를 볼 수 있습니다.</block>
-  <block id="be4ba82940f402388451f5cc834ece73" category="paragraph">선택한 노드의 QoS 권장 사항 및 성능 저하 정보를 확인하는 방법에 대해 알아보십시오.</block>
   <block id="5259ae4afb5996ff48788b2fa720114c" category="inline-link-macro">권장 사항</block>
   <block id="a360a35f96153959d5b43412ede22440" category="list-text"><block ref="a360a35f96153959d5b43412ede22440" category="inline-link-macro-rx"></block></block>
   <block id="74372e2fdee501a3a9fa25f6ef28ec0a" category="list-text"><block ref="74372e2fdee501a3a9fa25f6ef28ec0a" category="inline-link-macro-rx"></block></block>
@@ -1112,4 +1107,21 @@
   <block id="960834da3ed67c2325c72e0370fc8205" category="list-text">빨간색: 노드의 임계치 조절이 높습니다. 볼륨이 더 심하게 조절되면 성능이 최소 IOPS 설정보다 떨어질 수 있습니다.</block>
   <block id="504a73ee059265d2d8bb14a8164db243" category="paragraph">Total Volume Throughput * 그래프는 선택한 노드에 대한 운영 볼륨의 처리량 합계를 표시합니다. 그래프에는 볼륨 읽기 및 쓰기 처리량의 합계가 표시됩니다. 메타데이터 또는 다른 노드 트래픽은 포함되지 않습니다. 또한 노드에 볼륨이 있는 경우에도 고려되므로 볼륨이 노드에서 전송되면 처리량이 떨어집니다.</block>
   <block id="f1fa7b7cc46f8f0571dab3e8216c76eb" category="cell">볼륨의 현재 임계치를 나타냅니다. 이 값에는 볼륨에 대한 기간별 임계치 조절이 포함되지 않습니다.</block>
+  <block id="0e29f48d3983c8e02d304a4cac5c4b39" category="paragraph">달력 드롭다운 상자 또는 미리 정의된 범위 집합에서 날짜 범위를 선택할 수 있습니다. 날짜 범위는 현재 브라우저 시간(선택 시)과 구성된 시간을 사용하여 계산됩니다. 아래 막대 그래프 위로 직접 빗질하여 원하는 간격을 선택할 수도 있습니다. 그래프 간을 전환하려면 왼쪽에서 축소판 그림 레이아웃을 선택합니다.</block>
+  <block id="830a523dffdb990ef18afc5e719f36d9" category="inline-image-macro">노드 임계치 조절을 위한 그래픽 디스플레이</block>
+  <block id="e525bbc1d36799217924d288809f6bbd" category="paragraph"><block ref="e525bbc1d36799217924d288809f6bbd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="565385f51685ec81fc852c21b6a6595c" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * QoS Management * 페이지에서 클러스터의 노드에 대한 QoS 권장 사항, 제한 및 볼륨에 대한 정보를 볼 수 있습니다.</block>
+  <block id="4475d8223b8ad54b8ed0c88354991245" category="paragraph">선택한 노드의 QoS 권장 사항, 제한 및 볼륨에 대한 정보를 보는 방법에 대해 알아보십시오.</block>
+  <block id="df1a757dadf29768cabd7dd071d34553" category="inline-link-macro">가장 바쁜 볼륨</block>
+  <block id="9282c0120e4759635a165877188af924" category="list-text"><block ref="9282c0120e4759635a165877188af924" category="inline-link-macro-rx"></block></block>
+  <block id="b39cd5a009703173a7576ddb25127672" category="summary">SolidFire Active IQ에서 가장 바쁜 볼륨 페이지에 대해 알아보십시오.</block>
+  <block id="9d66ad5ac0496596e43a93158c2549a8" category="paragraph">선택한 클러스터의 측면 패널에서 사용할 수 있는 * QoS Management * &gt; * 가장 사용량이 많은 볼륨 * 페이지에서 클러스터에서 선택한 노드 및 시간 범위에 대한 처리량이 가장 높은 10개의 볼륨을 볼 수 있습니다.</block>
+  <block id="4959da29611db8530fdc3b313088d055" category="paragraph">가장 바쁜 볼륨 정보를 보는 방법에 대해 알아보십시오.</block>
+  <block id="ec4f6c0503d5207ab58bcfcc1d5b6f44" category="list-text"><block ref="782d4ec4d80bd12b3d5f35e6cf05ffaa" category="inline-xref-macro-rx"></block></block>
+  <block id="ba0a51263a10baa088516b8979c41341" category="paragraph">드롭다운 목록에서 노드를 선택하면 해당 노드에서 처리량이 가장 높은 10개의 볼륨이 표시됩니다. 각 볼륨에 대해 * Throughput *, * Average IO Size *, * IOPS * 및 * Latency * 그래프를 볼 수 있습니다. 마지막 그래프를 보려면 페이지를 아래로 스크롤해야 할 수도 있습니다. 볼륨 간에 전환하려면 왼쪽에서 축소판 그림 레이아웃을 선택합니다. 다른 노드를 선택하면 이러한 그래프가 새로 선택된 노드로 변경됩니다.</block>
+  <block id="3759118133efcd19324889b25f3074e2" category="paragraph">SolidFire Active IQ의 그래프와 날짜 범위는 서로 완벽하게 통합됩니다. 날짜 범위를 선택하면 해당 페이지의 그래프가 선택한 범위로 조정됩니다. 각 그래프에 표시되는 기본 날짜 범위는 7일입니다. 달력 드롭다운 상자 또는 미리 정의된 범위 집합에서 날짜 범위를 선택할 수 있습니다. 아래 막대 그래프 위로 직접 빗질하여 원하는 간격을 선택할 수도 있습니다. 날짜 범위는 현재 브라우저 시간(선택 시)과 구성된 시간을 사용하여 계산됩니다. 노드에 대해 선택한 날짜 범위를 변경하면 표시되는 10개의 가장 바쁜 볼륨도 변경될 수 있습니다.</block>
+  <block id="b14c80c6e1e5c930b7c2df0d107d2227" category="inline-image-macro">가장 바쁜 볼륨에 대한 그래픽 디스플레이</block>
+  <block id="fb6f38bbf25d3ddbca0c6a827d91cbbc" category="paragraph"><block ref="fb6f38bbf25d3ddbca0c6a827d91cbbc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4cdebd141dff1c095e06cf5208c27b2b" category="paragraph">그래프의 어느 지점에나 마우스 포인터를 놓으면 읽기, 쓰기 및 전체 작업에 대한 특정 시점의 세부 정보를 볼 수 있습니다. 선택한 시간 범위의 일부에 대한 볼륨이 노드에 없는 경우 점선으로 표시됩니다</block>
+  <block id="20b3b5b27ff183797189ac06f1b32a54" category="section-title">사용량이 가장 많은 노드 데이터를 내보냅니다</block>
 </blocks>
